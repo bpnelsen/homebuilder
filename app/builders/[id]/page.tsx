@@ -14,10 +14,11 @@ const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 export default function BuilderDetail({ params }: { params: { id: string } }) {
   const [builder, setBuilder] = useState<any>(null);
   const [stock, setStock] = useState<any>(null);
-  const [filings, setFilings] = useState<any[]>([]);
+  const [tenK, setTenK] = useState<any[]>([]);
+  const [tenQ, setTenQ] = useState<any[]>([]);
   const [earnings, setEarnings] = useState<any[]>([]);
   const [loading, setLoading] = useState(true);
-  const [activeTab, setActiveTab] = useState<'10k' | 'earnings'>('10k');
+  const [activeTab, setActiveTab] = useState<'10k' | '10q' | 'earnings'>('10k');
   const [subscribing, setSubscribing] = useState(false);
   const [subscriptionEmail, setSubscriptionEmail] = useState('');
   const [subscriptionStatus, setSubscriptionStatus] = useState<'idle' | 'success' | 'error'>('idle');
@@ -53,28 +54,30 @@ export default function BuilderDetail({ params }: { params: { id: string } }) {
           const response = await fetch(`/api/filings/${params.id}`);
           if (response.ok) {
             const data = await response.json();
-            setFilings(data.tenK || []);
-            setEarnings(data.tenQ || []);
+            setTenK(data.tenK || []);
+            setTenQ(data.tenQ || []);
+            setEarnings(data.tenQ || []); // Use same data for earnings calls for now
           } else {
             throw new Error('API error');
           }
         } catch (apiError) {
           // Fallback to direct Supabase queries
-          const { data: filingData } = await supabase
+          const { data: tenKData } = await supabase
             .from('filings_10k')
             .select('*')
             .eq('builder_id', params.id)
             .order('filing_date', { ascending: false });
 
-          setFilings(filingData || []);
+          setTenK(tenKData || []);
 
-          const { data: earningsData } = await supabase
+          const { data: tenQData } = await supabase
             .from('earnings_calls')
             .select('*')
             .eq('builder_id', params.id)
             .order('call_date', { ascending: false });
 
-          setEarnings(earningsData || []);
+          setTenQ(tenQData || []);
+          setEarnings(tenQData || []); // Use same data for earnings calls for now
         }
       } catch (error) {
         console.error('Error fetching data:', error);
@@ -230,13 +233,23 @@ export default function BuilderDetail({ params }: { params: { id: string } }) {
                   : 'border-transparent text-gray-600 hover:text-gray-900'
               }`}
             >
-              📄 10-K Filings ({filings.length})
+              📄 10-K Filings ({tenK.length})
+            </button>
+            <button
+              onClick={() => setActiveTab('10q')}
+              className={`py-4 px-2 border-b-2 font-semibold transition ${
+                activeTab === '10q'
+                  ? 'border-teal-700 text-teal-700'
+                  : 'border-transparent text-gray-600 hover:text-gray-900'
+              }`}
+            >
+              📋 10-Q Filings ({tenQ.length})
             </button>
             <button
               onClick={() => setActiveTab('earnings')}
               className={`py-4 px-2 border-b-2 font-semibold transition ${
                 activeTab === 'earnings'
-                  ? 'border-navy-700 text-navy-700'
+                  ? 'border-green-700 text-green-700'
                   : 'border-transparent text-gray-600 hover:text-gray-900'
               }`}
             >
@@ -245,16 +258,16 @@ export default function BuilderDetail({ params }: { params: { id: string } }) {
           </div>
         </div>
 
-        {/* 10-K Filings */}
+        {/* 10-K FILINGS TAB */}
         {activeTab === '10k' && (
           <div className="space-y-6">
-            {filings.length === 0 ? (
+            {tenK.length === 0 ? (
               <div className="text-center py-12 bg-white rounded-lg">
                 <p className="text-gray-500 text-lg">No 10-K filings found yet.</p>
                 <p className="text-gray-400 text-sm mt-2">Historical 10-K data will appear here. Loading...</p>
               </div>
             ) : (
-              filings.map((filing) => (
+              tenK.map((filing) => (
                 <div
                   key={filing.id}
                   className="bg-white rounded-lg shadow hover:shadow-xl transition border-l-4 border-navy-500 overflow-hidden"
@@ -316,13 +329,71 @@ export default function BuilderDetail({ params }: { params: { id: string } }) {
           </div>
         )}
 
-        {/* Earnings Calls / 10-Q Filings */}
+        {/* 10-Q FILINGS TAB */}
+        {activeTab === '10q' && (
+          <div className="space-y-6">
+            {tenQ.length === 0 ? (
+              <div className="text-center py-12 bg-white rounded-lg">
+                <p className="text-gray-500 text-lg">No 10-Q filings found yet.</p>
+                <p className="text-gray-400 text-sm mt-2">Quarterly report data will appear here. Loading...</p>
+              </div>
+            ) : (
+              tenQ.map((filing) => (
+                <div
+                  key={filing.id}
+                  className="bg-white rounded-lg shadow hover:shadow-xl transition border-l-4 border-teal-500 overflow-hidden"
+                >
+                  <div className="p-6">
+                    <div className="flex justify-between items-start mb-4">
+                      <div className="flex-1">
+                        <h3 className="text-2xl font-bold text-gray-900">
+                          Q{filing.fiscal_quarter} {filing.fiscal_year} 10-Q
+                        </h3>
+                        <p className="text-sm text-gray-500 mt-1">
+                          {filing.call_date ? new Date(filing.call_date).toLocaleDateString() : 'Date TBD'}
+                        </p>
+                      </div>
+                    </div>
+
+                    {filing.ai_summary && (
+                      <div className="mb-6 pb-6 border-b border-gray-200">
+                        <h4 className="font-semibold text-gray-900 mb-2">Quarterly Summary</h4>
+                        <p className="text-gray-700 leading-relaxed line-clamp-4">{filing.ai_summary}</p>
+                        {filing.ai_summary.length > 300 && (
+                          <button className="text-teal-600 hover:text-teal-700 text-sm font-semibold mt-2">
+                            Read full summary →
+                          </button>
+                        )}
+                      </div>
+                    )}
+
+                    {filing.key_highlights && filing.key_highlights.length > 0 && (
+                      <div>
+                        <h4 className="font-semibold text-gray-900 mb-4">📊 Key Metrics & Highlights</h4>
+                        <ul className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                          {filing.key_highlights.slice(0, 6).map((highlight: string, i: number) => (
+                            <li key={i} className="flex gap-3 p-3 bg-teal-50 rounded-lg">
+                              <span className="text-teal-600 font-bold flex-shrink-0">•</span>
+                              <span className="text-gray-700">{highlight}</span>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    )}
+                  </div>
+                </div>
+              ))
+            )}
+          </div>
+        )}
+
+        {/* EARNINGS CALLS TAB */}
         {activeTab === 'earnings' && (
           <div className="space-y-6">
             {earnings.length === 0 ? (
               <div className="text-center py-12 bg-white rounded-lg">
-                <p className="text-gray-500 text-lg">No 10-Q filings found yet.</p>
-                <p className="text-gray-400 text-sm mt-2">Quarterly report data will appear here. Loading...</p>
+                <p className="text-gray-500 text-lg">No earnings call data found yet.</p>
+                <p className="text-gray-400 text-sm mt-2">Earnings call transcripts and summaries will appear here.</p>
               </div>
             ) : (
               earnings.map((call) => (
