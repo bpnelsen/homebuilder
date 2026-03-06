@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { sendConfirmationEmail } from '@/lib/sendgrid-service';
 import { createClient } from '@supabase/supabase-js';
+import { sendConfirmationEmail } from '@/lib/sendgrid-service';
 
 const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL!,
@@ -9,45 +9,81 @@ const supabase = createClient(
 
 /**
  * POST /api/alerts/confirm
- * Sends confirmation email to new subscriber
+ * Called when user subscribes - sends confirmation email
+ *
+ * Body: {
+ *   email: string;
+ *   builderIds: string[];
+ * }
  */
 export async function POST(request: NextRequest) {
   try {
-    const { email } = await request.json();
+    const body = await request.json();
+    const { email, builderIds } = body;
 
-    if (!email) {
+    if (!email || !builderIds || !Array.isArray(builderIds)) {
       return NextResponse.json(
-        { error: 'Email required' },
+        { error: 'email and builderIds array required' },
         { status: 400 }
       );
     }
 
-    // Get all builders for list in email
-    const { data: builders } = await supabase
+    // Get builder names
+    const { data: builders, error: buildersError } = await supabase
       .from('builders')
-      .select('name')
-      .order('name');
+      .select('name, id')
+      .in('id', builderIds);
 
-    const builderNames = builders?.map((b) => b.name) || [];
+    if (buildersError || !builders) {
+      return NextResponse.json(
+        { error: 'Error fetching builders' },
+        { status: 500 }
+      );
+    }
 
-    // Send confirmation
-    const success = await sendConfirmationEmail(email, builderNames);
+    // Send confirmation email
+    const builderNames = builders.map((b) => b.name);
+    const emailSent = await sendConfirmationEmail(email, builderNames);
 
-    if (!success) {
+    if (!emailSent) {
       return NextResponse.json(
         { error: 'Failed to send confirmation email' },
         { status: 500 }
       );
     }
 
-    return NextResponse.json({
-      message: 'Confirmation email sent',
+    // Create subscriptions for each builder
+    const subscriptions = builderIds.map((builderId) => ({
       email,
-    });
-  } catch (error) {
-    console.error('Confirmation error:', error);
+      builder_id: builderId,
+      is_active: true,
+      created_at: new Date().toISOString(),
+    }));
+
+    const { error: insertError } = await supabase
+      .from('alert_subscriptions')
+      .insert(subscriptions);
+
+    if (insertError) {
+      console.error('Error creating subscriptions:', insertError);
+      return NextResponse.json(
+        { error: 'Error creating subscriptions' },
+        { status: 500 }
+      );
+    }
+
     return NextResponse.json(
-      { error: 'Failed to send confirmation' },
+      {
+        success: true,
+        message: `Confirmation email sent to ${email}`,
+        subscribedTo: builderNames,
+      },
+      { status: 200 }
+    );
+  } catch (error) {
+    console.error('❌ Error confirming subscription:', error);
+    return NextResponse.json(
+      { error: 'Internal server error' },
       { status: 500 }
     );
   }

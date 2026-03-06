@@ -9,78 +9,115 @@ const supabase = createClient(
 
 /**
  * POST /api/alerts/send-earnings
- * Sends earnings call alerts to subscribed users
- * Called by GitHub Actions workflow
+ * Sends earnings call alerts to all subscribers for a builder
+ *
+ * Body: {
+ *   builderId: string;
+ *   callId: string;
+ * }
  */
 export async function POST(request: NextRequest) {
   try {
     // Verify API key
-    const authHeader = request.headers.get('authorization');
-    if (authHeader !== `Bearer ${process.env.ALERTS_API_KEY}`) {
-      return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
+    const apiKey = request.headers.get('x-api-key');
+    if (apiKey !== process.env.ALERTS_API_KEY) {
+      return NextResponse.json(
+        { error: 'Unauthorized' },
+        { status: 401 }
+      );
     }
 
-    // Get latest earnings calls without alert_sent flag
-    const { data: newCalls, error: callError } = await supabase
+    const body = await request.json();
+    const { builderId, callId } = body;
+
+    if (!builderId || !callId) {
+      return NextResponse.json(
+        { error: 'builderId and callId required' },
+        { status: 400 }
+      );
+    }
+
+    // Get builder info
+    const { data: builder, error: builderError } = await supabase
+      .from('builders')
+      .select('*')
+      .eq('id', builderId)
+      .single();
+
+    if (builderError || !builder) {
+      return NextResponse.json(
+        { error: 'Builder not found' },
+        { status: 404 }
+      );
+    }
+
+    // Get earnings call info
+    const { data: call, error: callError } = await supabase
       .from('earnings_calls')
-      .select('*, builders!inner(*)')
-      .is('alert_sent', null)
-      .limit(10);
+      .select('*')
+      .eq('id', callId)
+      .single();
 
-    if (callError) throw callError;
-
-    if (!newCalls || newCalls.length === 0) {
-      return NextResponse.json({ message: 'No new earnings calls to alert' });
+    if (callError || !call) {
+      return NextResponse.json(
+        { error: 'Earnings call not found' },
+        { status: 404 }
+      );
     }
 
+    // Get all subscribers for this builder
+    const { data: subscriptions, error: subError } = await supabase
+      .from('alert_subscriptions')
+      .select('email')
+      .eq('builder_id', builderId)
+      .eq('is_active', true);
+
+    if (subError) {
+      return NextResponse.json(
+        { error: 'Error fetching subscriptions' },
+        { status: 500 }
+      );
+    }
+
+    if (!subscriptions || subscriptions.length === 0) {
+      return NextResponse.json(
+        { success: true, sent: 0, message: 'No active subscriptions' },
+        { status: 200 }
+      );
+    }
+
+    // Send emails to all subscribers
     let sent = 0;
     let failed = 0;
 
-    // For each new earnings call
-    for (const call of newCalls) {
-      // Get all subscribers
-      const { data: subscribers, error: subError } = await supabase
-        .from('alert_subscriptions')
-        .select('email')
-        .eq('active', true);
-
-      if (subError) {
-        console.error('Error fetching subscribers:', subError);
+    for (const sub of subscriptions) {
+      const result = await sendEarningsAlert(sub.email, builder, call);
+      if (result) {
+        sent++;
+        // Mark email as sent in database
+        await supabase
+          .from('earnings_calls')
+          .update({ alert_sent: true })
+          .eq('id', callId);
+      } else {
         failed++;
-        continue;
       }
-
-      // Send alert to each subscriber
-      for (const subscriber of subscribers || []) {
-        const success = await sendEarningsAlert(subscriber.email, call.builders, call);
-
-        if (success) {
-          sent++;
-        } else {
-          failed++;
-        }
-
-        // Rate limiting
-        await new Promise((resolve) => setTimeout(resolve, 100));
-      }
-
-      // Mark call as alerted
-      await supabase
-        .from('earnings_calls')
-        .update({ alert_sent: true })
-        .eq('id', call.id);
     }
 
-    return NextResponse.json({
-      message: 'Earnings alerts sent',
-      sent,
-      failed,
-      calls: newCalls.length,
-    });
-  } catch (error) {
-    console.error('Alert error:', error);
     return NextResponse.json(
-      { error: 'Failed to send alerts' },
+      {
+        success: true,
+        sent,
+        failed,
+        total: subscriptions.length,
+        message: `Sent ${sent}/${subscriptions.length} earnings alerts`,
+      },
+      { status: 200 }
+    );
+  } catch (error) {
+    console.error('❌ Error sending earnings alerts:', error);
+    return NextResponse.json(
+      { error: 'Internal server error' },
       { status: 500 }
     );
   }

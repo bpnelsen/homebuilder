@@ -3,19 +3,25 @@
 import { useEffect, useState } from 'react';
 import { createClient } from '@supabase/supabase-js';
 import Link from 'next/link';
-import { ExternalLink, TrendingUp, TrendingDown } from 'lucide-react';
+import { ExternalLink, TrendingUp, TrendingDown, Bell, Copy, Check } from 'lucide-react';
 
-const supabase = createClient(
-  process.env.NEXT_PUBLIC_SUPABASE_URL!,
-  process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
-);
+// Use environment variables with fallback values
+const SUPABASE_URL = process.env.NEXT_PUBLIC_SUPABASE_URL || 'https://rrpkokhjomvlumreknuq.supabase.co';
+const SUPABASE_ANON_KEY = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || 'sb_publishable_L7gJaRj4UpH8UtsyC0GDHQ_6MV10N4u';
+
+const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
 export default function BuilderDetail({ params }: { params: { id: string } }) {
   const [builder, setBuilder] = useState<any>(null);
+  const [stock, setStock] = useState<any>(null);
   const [filings, setFilings] = useState<any[]>([]);
   const [earnings, setEarnings] = useState<any[]>([]);
   const [loading, setLoading] = useState(true);
   const [activeTab, setActiveTab] = useState<'10k' | 'earnings'>('10k');
+  const [subscribing, setSubscribing] = useState(false);
+  const [subscriptionEmail, setSubscriptionEmail] = useState('');
+  const [subscriptionStatus, setSubscriptionStatus] = useState<'idle' | 'success' | 'error'>('idle');
+  const [copied, setCopied] = useState(false);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -28,6 +34,19 @@ export default function BuilderDetail({ params }: { params: { id: string } }) {
           .single();
 
         setBuilder(builderData);
+
+        // Get stock price
+        if (builderData?.id) {
+          const { data: stockData } = await supabase
+            .from('stock_prices')
+            .select('*')
+            .eq('builder_id', builderData.id)
+            .order('created_at', { ascending: false })
+            .limit(1)
+            .single();
+
+          if (stockData) setStock(stockData);
+        }
 
         // Get 10-K filings
         const { data: filingData } = await supabase
@@ -57,158 +76,270 @@ export default function BuilderDetail({ params }: { params: { id: string } }) {
     fetchData();
   }, [params.id]);
 
+  const handleSubscribe = async (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!subscriptionEmail || !builder) return;
+
+    setSubscribing(true);
+    try {
+      const response = await fetch('/api/alerts/confirm', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          email: subscriptionEmail,
+          builderIds: [builder.id],
+        }),
+      });
+
+      if (response.ok) {
+        setSubscriptionStatus('success');
+        setSubscriptionEmail('');
+        setTimeout(() => setSubscriptionStatus('idle'), 3000);
+      } else {
+        setSubscriptionStatus('error');
+        setTimeout(() => setSubscriptionStatus('idle'), 3000);
+      }
+    } catch (error) {
+      console.error('Subscription error:', error);
+      setSubscriptionStatus('error');
+      setTimeout(() => setSubscriptionStatus('idle'), 3000);
+    } finally {
+      setSubscribing(false);
+    }
+  };
+
   if (loading || !builder) {
-    return <div className="text-center py-12">Loading...</div>;
+    return (
+      <div className="flex justify-center items-center min-h-screen">
+        <div className="animate-pulse text-center">
+          <div className="w-32 h-8 bg-gradient-to-r from-navy-200 to-teal-200 rounded mb-4"></div>
+          <p className="text-gray-500">Loading builder details...</p>
+        </div>
+      </div>
+    );
   }
 
   return (
-    <div>
+    <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100">
       {/* Header */}
-      <div className="mb-8">
-        <h1 className="text-4xl font-bold text-gray-900 mb-2">{builder.name}</h1>
-        <div className="flex gap-4 items-center">
-          <span className="text-lg font-semibold text-navy-700">{builder.ticker}</span>
-          {builder.website && (
-            <a
-              href={builder.website}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-2 text-navy-600 hover:text-navy-700"
-            >
-              Visit Website <ExternalLink className="w-4 h-4" />
-            </a>
+      <div className="bg-gradient-to-r from-navy-700 via-navy-600 to-teal-600 text-white py-12">
+        <div className="max-w-7xl mx-auto px-4">
+          <h1 className="text-5xl font-bold mb-4">{builder.name}</h1>
+          
+          <div className="flex flex-wrap gap-6 items-center mb-6">
+            <div className="flex items-center gap-3">
+              <span className="text-3xl font-bold">{builder.ticker}</span>
+              {builder.website && (
+                <a
+                  href={builder.website}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 hover:opacity-80 transition"
+                >
+                  Visit Website <ExternalLink className="w-5 h-5" />
+                </a>
+              )}
+            </div>
+
+            {stock && (
+              <div className="bg-white/10 backdrop-blur px-6 py-3 rounded-lg">
+                <div className="text-sm opacity-90">Stock Price</div>
+                <div className="text-2xl font-bold flex items-center gap-2">
+                  ${stock.price?.toFixed(2) || 'N/A'}
+                  {stock.change_percent && (
+                    <span className={stock.change_percent > 0 ? 'text-green-300' : 'text-red-300'}>
+                      {stock.change_percent > 0 ? '↑' : '↓'} {Math.abs(stock.change_percent).toFixed(2)}%
+                    </span>
+                  )}
+                </div>
+              </div>
+            )}
+          </div>
+
+          {builder.markets && (
+            <div className="flex flex-wrap gap-2">
+              {builder.markets.map((market: string) => (
+                <span key={market} className="px-4 py-2 bg-white/20 backdrop-blur rounded-full text-sm font-semibold">
+                  📍 {market}
+                </span>
+              ))}
+            </div>
           )}
         </div>
-        {builder.markets && (
-          <div className="mt-4 flex flex-wrap gap-2">
-            {builder.markets.map((market: string) => (
-              <span key={market} className="px-3 py-1 bg-navy-100 text-navy-700 rounded-full text-sm">
-                {market}
-              </span>
-            ))}
+      </div>
+
+      <div className="max-w-7xl mx-auto px-4 py-12">
+
+        {/* Alert Subscription Box */}
+        <div className="mb-12 bg-white rounded-lg shadow-lg p-8 border-l-4 border-teal-500">
+          <div className="flex items-start gap-4 mb-4">
+            <Bell className="w-6 h-6 text-teal-600 flex-shrink-0 mt-1" />
+            <div>
+              <h3 className="text-xl font-bold text-gray-900 mb-2">Get Alerts for {builder.name}</h3>
+              <p className="text-gray-600 mb-6">Receive emails when new 10-K filings and earnings calls are released.</p>
+
+              <form onSubmit={handleSubscribe} className="flex gap-2">
+                <input
+                  type="email"
+                  value={subscriptionEmail}
+                  onChange={(e) => setSubscriptionEmail(e.target.value)}
+                  placeholder="Enter your email"
+                  required
+                  className="flex-1 px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-transparent"
+                  disabled={subscribing}
+                />
+                <button
+                  type="submit"
+                  disabled={subscribing}
+                  className="px-6 py-2 bg-gradient-to-r from-navy-600 to-teal-600 text-white rounded-lg font-semibold hover:shadow-lg transition disabled:opacity-50"
+                >
+                  {subscribing ? 'Subscribing...' : 'Subscribe'}
+                </button>
+              </form>
+
+              {subscriptionStatus === 'success' && (
+                <p className="mt-2 text-green-600 text-sm flex items-center gap-1">
+                  <Check className="w-4 h-4" /> Confirmation email sent!
+                </p>
+              )}
+              {subscriptionStatus === 'error' && (
+                <p className="mt-2 text-red-600 text-sm">Error subscribing. Please try again.</p>
+              )}
+            </div>
+          </div>
+        </div>
+
+        {/* Tabs */}
+        <div className="mb-8 border-b border-gray-200">
+          <div className="flex gap-8">
+            <button
+              onClick={() => setActiveTab('10k')}
+              className={`py-4 px-2 border-b-2 font-semibold transition ${
+                activeTab === '10k'
+                  ? 'border-navy-700 text-navy-700'
+                  : 'border-transparent text-gray-600 hover:text-gray-900'
+              }`}
+            >
+              📄 10-K Filings ({filings.length})
+            </button>
+            <button
+              onClick={() => setActiveTab('earnings')}
+              className={`py-4 px-2 border-b-2 font-semibold transition ${
+                activeTab === 'earnings'
+                  ? 'border-navy-700 text-navy-700'
+                  : 'border-transparent text-gray-600 hover:text-gray-900'
+              }`}
+            >
+              📞 Earnings Calls ({earnings.length})
+            </button>
+          </div>
+        </div>
+
+        {/* 10-K Filings */}
+        {activeTab === '10k' && (
+          <div className="space-y-6">
+            {filings.length === 0 ? (
+              <div className="text-center py-12 bg-white rounded-lg">
+                <p className="text-gray-500 text-lg">No 10-K filings found yet.</p>
+                <p className="text-gray-400 text-sm mt-2">Check back soon for financial reports.</p>
+              </div>
+            ) : (
+              filings.map((filing) => (
+                <div
+                  key={filing.id}
+                  className="bg-white rounded-lg shadow hover:shadow-xl transition border-l-4 border-navy-500 overflow-hidden"
+                >
+                  <div className="p-6">
+                    <div className="flex justify-between items-start mb-4">
+                      <div>
+                        <h3 className="text-2xl font-bold text-gray-900">
+                          Fiscal Year {filing.fiscal_year}
+                        </h3>
+                        <p className="text-sm text-gray-500 mt-1">
+                          Filed {new Date(filing.filing_date).toLocaleDateString()}
+                        </p>
+                      </div>
+                    </div>
+
+                    {filing.summary && (
+                      <div className="mb-6 pb-6 border-b border-gray-200">
+                        <h4 className="font-semibold text-gray-900 mb-2">Summary</h4>
+                        <p className="text-gray-700 leading-relaxed">{filing.summary}</p>
+                      </div>
+                    )}
+
+                    {filing.key_metrics && (
+                      <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                        {Object.entries(filing.key_metrics as Record<string, any>)
+                          .slice(0, 4)
+                          .map(([key, value]) => (
+                            <div key={key} className="bg-gradient-to-br from-navy-50 to-teal-50 p-4 rounded-lg">
+                              <p className="text-xs text-gray-600 uppercase font-semibold">{key}</p>
+                              <p className="text-lg font-bold text-navy-700 mt-1">{String(value)}</p>
+                            </div>
+                          ))}
+                      </div>
+                    )}
+                  </div>
+                </div>
+              ))
+            )}
+          </div>
+        )}
+
+        {/* Earnings Calls */}
+        {activeTab === 'earnings' && (
+          <div className="space-y-6">
+            {earnings.length === 0 ? (
+              <div className="text-center py-12 bg-white rounded-lg">
+                <p className="text-gray-500 text-lg">No earnings calls found yet.</p>
+                <p className="text-gray-400 text-sm mt-2">Earnings call data will appear here.</p>
+              </div>
+            ) : (
+              earnings.map((call) => (
+                <div
+                  key={call.id}
+                  className="bg-white rounded-lg shadow hover:shadow-xl transition border-l-4 border-teal-500 overflow-hidden"
+                >
+                  <div className="p-6">
+                    <div className="flex justify-between items-start mb-4">
+                      <div>
+                        <h3 className="text-2xl font-bold text-gray-900">
+                          Q{call.fiscal_quarter} {call.fiscal_year} Earnings Call
+                        </h3>
+                        <p className="text-sm text-gray-500 mt-1">
+                          {new Date(call.call_date).toLocaleDateString()}
+                        </p>
+                      </div>
+                    </div>
+
+                    {call.ai_summary && (
+                      <div className="mb-6 pb-6 border-b border-gray-200">
+                        <h4 className="font-semibold text-gray-900 mb-2">AI Summary</h4>
+                        <p className="text-gray-700 leading-relaxed">{call.ai_summary}</p>
+                      </div>
+                    )}
+
+                    {call.key_highlights && call.key_highlights.length > 0 && (
+                      <div>
+                        <h4 className="font-semibold text-gray-900 mb-4">✨ Key Highlights</h4>
+                        <ul className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                          {call.key_highlights.slice(0, 4).map((highlight: string, i: number) => (
+                            <li key={i} className="flex gap-3 p-3 bg-teal-50 rounded-lg">
+                              <span className="text-teal-600 font-bold flex-shrink-0">•</span>
+                              <span className="text-gray-700">{highlight}</span>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    )}
+                  </div>
+                </div>
+              ))
+            )}
           </div>
         )}
       </div>
-
-      {/* Tabs */}
-      <div className="mb-8 border-b border-gray-200">
-        <div className="flex gap-8">
-          <button
-            onClick={() => setActiveTab('10k')}
-            className={`py-4 px-2 border-b-2 font-semibold transition ${
-              activeTab === '10k'
-                ? 'border-navy-700 text-navy-700'
-                : 'border-transparent text-gray-600 hover:text-gray-900'
-            }`}
-          >
-            10-K Filings ({filings.length})
-          </button>
-          <button
-            onClick={() => setActiveTab('earnings')}
-            className={`py-4 px-2 border-b-2 font-semibold transition ${
-              activeTab === 'earnings'
-                ? 'border-navy-700 text-navy-700'
-                : 'border-transparent text-gray-600 hover:text-gray-900'
-            }`}
-          >
-            Earnings Calls ({earnings.length})
-          </button>
-        </div>
-      </div>
-
-      {/* 10-K Filings */}
-      {activeTab === '10k' && (
-        <div className="space-y-6">
-          {filings.length === 0 ? (
-            <p className="text-gray-500">No 10-K filings found.</p>
-          ) : (
-            filings.map((filing) => (
-              <Link
-                key={filing.id}
-                href={`/builders/${builder.id}/10k/${filing.fiscal_year}`}
-                className="card p-6 hover:shadow-lg"
-              >
-                <div className="flex justify-between items-start mb-4">
-                  <h3 className="text-xl font-semibold text-gray-900">
-                    Fiscal Year {filing.fiscal_year}
-                  </h3>
-                  <span className="text-sm text-gray-500">
-                    {new Date(filing.filing_date).toLocaleDateString()}
-                  </span>
-                </div>
-
-                {filing.summary && (
-                  <p className="text-gray-700 mb-4 line-clamp-3">{filing.summary}</p>
-                )}
-
-                {filing.key_metrics && (
-                  <div className="grid grid-cols-2 gap-4 mb-4">
-                    {Object.entries(filing.key_metrics as Record<string, any>)
-                      .slice(0, 4)
-                      .map(([key, value]) => (
-                        <div key={key} className="metric-box">
-                          <p className="text-xs text-gray-600 uppercase">{key}</p>
-                          <p className="text-lg font-semibold text-gray-900">{String(value)}</p>
-                        </div>
-                      ))}
-                  </div>
-                )}
-
-                <div className="text-navy-600 hover:text-navy-700 font-semibold">
-                  View Full Report →
-                </div>
-              </Link>
-            ))
-          )}
-        </div>
-      )}
-
-      {/* Earnings Calls */}
-      {activeTab === 'earnings' && (
-        <div className="space-y-6">
-          {earnings.length === 0 ? (
-            <p className="text-gray-500">No earnings calls found.</p>
-          ) : (
-            earnings.map((call) => (
-              <Link
-                key={call.id}
-                href={`/builders/${builder.id}/earnings/${call.id}`}
-                className="card p-6 hover:shadow-lg"
-              >
-                <div className="flex justify-between items-start mb-4">
-                  <h3 className="text-xl font-semibold text-gray-900">
-                    Q{call.fiscal_quarter} {call.fiscal_year}
-                  </h3>
-                  <span className="text-sm text-gray-500">
-                    {new Date(call.call_date).toLocaleDateString()}
-                  </span>
-                </div>
-
-                {call.ai_summary && (
-                  <p className="text-gray-700 mb-4 line-clamp-3">{call.ai_summary}</p>
-                )}
-
-                {call.key_highlights && (
-                  <div className="mb-4">
-                    <p className="text-sm font-semibold text-gray-900 mb-2">Key Highlights</p>
-                    <ul className="space-y-1">
-                      {call.key_highlights.slice(0, 3).map((highlight: string, i: number) => (
-                        <li key={i} className="text-sm text-gray-700">
-                          • {highlight}
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                )}
-
-                <div className="text-navy-600 hover:text-navy-700 font-semibold">
-                  Read Transcript →
-                </div>
-              </Link>
-            ))
-          )}
-        </div>
-      )}
     </div>
   );
 }
