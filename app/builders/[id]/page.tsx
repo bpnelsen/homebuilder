@@ -17,8 +17,9 @@ export default function BuilderDetail({ params }: { params: { id: string } }) {
   const [tenK, setTenK] = useState<any[]>([]);
   const [tenQ, setTenQ] = useState<any[]>([]);
   const [earnings, setEarnings] = useState<any[]>([]);
+  const [presentations, setPresentations] = useState<any[]>([]);
   const [loading, setLoading] = useState(true);
-  const [activeTab, setActiveTab] = useState<'10k' | '10q' | 'earnings'>('10k');
+  const [activeTab, setActiveTab] = useState<'10k' | '10q' | 'earnings' | 'presentations'>('10k');
   const [subscribing, setSubscribing] = useState(false);
   const [subscriptionEmail, setSubscriptionEmail] = useState('');
   const [subscriptionStatus, setSubscriptionStatus] = useState<'idle' | 'success' | 'error'>('idle');
@@ -49,14 +50,14 @@ export default function BuilderDetail({ params }: { params: { id: string } }) {
           if (stockData) setStock(stockData);
         }
 
-        // Fetch all filings via API (includes historical 10-K and 10-Q)
+        // Fetch all filings and earnings data
         try {
           const response = await fetch(`/api/filings/${params.id}`);
           if (response.ok) {
             const data = await response.json();
             setTenK(data.tenK || []);
             setTenQ(data.tenQ || []);
-            setEarnings(data.tenQ || []); // Use same data for earnings calls for now
+            setEarnings(data.tenQ || []);
           } else {
             throw new Error('API error');
           }
@@ -77,7 +78,21 @@ export default function BuilderDetail({ params }: { params: { id: string } }) {
             .order('call_date', { ascending: false });
 
           setTenQ(tenQData || []);
-          setEarnings(tenQData || []); // Use same data for earnings calls for now
+          setEarnings(tenQData || []);
+        }
+
+        // Fetch investor presentations
+        try {
+          const { data: presentationsData } = await supabase
+            .from('investor_presentations')
+            .select('*')
+            .eq('builder_id', params.id)
+            .order('presentation_date', { ascending: false });
+
+          setPresentations(presentationsData || []);
+        } catch (err) {
+          // Table may not exist yet - that's OK
+          console.log('Presentations not available yet');
         }
       } catch (error) {
         console.error('Error fetching data:', error);
@@ -254,6 +269,16 @@ export default function BuilderDetail({ params }: { params: { id: string } }) {
               }`}
             >
               📞 Earnings Calls ({earnings.length})
+            </button>
+            <button
+              onClick={() => setActiveTab('presentations')}
+              className={`py-4 px-2 border-b-2 font-semibold transition ${
+                activeTab === 'presentations'
+                  ? 'border-purple-700 text-purple-700'
+                  : 'border-transparent text-gray-600 hover:text-gray-900'
+              }`}
+            >
+              📊 Investor Presentations ({presentations.length})
             </button>
           </div>
         </div>
@@ -444,6 +469,95 @@ export default function BuilderDetail({ params }: { params: { id: string } }) {
                             <li key={i} className="flex gap-3 p-3 bg-teal-50 rounded-lg">
                               <span className="text-teal-600 font-bold flex-shrink-0">•</span>
                               <span className="text-gray-700">{highlight}</span>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    )}
+                  </div>
+                </div>
+              ))
+            )}
+          </div>
+        )}
+
+        {/* INVESTOR PRESENTATIONS TAB */}
+        {activeTab === 'presentations' && (
+          <div className="space-y-6">
+            {presentations.length === 0 ? (
+              <div className="text-center py-12 bg-white rounded-lg">
+                <p className="text-gray-500 text-lg">No investor presentations found yet.</p>
+                <p className="text-gray-400 text-sm mt-2">Quarterly investor presentations and investor day materials will appear here.</p>
+              </div>
+            ) : (
+              presentations.map((presentation) => (
+                <div
+                  key={presentation.id}
+                  className="bg-white rounded-lg shadow hover:shadow-xl transition border-l-4 border-purple-500 overflow-hidden"
+                >
+                  <div className="p-6">
+                    <div className="flex justify-between items-start mb-4">
+                      <div className="flex-1">
+                        <h3 className="text-2xl font-bold text-gray-900">
+                          {presentation.presentation_title}
+                        </h3>
+                        <p className="text-sm text-gray-500 mt-1">
+                          {presentation.presentation_date ? new Date(presentation.presentation_date).toLocaleDateString() : 'Date TBD'}
+                        </p>
+                      </div>
+                      <div className="ml-4 flex gap-2">
+                        {presentation.pdf_link && (
+                          <a
+                            href={presentation.pdf_link}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="px-4 py-2 bg-purple-600 hover:bg-purple-700 text-white rounded-lg font-semibold flex items-center gap-2 transition"
+                          >
+                            <ExternalLink className="w-4 h-4" />
+                            PDF
+                          </a>
+                        )}
+                        {presentation.presentation_url && (
+                          <a
+                            href={presentation.presentation_url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="px-4 py-2 bg-purple-600 hover:bg-purple-700 text-white rounded-lg font-semibold flex items-center gap-2 transition"
+                          >
+                            <ExternalLink className="w-4 h-4" />
+                            View
+                          </a>
+                        )}
+                      </div>
+                    </div>
+
+                    {presentation.presentation_summary && (
+                      <div className="mb-6 pb-6 border-b border-gray-200">
+                        <h4 className="font-semibold text-gray-900 mb-2">Presentation Summary</h4>
+                        <p className="text-gray-700 leading-relaxed line-clamp-4">{presentation.presentation_summary}</p>
+                        {presentation.presentation_summary.length > 300 && (
+                          <button className="text-purple-600 hover:text-purple-700 text-sm font-semibold mt-2">
+                            Read full summary →
+                          </button>
+                        )}
+                      </div>
+                    )}
+
+                    {presentation.financial_guidance && (
+                      <div className="mb-6 pb-6 border-b border-gray-200">
+                        <h4 className="font-semibold text-gray-900 mb-2">📈 Financial Guidance</h4>
+                        <p className="text-gray-700 leading-relaxed">{presentation.financial_guidance}</p>
+                      </div>
+                    )}
+
+                    {presentation.key_slides && presentation.key_slides.length > 0 && (
+                      <div>
+                        <h4 className="font-semibold text-gray-900 mb-4">🎯 Key Slide Topics</h4>
+                        <ul className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                          {presentation.key_slides.slice(0, 6).map((slide: string, i: number) => (
+                            <li key={i} className="flex gap-3 p-3 bg-purple-50 rounded-lg">
+                              <span className="text-purple-600 font-bold flex-shrink-0">•</span>
+                              <span className="text-gray-700">{slide}</span>
                             </li>
                           ))}
                         </ul>
