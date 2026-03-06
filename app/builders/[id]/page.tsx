@@ -48,24 +48,34 @@ export default function BuilderDetail({ params }: { params: { id: string } }) {
           if (stockData) setStock(stockData);
         }
 
-        // Get 10-K filings
-        const { data: filingData } = await supabase
-          .from('filings_10k')
-          .select('*')
-          .eq('builder_id', params.id)
-          .order('filing_date', { ascending: false });
+        // Fetch all filings via API (includes historical 10-K and 10-Q)
+        try {
+          const response = await fetch(`/api/filings/${params.id}`);
+          if (response.ok) {
+            const data = await response.json();
+            setFilings(data.tenK || []);
+            setEarnings(data.tenQ || []);
+          } else {
+            throw new Error('API error');
+          }
+        } catch (apiError) {
+          // Fallback to direct Supabase queries
+          const { data: filingData } = await supabase
+            .from('filings_10k')
+            .select('*')
+            .eq('builder_id', params.id)
+            .order('filing_date', { ascending: false });
 
-        setFilings(filingData || []);
+          setFilings(filingData || []);
 
-        // Get earnings calls
-        const { data: earningsData } = await supabase
-          .from('earnings_calls')
-          .select('*')
-          .eq('builder_id', params.id)
-          .order('call_date', { ascending: false })
-          .limit(4);
+          const { data: earningsData } = await supabase
+            .from('earnings_calls')
+            .select('*')
+            .eq('builder_id', params.id)
+            .order('call_date', { ascending: false });
 
-        setEarnings(earningsData || []);
+          setEarnings(earningsData || []);
+        }
       } catch (error) {
         console.error('Error fetching data:', error);
       } finally {
@@ -241,7 +251,7 @@ export default function BuilderDetail({ params }: { params: { id: string } }) {
             {filings.length === 0 ? (
               <div className="text-center py-12 bg-white rounded-lg">
                 <p className="text-gray-500 text-lg">No 10-K filings found yet.</p>
-                <p className="text-gray-400 text-sm mt-2">Check back soon for financial reports.</p>
+                <p className="text-gray-400 text-sm mt-2">Historical 10-K data will appear here. Loading...</p>
               </div>
             ) : (
               filings.map((filing) => (
@@ -251,33 +261,52 @@ export default function BuilderDetail({ params }: { params: { id: string } }) {
                 >
                   <div className="p-6">
                     <div className="flex justify-between items-start mb-4">
-                      <div>
+                      <div className="flex-1">
                         <h3 className="text-2xl font-bold text-gray-900">
                           Fiscal Year {filing.fiscal_year}
                         </h3>
                         <p className="text-sm text-gray-500 mt-1">
-                          Filed {new Date(filing.filing_date).toLocaleDateString()}
+                          Filed {filing.filing_date ? new Date(filing.filing_date).toLocaleDateString() : 'Date TBD'}
                         </p>
                       </div>
+                      {filing.link && (
+                        <a
+                          href={filing.link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="ml-4 px-4 py-2 bg-navy-600 hover:bg-navy-700 text-white rounded-lg font-semibold flex items-center gap-2 transition"
+                        >
+                          <ExternalLink className="w-4 h-4" />
+                          View SEC Filing
+                        </a>
+                      )}
                     </div>
 
                     {filing.summary && (
                       <div className="mb-6 pb-6 border-b border-gray-200">
-                        <h4 className="font-semibold text-gray-900 mb-2">Summary</h4>
-                        <p className="text-gray-700 leading-relaxed">{filing.summary}</p>
+                        <h4 className="font-semibold text-gray-900 mb-2">AI Summary</h4>
+                        <p className="text-gray-700 leading-relaxed line-clamp-4">{filing.summary}</p>
+                        {filing.summary.length > 300 && (
+                          <button className="text-navy-600 hover:text-navy-700 text-sm font-semibold mt-2">
+                            Read full summary →
+                          </button>
+                        )}
                       </div>
                     )}
 
-                    {filing.key_metrics && (
-                      <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-                        {Object.entries(filing.key_metrics as Record<string, any>)
-                          .slice(0, 4)
-                          .map(([key, value]) => (
-                            <div key={key} className="bg-gradient-to-br from-navy-50 to-teal-50 p-4 rounded-lg">
-                              <p className="text-xs text-gray-600 uppercase font-semibold">{key}</p>
-                              <p className="text-lg font-bold text-navy-700 mt-1">{String(value)}</p>
-                            </div>
-                          ))}
+                    {filing.key_metrics && Object.keys(filing.key_metrics).length > 0 && (
+                      <div>
+                        <h4 className="font-semibold text-gray-900 mb-4">Key Metrics</h4>
+                        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                          {Object.entries(filing.key_metrics as Record<string, any>)
+                            .slice(0, 4)
+                            .map(([key, value]) => (
+                              <div key={key} className="bg-gradient-to-br from-navy-50 to-teal-50 p-4 rounded-lg">
+                                <p className="text-xs text-gray-600 uppercase font-semibold">{key}</p>
+                                <p className="text-lg font-bold text-navy-700 mt-1">{String(value).substring(0, 20)}</p>
+                              </div>
+                            ))}
+                        </div>
                       </div>
                     )}
                   </div>
@@ -287,13 +316,13 @@ export default function BuilderDetail({ params }: { params: { id: string } }) {
           </div>
         )}
 
-        {/* Earnings Calls */}
+        {/* Earnings Calls / 10-Q Filings */}
         {activeTab === 'earnings' && (
           <div className="space-y-6">
             {earnings.length === 0 ? (
               <div className="text-center py-12 bg-white rounded-lg">
-                <p className="text-gray-500 text-lg">No earnings calls found yet.</p>
-                <p className="text-gray-400 text-sm mt-2">Earnings call data will appear here.</p>
+                <p className="text-gray-500 text-lg">No 10-Q filings found yet.</p>
+                <p className="text-gray-400 text-sm mt-2">Quarterly report data will appear here. Loading...</p>
               </div>
             ) : (
               earnings.map((call) => (
@@ -303,20 +332,36 @@ export default function BuilderDetail({ params }: { params: { id: string } }) {
                 >
                   <div className="p-6">
                     <div className="flex justify-between items-start mb-4">
-                      <div>
+                      <div className="flex-1">
                         <h3 className="text-2xl font-bold text-gray-900">
-                          Q{call.fiscal_quarter} {call.fiscal_year} Earnings Call
+                          Q{call.fiscal_quarter} {call.fiscal_year} 10-Q Filing
                         </h3>
                         <p className="text-sm text-gray-500 mt-1">
-                          {new Date(call.call_date).toLocaleDateString()}
+                          {call.call_date ? new Date(call.call_date).toLocaleDateString() : 'Date TBD'}
                         </p>
                       </div>
+                      {call.link && (
+                        <a
+                          href={call.link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="ml-4 px-4 py-2 bg-teal-600 hover:bg-teal-700 text-white rounded-lg font-semibold flex items-center gap-2 transition"
+                        >
+                          <ExternalLink className="w-4 h-4" />
+                          View SEC Filing
+                        </a>
+                      )}
                     </div>
 
                     {call.ai_summary && (
                       <div className="mb-6 pb-6 border-b border-gray-200">
                         <h4 className="font-semibold text-gray-900 mb-2">AI Summary</h4>
-                        <p className="text-gray-700 leading-relaxed">{call.ai_summary}</p>
+                        <p className="text-gray-700 leading-relaxed line-clamp-4">{call.ai_summary}</p>
+                        {call.ai_summary.length > 300 && (
+                          <button className="text-teal-600 hover:text-teal-700 text-sm font-semibold mt-2">
+                            Read full summary →
+                          </button>
+                        )}
                       </div>
                     )}
 
