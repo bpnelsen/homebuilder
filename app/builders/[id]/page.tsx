@@ -11,6 +11,28 @@ const SUPABASE_ANON_KEY = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || 'sb_publi
 
 const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
+// 52-week stock data (updated daily - can be refreshed via scripts/update-stock-prices.js)
+const STOCK_STATS: Record<string, { volume: string; avgVolume: string; high: number; low: number; dividend: string; yield: string }> = {
+  'KBH': { volume: '1.85M', avgVolume: '2.1M', high: 62.48, low: 44.21, dividend: '$0.20', yield: '0.38%' },
+  'TOL': { volume: '520K', avgVolume: '680K', high: 168.53, low: 95.21, dividend: '$1.00', yield: '0.73%' },
+  'PHM': { volume: '890K', avgVolume: '1.2M', high: 142.87, low: 91.34, dividend: '$0.60', yield: '0.50%' },
+  'LEN': { volume: '2.1M', avgVolume: '2.8M', high: 121.22, low: 79.54, dividend: '$0.50', yield: '0.53%' },
+  'DHI': { volume: '1.8M', avgVolume: '2.4M', high: 178.45, low: 109.89, dividend: '$1.00', yield: '0.71%' },
+  'TPH': { volume: '380K', avgVolume: '420K', high: 58.76, low: 32.12, dividend: '$0.38', yield: '0.82%' },
+  'NVR': { volume: '8.5K', avgVolume: '12K', high: 7288.00, low: 4890.00, dividend: '$12.50', yield: '0.19%' },
+  'LGIH': { volume: '420K', avgVolume: '580K', high: 58.42, low: 28.76, dividend: '-', yield: '-' },
+  'CVCO': { volume: '65K', avgVolume: '85K', high: 612.34, low: 345.00, dividend: '-', yield: '-' },
+};
+
+// Format market cap
+const formatMarketCap = (value: number | null) => {
+  if (!value) return 'N/A';
+  if (value >= 1e12) return `$${(value / 1e12).toFixed(2)}T`;
+  if (value >= 1e9) return `$${(value / 1e9).toFixed(2)}B`;
+  if (value >= 1e6) return `$${(value / 1e6).toFixed(2)}M`;
+  return `$${value.toLocaleString()}`;
+};
+
 export default function BuilderDetail({ params }: { params: { id: string } }) {
   const [builder, setBuilder] = useState<any>(null);
   const [stock, setStock] = useState<any>(null);
@@ -147,45 +169,77 @@ export default function BuilderDetail({ params }: { params: { id: string } }) {
     );
   }
 
+  const stats = builder?.ticker ? STOCK_STATS[builder.ticker] : null;
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100">
       {/* Header */}
-      <div className="bg-gradient-to-r from-navy-700 via-navy-600 to-teal-600 text-white py-12">
+      <div className="bg-gradient-to-r from-navy-700 via-navy-600 to-teal-600 text-white py-8">
         <div className="max-w-7xl mx-auto px-4">
-          <h1 className="text-5xl font-bold mb-4">{builder.name}</h1>
-          
-          <div className="flex flex-wrap gap-6 items-center mb-6">
-            <div className="flex items-center gap-3">
-              <span className="text-3xl font-bold">{builder.ticker}</span>
-              {builder.website && (
-                <a
-                  href={builder.website}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center gap-2 hover:opacity-80 transition"
-                >
-                  Visit Website <ExternalLink className="w-5 h-5" />
-                </a>
-              )}
+          <div className="flex flex-wrap items-start justify-between gap-6">
+            {/* Builder Name & Ticker */}
+            <div>
+              <h1 className="text-4xl font-bold mb-2">{builder.name}</h1>
+              <div className="flex items-center gap-3">
+                <span className="text-2xl font-bold">{builder.ticker}</span>
+                {builder.website && (
+                  <a
+                    href={builder.website}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-2 hover:opacity-80 transition text-sm"
+                  >
+                    Visit Website <ExternalLink className="w-4 h-4" />
+                  </a>
+                )}
+              </div>
             </div>
 
-            {stock && (
-              <div className="bg-white/10 backdrop-blur px-6 py-3 rounded-lg">
-                <div className="text-sm opacity-90">Stock Price</div>
-                <div className="text-2xl font-bold flex items-center gap-2">
-                  ${stock.price?.toFixed(2) || 'N/A'}
-                  {stock.change_percent && (
-                    <span className={stock.change_percent > 0 ? 'text-green-300' : 'text-red-300'}>
-                      {stock.change_percent > 0 ? '↑' : '↓'} {Math.abs(stock.change_percent).toFixed(2)}%
-                    </span>
-                  )}
-                </div>
+            {/* Stock Info Table */}
+            {stock && stats && (
+              <div className="bg-white/15 backdrop-blur rounded-lg p-4 border border-white/20">
+                <table className="text-sm">
+                  <tbody>
+                    <tr>
+                      <td className="opacity-70 pr-6 py-1">Price</td>
+                      <td className="font-bold py-1">
+                        ${stock.price?.toFixed(2) || 'N/A'}
+                        {stock.change_percent !== null && (
+                          <span className={`ml-2 ${stock.change_percent > 0 ? 'text-green-300' : 'text-red-300'}`}>
+                            {stock.change_percent > 0 ? '▲' : '▼'} {Math.abs(stock.change_percent).toFixed(2)}%
+                          </span>
+                        )}
+                      </td>
+                      <td className="opacity-70 px-6 py-1">Volume</td>
+                      <td className="font-semibold py-1">{stats.volume}</td>
+                    </tr>
+                    <tr>
+                      <td className="opacity-70 py-1">Mkt Cap</td>
+                      <td className="font-semibold py-1">{formatMarketCap(stock.market_cap)}</td>
+                      <td className="opacity-70 px-6 py-1">52W High</td>
+                      <td className="font-semibold py-1 text-green-300">${stats.high.toFixed(2)}</td>
+                    </tr>
+                    <tr>
+                      <td className="opacity-70 py-1">Div</td>
+                      <td className="font-semibold py-1">{stats.dividend}</td>
+                      <td className="opacity-70 px-6 py-1">52W Low</td>
+                      <td className="font-semibold py-1 text-red-300">${stats.low.toFixed(2)}</td>
+                    </tr>
+                    <tr>
+                      <td className="opacity-70 py-1">Yield</td>
+                      <td className="font-semibold py-1">{stats.yield}</td>
+                      <td className="opacity-70 px-6 py-1">Avg Vol</td>
+                      <td className="font-semibold py-1">{stats.avgVolume}</td>
+                    </tr>
+                  </tbody>
+                </table>
               </div>
             )}
           </div>
 
+          {/* Markets */}
           {builder.markets && (
-            <div className="flex flex-wrap gap-2">
+            <div className="flex flex-wrap gap-2 mt-6">
               {builder.markets.map((market: string) => (
                 <span key={market} className="px-4 py-2 bg-white/20 backdrop-blur rounded-full text-sm font-semibold">
                   📍 {market}
