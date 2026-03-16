@@ -104,12 +104,6 @@ async function setupDatabase() {
         markets: ['Arizona', 'California', 'Colorado', 'Nevada'],
       },
       {
-        name: 'M.D.C. Holdings Inc',
-        ticker: 'MDC',
-        website: 'https://www.mdcholdings.com',
-        markets: ['Arizona', 'Colorado', 'Florida', 'Texas'],
-      },
-      {
         name: 'Cavco Industries Inc',
         ticker: 'CVCO',
         website: 'https://www.cavco.com',
