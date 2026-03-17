@@ -1,0 +1,16 @@
+{
+  "description": "SEC Edgar CIK numbers for major US homebuilders",
+  "format": "10-digit zero-padded CIK as used in SEC Edgar API",
+  "source": "Provided by Brian Nelsen, March 17, 2026",
+  "builders": [
+    { "ticker": "LEN",  "company": "Lennar",            "cik": "0000920760" },
+    { "ticker": "DHI",  "company": "D.R. Horton",       "cik": "0000882184" },
+    { "ticker": "KBH",  "company": "KB Home",           "cik": "0000795266" },
+    { "ticker": "TOL",  "company": "Toll Brothers",     "cik": "0000794170" },
+    { "ticker": "PHM",  "company": "PulteGroup",        "cik": "0000822416" },
+    { "ticker": "NVR",  "company": "NVR Inc",           "cik": "0000906163" },
+    { "ticker": "TPH",  "company": "Tri Pointe Homes",  "cik": "0001561680" },
+    { "ticker": "CVCO", "company": "Cavco Industries",  "cik": "0000278166" },
+    { "ticker": "LGIH", "company": "LGI Homes",         "cik": "0001580670" }
+  ]
+}

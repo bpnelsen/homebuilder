@@ -13,16 +13,16 @@ const supabase = createClient(
 );
 
 const BUILDERS = [
-  { ticker: 'LEN', cik: '0000060086' },
-  { ticker: 'DHI', cik: '0001018724' },
-  { ticker: 'KBH', cik: '0000055601' },
-  { ticker: 'TOL', cik: '0001012870' },
+  { ticker: 'LEN', cik: '0000920760' },
+  { ticker: 'DHI', cik: '0000882184' },
+  { ticker: 'KBH', cik: '0000795266' },
+  { ticker: 'TOL', cik: '0000794170' },
   { ticker: 'PHM', cik: '0000822416' },
-  { ticker: 'NVR', cik: '0000913144' },
-  { ticker: 'TPH', cik: '0001563369' },
+  { ticker: 'NVR', cik: '0000906163' },
+  { ticker: 'TPH', cik: '0001561680' },
   { ticker: 'MDC', cik: '0000773141' },
-  { ticker: 'CVCO', cik: '0001207539' },
-  { ticker: 'LGIH', cik: '0001524683' },
+  { ticker: 'CVCO', cik: '0000278166' },
+  { ticker: 'LGIH', cik: '0001580670' },
 ];
 
 async function fetchEdgarFilings() {
