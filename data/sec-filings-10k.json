@@ -1,0 +1,423 @@
+{
+  "source": "SEC Edgar API (data.sec.gov)",
+  "fetched_at": "2026-03-17T14:14:25Z",
+  "filter": "10-K filings from 2023 onwards",
+  "builders": {
+    "LEN": {
+      "company": "Lennar",
+      "cik": "0000920760",
+      "name": "LENNAR CORP /NEW/",
+      "tickers": [
+        "LEN",
+        "LEN-B"
+      ],
+      "sic": "1520",
+      "sic_description": "General Bldg Contractors - Residential Bldgs",
+      "filings_10k": [
+        {
+          "form": "10-K",
+          "filing_date": "2026-01-28",
+          "accession_number": "0001628280-26-003870",
+          "primary_document": "len-20251130.htm",
+          "description": "10-K",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/920760/000162828026003870/len-20251130.htm",
+          "detail_url": "https://www.sec.gov/Archives/edgar/data/920760/000162828026003870/0001628280-26-003870-index.htm"
+        },
+        {
+          "form": "10-K",
+          "filing_date": "2025-01-23",
+          "accession_number": "0001628280-25-002404",
+          "primary_document": "len-20241130.htm",
+          "description": "10-K",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/920760/000162828025002404/len-20241130.htm",
+          "detail_url": "https://www.sec.gov/Archives/edgar/data/920760/000162828025002404/0001628280-25-002404-index.htm"
+        },
+        {
+          "form": "10-K",
+          "filing_date": "2024-01-26",
+          "accession_number": "0001628280-24-002371",
+          "primary_document": "len-20231130.htm",
+          "description": "10-K",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/920760/000162828024002371/len-20231130.htm",
+          "detail_url": "https://www.sec.gov/Archives/edgar/data/920760/000162828024002371/0001628280-24-002371-index.htm"
+        },
+        {
+          "form": "10-K",
+          "filing_date": "2023-01-26",
+          "accession_number": "0001628280-23-001606",
+          "primary_document": "len-20221130.htm",
+          "description": "10-K",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/920760/000162828023001606/len-20221130.htm",
+          "detail_url": "https://www.sec.gov/Archives/edgar/data/920760/000162828023001606/0001628280-23-001606-index.htm"
+        }
+      ],
+      "total_10k_found": 4
+    },
+    "DHI": {
+      "company": "D.R. Horton",
+      "cik": "0000882184",
+      "name": "HORTON D R INC /DE/",
+      "tickers": [
+        "DHI"
+      ],
+      "sic": "1531",
+      "sic_description": "Operative Builders",
+      "filings_10k": [
+        {
+          "form": "10-K",
+          "filing_date": "2025-11-19",
+          "accession_number": "0000882184-25-000081",
+          "primary_document": "dhi-20250930.htm",
+          "description": "10-K",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/882184/000088218425000081/dhi-20250930.htm",
+          "detail_url": "https://www.sec.gov/Archives/edgar/data/882184/000088218425000081/0000882184-25-000081-index.htm"
+        },
+        {
+          "form": "10-K",
+          "filing_date": "2024-11-19",
+          "accession_number": "0000882184-24-000057",
+          "primary_document": "dhi-20240930.htm",
+          "description": "10-K",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/882184/000088218424000057/dhi-20240930.htm",
+          "detail_url": "https://www.sec.gov/Archives/edgar/data/882184/000088218424000057/0000882184-24-000057-index.htm"
+        },
+        {
+          "form": "10-K",
+          "filing_date": "2023-11-17",
+          "accession_number": "0000882184-23-000115",
+          "primary_document": "dhi-20230930.htm",
+          "description": "10-K",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/882184/000088218423000115/dhi-20230930.htm",
+          "detail_url": "https://www.sec.gov/Archives/edgar/data/882184/000088218423000115/0000882184-23-000115-index.htm"
+        }
+      ],
+      "total_10k_found": 3
+    },
+    "KBH": {
+      "company": "KB Home",
+      "cik": "0000795266",
+      "name": "KB HOME",
+      "tickers": [
+        "KBH"
+      ],
+      "sic": "1531",
+      "sic_description": "Operative Builders",
+      "filings_10k": [
+        {
+          "form": "10-K",
+          "filing_date": "2026-01-23",
+          "accession_number": "0000795266-26-000017",
+          "primary_document": "kbh-20251130.htm",
+          "description": "10-K",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/795266/000079526626000017/kbh-20251130.htm",
+          "detail_url": "https://www.sec.gov/Archives/edgar/data/795266/000079526626000017/0000795266-26-000017-index.htm"
+        },
+        {
+          "form": "10-K",
+          "filing_date": "2025-01-24",
+          "accession_number": "0000795266-25-000014",
+          "primary_document": "kbh-20241130.htm",
+          "description": "10-K",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/795266/000079526625000014/kbh-20241130.htm",
+          "detail_url": "https://www.sec.gov/Archives/edgar/data/795266/000079526625000014/0000795266-25-000014-index.htm"
+        },
+        {
+          "form": "10-K",
+          "filing_date": "2024-01-19",
+          "accession_number": "0000795266-24-000008",
+          "primary_document": "kbh-20231130.htm",
+          "description": "10-K",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/795266/000079526624000008/kbh-20231130.htm",
+          "detail_url": "https://www.sec.gov/Archives/edgar/data/795266/000079526624000008/0000795266-24-000008-index.htm"
+        },
+        {
+          "form": "10-K",
+          "filing_date": "2023-01-20",
+          "accession_number": "0000795266-23-000009",
+          "primary_document": "kbh-20221130.htm",
+          "description": "10-K",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/795266/000079526623000009/kbh-20221130.htm",
+          "detail_url": "https://www.sec.gov/Archives/edgar/data/795266/000079526623000009/0000795266-23-000009-index.htm"
+        }
+      ],
+      "total_10k_found": 4
+    },
+    "TOL": {
+      "company": "Toll Brothers",
+      "cik": "0000794170",
+      "name": "Toll Brothers, Inc.",
+      "tickers": [
+        "TOL"
+      ],
+      "sic": "1531",
+      "sic_description": "Operative Builders",
+      "filings_10k": [
+        {
+          "form": "10-K",
+          "filing_date": "2025-12-19",
+          "accession_number": "0000794170-25-000112",
+          "primary_document": "tol-20251031.htm",
+          "description": "10-K",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/794170/000079417025000112/tol-20251031.htm",
+          "detail_url": "https://www.sec.gov/Archives/edgar/data/794170/000079417025000112/0000794170-25-000112-index.htm"
+        },
+        {
+          "form": "10-K",
+          "filing_date": "2024-12-20",
+          "accession_number": "0000794170-24-000051",
+          "primary_document": "tol-20241031.htm",
+          "description": "10-K",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/794170/000079417024000051/tol-20241031.htm",
+          "detail_url": "https://www.sec.gov/Archives/edgar/data/794170/000079417024000051/0000794170-24-000051-index.htm"
+        },
+        {
+          "form": "10-K",
+          "filing_date": "2023-12-21",
+          "accession_number": "0000794170-23-000066",
+          "primary_document": "tol-20231031.htm",
+          "description": "10-K",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/794170/000079417023000066/tol-20231031.htm",
+          "detail_url": "https://www.sec.gov/Archives/edgar/data/794170/000079417023000066/0000794170-23-000066-index.htm"
+        }
+      ],
+      "total_10k_found": 3
+    },
+    "PHM": {
+      "company": "PulteGroup",
+      "cik": "0000822416",
+      "name": "PULTEGROUP INC/MI/",
+      "tickers": [
+        "PHM"
+      ],
+      "sic": "1531",
+      "sic_description": "Operative Builders",
+      "filings_10k": [
+        {
+          "form": "10-K",
+          "filing_date": "2026-02-04",
+          "accession_number": "0000822416-26-000007",
+          "primary_document": "phm-20251231.htm",
+          "description": "10-K - 2025",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/822416/000082241626000007/phm-20251231.htm",
+          "detail_url": "https://www.sec.gov/Archives/edgar/data/822416/000082241626000007/0000822416-26-000007-index.htm"
+        },
+        {
+          "form": "10-K",
+          "filing_date": "2025-02-06",
+          "accession_number": "0000822416-25-000007",
+          "primary_document": "phm-20241231.htm",
+          "description": "10-K - 2024",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/822416/000082241625000007/phm-20241231.htm",
+          "detail_url": "https://www.sec.gov/Archives/edgar/data/822416/000082241625000007/0000822416-25-000007-index.htm"
+        },
+        {
+          "form": "10-K",
+          "filing_date": "2024-02-05",
+          "accession_number": "0000822416-24-000010",
+          "primary_document": "phm-20231231.htm",
+          "description": "10-K - 2023",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/822416/000082241624000010/phm-20231231.htm",
+          "detail_url": "https://www.sec.gov/Archives/edgar/data/822416/000082241624000010/0000822416-24-000010-index.htm"
+        },
+        {
+          "form": "10-K",
+          "filing_date": "2023-02-06",
+          "accession_number": "0000822416-23-000007",
+          "primary_document": "phm-20221231.htm",
+          "description": "10-K - 2022",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/822416/000082241623000007/phm-20221231.htm",
+          "detail_url": "https://www.sec.gov/Archives/edgar/data/822416/000082241623000007/0000822416-23-000007-index.htm"
+        }
+      ],
+      "total_10k_found": 4
+    },
+    "NVR": {
+      "company": "NVR Inc",
+      "cik": "0000906163",
+      "name": "NVR INC",
+      "tickers": [
+        "NVR"
+      ],
+      "sic": "1531",
+      "sic_description": "Operative Builders",
+      "filings_10k": [
+        {
+          "form": "10-K",
+          "filing_date": "2026-02-11",
+          "accession_number": "0000906163-26-000018",
+          "primary_document": "nvr-20251231.htm",
+          "description": "10-K",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/906163/000090616326000018/nvr-20251231.htm",
+          "detail_url": "https://www.sec.gov/Archives/edgar/data/906163/000090616326000018/0000906163-26-000018-index.htm"
+        },
+        {
+          "form": "10-K",
+          "filing_date": "2025-02-12",
+          "accession_number": "0000906163-25-000011",
+          "primary_document": "nvr-20241231.htm",
+          "description": "10-K",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/906163/000090616325000011/nvr-20241231.htm",
+          "detail_url": "https://www.sec.gov/Archives/edgar/data/906163/000090616325000011/0000906163-25-000011-index.htm"
+        },
+        {
+          "form": "10-K",
+          "filing_date": "2024-02-14",
+          "accession_number": "0000906163-24-000033",
+          "primary_document": "nvr-20231231.htm",
+          "description": "10-K",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/906163/000090616324000033/nvr-20231231.htm",
+          "detail_url": "https://www.sec.gov/Archives/edgar/data/906163/000090616324000033/0000906163-24-000033-index.htm"
+        },
+        {
+          "form": "10-K",
+          "filing_date": "2023-02-15",
+          "accession_number": "0000906163-23-000023",
+          "primary_document": "nvr-20221231.htm",
+          "description": "10-K",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/906163/000090616323000023/nvr-20221231.htm",
+          "detail_url": "https://www.sec.gov/Archives/edgar/data/906163/000090616323000023/0000906163-23-000023-index.htm"
+        }
+      ],
+      "total_10k_found": 4
+    },
+    "TPH": {
+      "company": "Tri Pointe Homes",
+      "cik": "0001561680",
+      "name": "Tri Pointe Homes, Inc.",
+      "tickers": [
+        "TPH"
+      ],
+      "sic": "1531",
+      "sic_description": "Operative Builders",
+      "filings_10k": [
+        {
+          "form": "10-K",
+          "filing_date": "2026-02-26",
+          "accession_number": "0001561680-26-000008",
+          "primary_document": "tph-20251231.htm",
+          "description": "10-K",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/1561680/000156168026000008/tph-20251231.htm",
+          "detail_url": "https://www.sec.gov/Archives/edgar/data/1561680/000156168026000008/0001561680-26-000008-index.htm"
+        },
+        {
+          "form": "10-K",
+          "filing_date": "2025-02-21",
+          "accession_number": "0001561680-25-000029",
+          "primary_document": "tph-20241231.htm",
+          "description": "10-K",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/1561680/000156168025000029/tph-20241231.htm",
+          "detail_url": "https://www.sec.gov/Archives/edgar/data/1561680/000156168025000029/0001561680-25-000029-index.htm"
+        },
+        {
+          "form": "10-K",
+          "filing_date": "2024-02-22",
+          "accession_number": "0001561680-24-000017",
+          "primary_document": "tph-20231231.htm",
+          "description": "10-K",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/1561680/000156168024000017/tph-20231231.htm",
+          "detail_url": "https://www.sec.gov/Archives/edgar/data/1561680/000156168024000017/0001561680-24-000017-index.htm"
+        },
+        {
+          "form": "10-K",
+          "filing_date": "2023-02-21",
+          "accession_number": "0001561680-23-000015",
+          "primary_document": "tph-20221231.htm",
+          "description": "10-K",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/1561680/000156168023000015/tph-20221231.htm",
+          "detail_url": "https://www.sec.gov/Archives/edgar/data/1561680/000156168023000015/0001561680-23-000015-index.htm"
+        }
+      ],
+      "total_10k_found": 4
+    },
+    "CVCO": {
+      "company": "Cavco Industries",
+      "cik": "0000278166",
+      "name": "CAVCO INDUSTRIES, INC.",
+      "tickers": [
+        "CVCO"
+      ],
+      "sic": "2451",
+      "sic_description": "Mobile Homes",
+      "filings_10k": [
+        {
+          "form": "10-K",
+          "filing_date": "2025-05-23",
+          "accession_number": "0000278166-25-000057",
+          "primary_document": "cvco-20250329.htm",
+          "description": "10-K",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/278166/000027816625000057/cvco-20250329.htm",
+          "detail_url": "https://www.sec.gov/Archives/edgar/data/278166/000027816625000057/0000278166-25-000057-index.htm"
+        },
+        {
+          "form": "10-K",
+          "filing_date": "2024-05-24",
+          "accession_number": "0000278166-24-000059",
+          "primary_document": "cvco-20240330.htm",
+          "description": "10-K",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/278166/000027816624000059/cvco-20240330.htm",
+          "detail_url": "https://www.sec.gov/Archives/edgar/data/278166/000027816624000059/0000278166-24-000059-index.htm"
+        },
+        {
+          "form": "10-K",
+          "filing_date": "2023-05-19",
+          "accession_number": "0000278166-23-000032",
+          "primary_document": "cvco-20230401.htm",
+          "description": "10-K",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/278166/000027816623000032/cvco-20230401.htm",
+          "detail_url": "https://www.sec.gov/Archives/edgar/data/278166/000027816623000032/0000278166-23-000032-index.htm"
+        }
+      ],
+      "total_10k_found": 3
+    },
+    "LGIH": {
+      "company": "LGI Homes",
+      "cik": "0001580670",
+      "name": "LGI Homes, Inc.",
+      "tickers": [
+        "LGIH"
+      ],
+      "sic": "1531",
+      "sic_description": "Operative Builders",
+      "filings_10k": [
+        {
+          "form": "10-K",
+          "filing_date": "2026-02-20",
+          "accession_number": "0001580670-26-000019",
+          "primary_document": "lgih-20251231.htm",
+          "description": "10-K",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/1580670/000158067026000019/lgih-20251231.htm",
+          "detail_url": "https://www.sec.gov/Archives/edgar/data/1580670/000158067026000019/0001580670-26-000019-index.htm"
+        },
+        {
+          "form": "10-K",
+          "filing_date": "2025-02-26",
+          "accession_number": "0001580670-25-000016",
+          "primary_document": "lgih-20241231.htm",
+          "description": "10-K",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/1580670/000158067025000016/lgih-20241231.htm",
+          "detail_url": "https://www.sec.gov/Archives/edgar/data/1580670/000158067025000016/0001580670-25-000016-index.htm"
+        },
+        {
+          "form": "10-K",
+          "filing_date": "2024-02-20",
+          "accession_number": "0001580670-24-000012",
+          "primary_document": "lgih-20231231.htm",
+          "description": "10-K",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/1580670/000158067024000012/lgih-20231231.htm",
+          "detail_url": "https://www.sec.gov/Archives/edgar/data/1580670/000158067024000012/0001580670-24-000012-index.htm"
+        },
+        {
+          "form": "10-K",
+          "filing_date": "2023-02-21",
+          "accession_number": "0001580670-23-000020",
+          "primary_document": "lgih-20221231.htm",
+          "description": "10-K",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/1580670/000158067023000020/lgih-20221231.htm",
+          "detail_url": "https://www.sec.gov/Archives/edgar/data/1580670/000158067023000020/0001580670-23-000020-index.htm"
+        }
+      ],
+      "total_10k_found": 4
+    }
+  },
+  "errors": []
+}

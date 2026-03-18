@@ -3,7 +3,8 @@
 import { useEffect, useState } from 'react';
 import { createClient } from '@supabase/supabase-js';
 import Link from 'next/link';
-import { Search, TrendingUp, Building2, DollarSign, ArrowUpRight, ArrowDownRight } from 'lucide-react';
+import { Search, TrendingUp, Building2, DollarSign, ArrowUpRight, ArrowDownRight, Newspaper } from 'lucide-react';
+import NewsSection from '@/components/NewsSection';
 
 // Use environment variables with fallback values for Vercel deployment
 const SUPABASE_URL = process.env.NEXT_PUBLIC_SUPABASE_URL || 'https://rrpkokhjomvlumreknuq.supabase.co';
@@ -123,6 +124,15 @@ export default function Home() {
             </div>
           </div>
         </div>
+      </div>
+
+      {/* Industry News Section - Top of page */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-4 mb-12">
+        <NewsSection 
+          query="residential construction homebuilder housing" 
+          title="🏠 Residential Construction Industry News"
+          limit={8}
+        />
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -271,6 +281,7 @@ export default function Home() {
             </div>
           </div>
         )}
+
       </div>
     </div>
   );

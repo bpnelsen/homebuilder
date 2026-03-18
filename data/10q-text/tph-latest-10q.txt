@@ -1,0 +1,988 @@
+# Tri Pointe Homes (TPH) — 10-Q Filed 2025-10-23
+# Source: https://www.sec.gov/Archives/edgar/data/1561680/000156168025000107/tph-20250930.htm
+
+tph-20250930false2025Q30001561680December 31http://fasb.org/us-gaap/2025#OtherAssetshttp://fasb.org/us-gaap/2025#OtherAssetshttp://fasb.org/us-gaap/2025#AccruedLiabilitiesAndOtherLiabilitieshttp://fasb.org/us-gaap/2025#AccruedLiabilitiesAndOtherLiabilitiesP3Yxbrli:sharesiso4217:USDiso4217:USDxbrli:sharestph:statetph:business_linetph:segmentxbrli:puretph:investmenttph:intangible_assettph:optiontph:tranchetph:loantph:leasetph:metric00015616802025-01-012025-09-3000015616802025-10-1500015616802025-09-3000015616802024-12-310001561680us-gaap:HomeBuildingMembertph:HomebuildingSegmentMember2025-07-012025-09-300001561680us-gaap:HomeBuildingMembertph:HomebuildingSegmentMember2024-07-012024-09-300001561680us-gaap:HomeBuildingMembertph:HomebuildingSegmentMember2025-01-012025-09-300001561680us-gaap:HomeBuildingMembertph:HomebuildingSegmentMember2024-01-012024-09-300001561680us-gaap:LandMembertph:HomebuildingSegmentMember2025-07-012025-09-300001561680us-gaap:LandMembertph:HomebuildingSegmentMember2024-07-012024-09-300001561680us-gaap:LandMembertph:HomebuildingSegmentMember2025-01-012025-09-300001561680us-gaap:LandMembertph:HomebuildingSegmentMember2024-01-012024-09-300001561680us-gaap:RealEstateOtherMembertph:HomebuildingSegmentMember2025-07-012025-09-300001561680us-gaap:RealEstateOtherMembertph:HomebuildingSegmentMember2024-07-012024-09-300001561680us-gaap:RealEstateOtherMembertph:HomebuildingSegmentMember2025-01-012025-09-300001561680us-gaap:RealEstateOtherMembertph:HomebuildingSegmentMember2024-01-012024-09-300001561680tph:HomebuildingSegmentMember2025-07-012025-09-300001561680tph:HomebuildingSegmentMember2024-07-012024-09-300001561680tph:HomebuildingSegmentMember2025-01-012025-09-300001561680tph:HomebuildingSegmentMember2024-01-012024-09-300001561680tph:FinancialServicesSegmentMember2025-07-012025-09-300001561680tph:FinancialServicesSegmentMember2024-07-012024-09-300001561680tph:FinancialServicesSegmentMember2025-01-012025-09-300001561680tph:FinancialServicesSegmentMember2024-01-012024-09-3000015616802025-07-012025-09-3000015616802024-07-012024-09-3000015616802024-01-012024-09-300001561680us-gaap:CommonStockMember2025-06-300001561680us-gaap:AdditionalPaidInCapitalMember2025-06-300001561680us-gaap:RetainedEarningsMember2025-06-300001561680us-gaap:ParentMember2025-06-300001561680us-gaap:NoncontrollingInterestMember2025-06-3000015616802025-06-300001561680us-gaap:RetainedEarningsMember2025-07-012025-09-300001561680us-gaap:ParentMember2025-07-012025-09-300001561680us-gaap:NoncontrollingInterestMember2025-07-012025-09-300001561680us-gaap:CommonStockMember2025-07-012025-09-300001561680us-gaap:AdditionalPaidInCapitalMember2025-07-012025-09-300001561680us-gaap:CommonStockMember2025-09-300001561680us-gaap:AdditionalPaidInCapitalMember2025-09-300001561680us-gaap:RetainedEarningsMember2025-09-300001561680us-gaap:ParentMember2025-09-300001561680us-gaap:NoncontrollingInterestMember2025-09-300001561680us-gaap:CommonStockMember2024-12-310001561680us-gaap:AdditionalPaidInCapitalMember2024-12-310001561680us-gaap:RetainedEarningsMember2024-12-310001561680us-gaap:ParentMember2024-12-310001561680us-gaap:NoncontrollingInterestMember2024-12-310001561680us-gaap:RetainedEarningsMember2025-01-012025-09-300001561680us-gaap:ParentMember2025-01-012025-09-300001561680us-gaap:NoncontrollingInterestMember2025-01-012025-09-300001561680us-gaap:CommonStockMember2025-01-012025-09-300001561680us-gaap:AdditionalPaidInCapitalMember2025-01-012025-09-300001561680us-gaap:CommonStockMember2024-06-300001561680us-gaap:AdditionalPaidInCapitalMember2024-06-300001561680us-gaap:RetainedEarningsMember2024-06-300001561680us-gaap:ParentMember2024-06-300001561680us-gaap:NoncontrollingInterestMember2024-06-3000015616802024-06-300001561680us-gaap:RetainedEarningsMember2024-07-012024-09-300001561680us-gaap:ParentMember2024-07-012024-09-300001561680us-gaap:CommonStockMember2024-07-012024-09-300001561680us-gaap:AdditionalPaidInCapitalMember2024-07-012024-09-300001561680us-gaap:CommonStockMember2024-09-300001561680us-gaap:AdditionalPaidInCapitalMember2024-09-300001561680us-gaap:RetainedEarningsMember2024-09-300001561680us-gaap:ParentMember2024-09-300001561680us-gaap:NoncontrollingInterestMember2024-09-3000015616802024-09-300001561680us-gaap:CommonStockMember2023-12-310001561680us-gaap:AdditionalPaidInCapitalMember2023-12-310001561680us-gaap:RetainedEarningsMember2023-12-310001561680us-gaap:ParentMember2023-12-310001561680us-gaap:NoncontrollingInterestMember2023-12-3100015616802023-12-310001561680us-gaap:RetainedEarningsMember2024-01-012024-09-300001561680us-gaap:ParentMember2024-01-012024-09-300001561680us-gaap:NoncontrollingInterestMember2024-01-012024-09-300001561680us-gaap:CommonStockMember2024-01-012024-09-300001561680us-gaap:AdditionalPaidInCapitalMember2024-01-012024-09-300001561680us-gaap:WarehouseAgreementBorrowingsMember2025-09-300001561680us-gaap:OperatingSegmentsMemberus-gaap:HomeBuildingMembertph:WestMembertph:HomebuildingSegmentMember2025-07-012025-09-300001561680us-gaap:OperatingSegmentsMemberus-gaap:HomeBuildingMembertph:CentralMembertph:HomebuildingSegmentMember2025-07-012025-09-300001561680us-gaap:OperatingSegmentsMemberus-gaap:HomeBuildingMembertph:EastMembertph:HomebuildingSegmentMember2025-07-012025-09-300001561680us-gaap:OperatingSegmentsMemberus-gaap:HomeBuildingMembertph:HomebuildingSegmentMember2025-07-012025-09-300001561680us-gaap:OperatingSegmentsMemberus-gaap:HomeBuildingMembertph:FinancialServicesSegmentMember2025-07-012025-09-300001561680us-gaap:CorporateNonSegmentMemberus-gaap:HomeBuildingMember2025-07-012025-09-300001561680us-gaap:OperatingSegmentsMemberus-gaap:LandMembertph:WestMembertph:HomebuildingSegmentMember2025-07-012025-09-300001561680us-gaap:OperatingSegmentsMemberus-gaap:LandMembertph:CentralMembertph:HomebuildingSegmentMember2025-07-012025-09-300001561680us-gaap:OperatingSegmentsMemberus-gaap:LandMembertph:EastMembertph:HomebuildingSegmentMember2025-07-012025-09-300001561680us-gaap:OperatingSegmentsMemberus-gaap:LandMembertph:HomebuildingSegmentMember2025-07-012025-09-300001561680us-gaap:OperatingSegmentsMemberus-gaap:LandMembertph:FinancialServicesSegmentMember2025-07-012025-09-300001561680us-gaap:CorporateNonSegmentMemberus-gaap:LandMember2025-07-012025-09-300001561680us-gaap:OperatingSegmentsMemberus-gaap:RealEstateOtherMembertph:WestMembertph:HomebuildingSegmentMember2025-07-012025-09-300001561680us-gaap:OperatingSegmentsMemberus-gaap:RealEstateOtherMembertph:CentralMembertph:HomebuildingSegmentMember2025-07-012025-09-300001561680us-gaap:OperatingSegmentsMemberus-gaap:RealEstateOtherMembertph:EastMembertph:HomebuildingSegmentMember2025-07-012025-09-300001561680us-gaap:OperatingSegmentsMemberus-gaap:RealEstateOtherMembertph:HomebuildingSegmentMember2025-07-012025-09-300001561680us-gaap:OperatingSegmentsMemberus-gaap:RealEstateOtherMembertph:FinancialServicesSegmentMember2025-07-012025-09-300001561680us-gaap:CorporateNonSegmentMemberus-gaap:RealEstateOtherMember2025-07-012025-09-300001561680us-gaap:OperatingSegmentsMembertph:FinancialServicesSegmentMember2025-07-012025-09-300001561680us-gaap:CorporateNonSegmentMember2025-07-012025-09-300001561680us-gaap:OperatingSegmentsMembertph:WestMember2025-07-012025-09-300001561680us-gaap:OperatingSegmentsMembertph:CentralMember2025-07-012025-09-300001561680us-gaap:OperatingSegmentsMembertph:EastMember2025-07-012025-09-300001561680us-gaap:OperatingSegmentsMembertph:HomebuildingSegmentMember2025-07-012025-09-300001561680us-gaap:OperatingSegmentsMemberus-gaap:HomeBuildingMembertph:WestMember2025-07-012025-09-300001561680us-gaap:OperatingSegmentsMemberus-gaap:HomeBuildingMembertph:CentralMember2025-07-012025-09-300001561680us-gaap:OperatingSegmentsMemberus-gaap:HomeBuildingMembertph:EastMember2025-07-012025-09-300001561680us-gaap:HomeBuildingMember2025-07-012025-09-300001561680us-gaap:OperatingSegmentsMemberus-gaap:LandMembertph:WestMember2025-07-012025-09-300001561680us-gaap:OperatingSegmentsMemberus-gaap:LandMembertph:CentralMember2025-07-012025-09-300001561680us-gaap:OperatingSegmentsMemberus-gaap:LandMembertph:EastMember2025-07-012025-09-300001561680us-gaap:LandMember2025-07-012025-09-300001561680us-gaap:OperatingSegmentsMemberus-gaap:HomeBuildingMembertph:WestMembertph:HomebuildingSegmentMember2024-07-012024-09-300001561680us-gaap:OperatingSegmentsMemberus-gaap:HomeBuildingMembertph:CentralMembertph:HomebuildingSegmentMember2024-07-012024-09-300001561680us-gaap:OperatingSegmentsMemberus-gaap:HomeBuildingMembertph:EastMembertph:HomebuildingSegmentMember2024-07-012024-09-300001561680us-gaap:OperatingSegmentsMemberus-gaap:HomeBuildingMembertph:HomebuildingSegmentMember2024-07-012024-09-300001561680us-gaap:OperatingSegmentsMemberus-gaap:HomeBuildingMembertph:FinancialServicesSegmentMember2024-07-012024-09-300001561680us-gaap:CorporateNonSegmentMemberus-gaap:HomeBuildingMember2024-07-012024-09-300001561680us-gaap:OperatingSegmentsMemberus-gaap:LandMembertph:WestMembertph:HomebuildingSegmentMember2024-07-012024-09-300001561680us-gaap:OperatingSegmentsMemberus-gaap:LandMembertph:CentralMembertph:HomebuildingSegmentMember2024-07-012024-09-300001561680us-gaap:OperatingSegmentsMemberus-gaap:LandMembertph:EastMembertph:HomebuildingSegmentMember2024-07-012024-09-300001561680us-gaap:OperatingSegmentsMemberus-gaap:LandMembertph:HomebuildingSegmentMember2024-07-012024-09-300001561680us-gaap:OperatingSegmentsMemberus-gaap:LandMembertph:FinancialServicesSegmentMember2024-07-012024-09-300001561680us-gaap:CorporateNonSegmentMemberus-gaap:LandMember2024-07-012024-09-300001561680us-gaap:OperatingSegmentsMemberus-gaap:RealEstateOtherMembertph:WestMembertph:HomebuildingSegmentMember2024-07-012024-09-300001561680us-gaap:OperatingSegmentsMemberus-gaap:RealEstateOtherMembertph:CentralMembertph:HomebuildingSegmentMember2024-07-012024-09-300001561680us-gaap:OperatingSegmentsMemberus-gaap:RealEstateOtherMembertph:EastMembertph:HomebuildingSegmentMember2024-07-012024-09-300001561680us-gaap:OperatingSegmentsMemberus-gaap:RealEstateOtherMembertph:HomebuildingSegmentMember2024-07-012024-09-300001561680us-gaap:OperatingSegmentsMemberus-gaap:RealEstateOtherMembertph:FinancialServicesSegmentMember2024-07-012024-09-300001561680us-gaap:CorporateNonSegmentMemberus-gaap:RealEstateOtherMember2024-07-012024-09-300001561680us-gaap:OperatingSegmentsMembertph:FinancialServicesSegmentMember2024-07-012024-09-300001561680us-gaap:CorporateNonSegmentMember2024-07-012024-09-300001561680us-gaap:OperatingSegmentsMembertph:WestMember2024-07-012024-09-300001561680us-gaap:OperatingSegmentsMembertph:CentralMember2024-07-012024-09-300001561680us-gaap:OperatingSegmentsMembertph:EastMember2024-07-012024-09-300001561680us-gaap:OperatingSegmentsMembertph:HomebuildingSegmentMember2024-07-012024-09-300001561680us-gaap:OperatingSegmentsMemberus-gaap:HomeBuildingMembertph:WestMember2024-07-012024-09-300001561680us-gaap:OperatingSegmentsMemberus-gaap:HomeBuildingMembertph:CentralMember2024-07-012024-09-300001561680us-gaap:OperatingSegmentsMemberus-gaap:HomeBuildingMembertph:EastMember2024-07-012024-09-300001561680us-gaap:HomeBuildingMember2024-07-012024-09-300001561680us-gaap:OperatingSegmentsMemberus-gaap:LandMembertph:WestMember2024-07-012024-09-300001561680us-gaap:OperatingSegmentsMemberus-gaap:LandMembertph:CentralMember2024-07-012024-09-300001561680us-gaap:OperatingSegmentsMemberus-gaap:LandMembertph:EastMember2024-07-012024-09-300001561680us-gaap:LandMember2024-07-012024-09-300001561680us-gaap:OperatingSegmentsMemberus-gaap:HomeBuildingMembertph:WestMembertph:HomebuildingSegmentMember2025-01-012025-09-300001561680us-gaap:OperatingSegmentsMemberus-gaap:HomeBuildingMembertph:CentralMembertph:HomebuildingSegmentMember2025-01-012025-09-300001561680us-gaap:OperatingSegmentsMemberus-gaap:HomeBuildingMembertph:EastMembertph:HomebuildingSegmentMember2025-01-012025-09-300001561680us-gaap:OperatingSegmentsMemberus-gaap:HomeBuildingMembertph:HomebuildingSegmentMember2025-01-012025-09-300001561680us-gaap:OperatingSegmentsMemberus-gaap:HomeBuildingMembertph:FinancialServicesSegmentMember2025-01-012025-09-300001561680us-gaap:CorporateNonSegmentMemberus-gaap:HomeBuildingMember2025-01-012025-09-300001561680us-gaap:OperatingSegmentsMemberus-gaap:LandMembertph:WestMembertph:HomebuildingSegmentMember2025-01-012025-09-300001561680us-gaap:OperatingSegmentsMemberus-gaap:LandMembertph:CentralMembertph:HomebuildingSegmentMember2025-01-012025-09-300001561680us-gaap:OperatingSegmentsMemberus-gaap:LandMembertph:EastMembertph:HomebuildingSegmentMember2025-01-012025-09-300001561680us-gaap:OperatingSegmentsMemberus-gaap:LandMembertph:HomebuildingSegmentMember2025-01-012025-09-300001561680us-gaap:OperatingSegmentsMemberus-gaap:LandMembertph:FinancialServicesSegmentMember2025-01-012025-09-300001561680us-gaap:CorporateNonSegmentMemberus-gaap:LandMember2025-01-012025-09-300001561680us-gaap:OperatingSegmentsMemberus-gaap:RealEstateOtherMembertph:WestMembertph:HomebuildingSegmentMember2025-01-012025-09-300001561680us-gaap:OperatingSegmentsMemberus-gaap:RealEstateOtherMembertph:CentralMembertph:HomebuildingSegmentMember2025-01-012025-09-300001561680us-gaap:OperatingSegmentsMemberus-gaap:RealEstateOtherMembertph:EastMembertph:HomebuildingSegmentMember2025-01-012025-09-300001561680us-gaap:OperatingSegmentsMemberus-gaap:RealEstateOtherMembertph:HomebuildingSegmentMember2025-01-012025-09-300001561680us-gaap:OperatingSegmentsMemberus-gaap:RealEstateOtherMembertph:FinancialServicesSegmentMember2025-01-012025-09-300001561680us-gaap:CorporateNonSegmentMemberus-gaap:RealEstateOtherMember2025-01-012025-09-300001561680us-gaap:OperatingSegmentsMembertph:FinancialServicesSegmentMember2025-01-012025-09-300001561680us-gaap:CorporateNonSegmentMember2025-01-012025-09-300001561680us-gaap:OperatingSegmentsMembertph:WestMember2025-01-012025-09-300001561680us-gaap:OperatingSegmentsMembertph:CentralMember2025-01-012025-09-300001561680us-gaap:OperatingSegmentsMembertph:EastMember2025-01-012025-09-300001561680us-gaap:OperatingSegmentsMembertph:HomebuildingSegmentMember2025-01-012025-09-300001561680us-gaap:OperatingSegmentsMemberus-gaap:HomeBuildingMembertph:WestMember2025-01-012025-09-300001561680us-gaap:OperatingSegmentsMemberus-gaap:HomeBuildingMembertph:CentralMember2025-01-012025-09-300001561680us-gaap:OperatingSegmentsMemberus-gaap:HomeBuildingMembertph:EastMember2025-01-012025-09-300001561680us-gaap:HomeBuildingMember2025-01-012025-09-300001561680us-gaap:OperatingSegmentsMemberus-gaap:LandMembertph:WestMember2025-01-012025-09-300001561680us-gaap:OperatingSegmentsMemberus-gaap:LandMembertph:CentralMember2025-01-012025-09-300001561680us-gaap:OperatingSegmentsMemberus-gaap:LandMembertph:EastMember2025-01-012025-09-300001561680us-gaap:LandMember2025-01-012025-09-300001561680us-gaap:OperatingSegmentsMemberus-gaap:HomeBuildingMembertph:WestMembertph:HomebuildingSegmentMember2024-01-012024-09-300001561680us-gaap:OperatingSegmentsMemberus-gaap:HomeBuildingMembertph:CentralMembertph:HomebuildingSegmentMember2024-01-012024-09-300001561680us-gaap:OperatingSegmentsMemberus-gaap:HomeBuildingMembertph:EastMembertph:HomebuildingSegmentMember2024-01-012024-09-300001561680us-gaap:OperatingSegmentsMemberus-gaap:HomeBuildingMembertph:HomebuildingSegmentMember2024-01-012024-09-300001561680us-gaap:OperatingSegmentsMemberus-gaap:HomeBuildingMembertph:FinancialServicesSegmentMember2024-01-012024-09-300001561680us-gaap:CorporateNonSegmentMemberus-gaap:HomeBuildingMember2024-01-012024-09-300001561680us-gaap:OperatingSegmentsMemberus-gaap:LandMembertph:WestMembertph:HomebuildingSegmentMember2024-01-012024-09-300001561680us-gaap:OperatingSegmentsMemberus-gaap:LandMembertph:CentralMembertph:HomebuildingSegmentMember2024-01-012024-09-300001561680us-gaap:OperatingSegmentsMemberus-gaap:LandMembertph:EastMembertph:HomebuildingSegmentMember2024-01-012024-09-300001561680us-gaap:OperatingSegmentsMemberus-gaap:LandMembertph:HomebuildingSegmentMember2024-01-012024-09-300001561680us-gaap:OperatingSegmentsMemberus-gaap:LandMembertph:FinancialServicesSegmentMember2024-01-012024-09-300001561680us-gaap:CorporateNonSegmentMemberus-gaap:LandMember2024-01-012024-09-300001561680us-gaap:OperatingSegmentsMemberus-gaap:RealEstateOtherMembertph:WestMembertph:HomebuildingSegmentMember2024-01-012024-09-300001561680us-gaap:OperatingSegmentsMemberus-gaap:RealEstateOtherMembertph:CentralMembertph:HomebuildingSegmentMember2024-01-012024-09-300001561680us-gaap:OperatingSegmentsMemberus-gaap:RealEstateOtherMembertph:EastMembertph:HomebuildingSegmentMember2024-01-012024-09-300001561680us-gaap:OperatingSegmentsMemberus-gaap:RealEstateOtherMembertph:HomebuildingSegmentMember2024-01-012024-09-300001561680us-gaap:OperatingSegmentsMemberus-gaap:RealEstateOtherMembertph:FinancialServicesSegmentMember2024-01-012024-09-300001561680us-gaap:CorporateNonSegmentMemberus-gaap:RealEstateOtherMember2024-01-012024-09-300001561680us-gaap:OperatingSegmentsMembertph:FinancialServicesSegmentMember2024-01-012024-09-300001561680us-gaap:CorporateNonSegmentMember2024-01-012024-09-300001561680us-gaap:OperatingSegmentsMembertph:WestMember2024-01-012024-09-300001561680us-gaap:OperatingSegmentsMembertph:CentralMember2024-01-012024-09-300001561680us-gaap:OperatingSegmentsMembertph:EastMember2024-01-012024-09-300001561680us-gaap:OperatingSegmentsMembertph:HomebuildingSegmentMember2024-01-012024-09-300001561680us-gaap:OperatingSegmentsMemberus-gaap:HomeBuildingMembertph:WestMember2024-01-012024-09-300001561680us-gaap:OperatingSegmentsMemberus-gaap:HomeBuildingMembertph:CentralMember2024-01-012024-09-300001561680us-gaap:OperatingSegmentsMemberus-gaap:HomeBuildingMembertph:EastMember2024-01-012024-09-300001561680us-gaap:HomeBuildingMember2024-01-012024-09-300001561680us-gaap:OperatingSegmentsMemberus-gaap:LandMembertph:WestMember2024-01-012024-09-300001561680us-gaap:OperatingSegmentsMemberus-gaap:LandMembertph:CentralMember2024-01-012024-09-300001561680us-gaap:OperatingSegmentsMemberus-gaap:LandMembertph:EastMember2024-01-012024-09-300001561680us-gaap:LandMember2024-01-012024-09-300001561680us-gaap:OperatingSegmentsMembertph:WestMembertph:HomebuildingSegmentMember2025-09-300001561680us-gaap:OperatingSegmentsMembertph:WestMembertph:HomebuildingSegmentMember2024-12-310001561680us-gaap:OperatingSegmentsMembertph:CentralMembertph:HomebuildingSegmentMember2025-09-300001561680us-gaap:OperatingSegmentsMembertph:CentralMembertph:HomebuildingSegmentMember2024-12-310001561680us-gaap:OperatingSegmentsMembertph:EastMembertph:HomebuildingSegmentMember2025-09-300001561680us-gaap:OperatingSegmentsMembertph:EastMembertph:HomebuildingSegmentMember2024-12-310001561680tph:HomebuildingSegmentMember2025-09-300001561680tph:HomebuildingSegmentMember2024-12-310001561680us-gaap:CorporateNonSegmentMembertph:HomebuildingSegmentMember2025-09-300001561680us-gaap:CorporateNonSegmentMembertph:HomebuildingSegmentMember2024-12-310001561680us-gaap:OperatingSegmentsMembertph:FinancialServicesSegmentMember2025-09-300001561680us-gaap:OperatingSegmentsMembertph:FinancialServicesSegmentMember2024-12-310001561680tph:HomebuildingSegmentMembertph:WestMember2025-09-300001561680tph:HomebuildingSegmentMembertph:WestMember2024-12-310001561680tph:HomebuildingSegmentMembertph:CentralMember2024-12-310001561680tph:HomebuildingSegmentMembertph:CentralMember2025-09-300001561680tph:HomebuildingSegmentMembertph:EastMember2024-12-310001561680tph:HomebuildingSegmentMembertph:EastMember2025-09-300001561680tph:HomebuildingSegmentMembertph:WestMember2025-01-012025-09-300001561680tph:HomebuildingSegmentMembertph:CentralMember2025-01-012025-09-300001561680tph:HomebuildingSegmentMembertph:EastMember2025-01-012025-09-300001561680tph:WestMembersrt:MinimumMembertph:HomebuildingSegmentMember2025-01-012025-09-300001561680tph:WestMembersrt:MaximumMembertph:HomebuildingSegmentMember2025-01-012025-09-300001561680us-gaap:EquityMethodInvestmentNonconsolidatedInvesteeOrGroupOfInvesteesMember2025-01-012025-09-300001561680srt:MinimumMemberus-gaap:EquityMethodInvestmentNonconsolidatedInvesteeOrGroupOfInvesteesMember2025-09-300001561680srt:MaximumMemberus-gaap:EquityMethodInvestmentNonconsolidatedInvesteeOrGroupOfInvesteesMember2025-09-300001561680us-gaap:EquityMethodInvestmentNonconsolidatedInvesteeOrGroupOfInvesteesMember2025-09-300001561680us-gaap:EquityMethodInvestmentNonconsolidatedInvesteeOrGroupOfInvesteesMember2024-12-310001561680us-gaap:EquityMethodInvestmentNonconsolidatedInvesteeOrGroupOfInvesteesMember2025-07-012025-09-300001561680us-gaap:EquityMethodInvestmentNonconsolidatedInvesteeOrGroupOfInvesteesMember2024-07-012024-09-300001561680us-gaap:EquityMethodInvestmentNonconsolidatedInvesteeOrGroupOfInvesteesMember2024-01-012024-09-300001561680us-gaap:VariableInterestEntityNotPrimaryBeneficiaryMember2025-09-300001561680us-gaap:VariableInterestEntityNotPrimaryBeneficiaryMember2024-12-310001561680us-gaap:ConsolidatedEntityExcludingVieMember2025-09-300001561680us-gaap:ConsolidatedEntityExcludingVieMember2024-12-310001561680us-gaap:TradeNamesMembertph:WRECOMember2025-09-300001561680us-gaap:TradeNamesMembertph:WRECOMember2024-12-310001561680tph:FivePointTwoFiveZeroPercentSeniorNotesDueTwoThousandTwentySevenMemberus-gaap:SeniorNotesMember2024-12-310001561680tph:FivePointTwoFiveZeroPercentSeniorNotesDueTwoThousandTwentySevenMemberus-gaap:SeniorNotesMember2025-09-300001561680tph:FivePointSevenZeroPercentSeniorNotesDueTwoThousandTwentyEightMemberus-gaap:SeniorNotesMember2025-09-300001561680tph:FivePointSevenZeroPercentSeniorNotesDueTwoThousandTwentyEightMemberus-gaap:SeniorNotesMember2024-12-310001561680us-gaap:SeniorNotesMember2025-09-300001561680us-gaap:SeniorNotesMember2024-12-310001561680tph:FivePointSevenZeroPercentSeniorNotesDueTwoThousandTwentyEightMemberus-gaap:SeniorNotesMember2020-06-300001561680tph:FivePointSevenZeroPercentSeniorNotesDueTwoThousandTwentyEightMemberus-gaap:SeniorNotesMember2020-06-012020-06-300001561680tph:FivePointTwoFiveZeroPercentSeniorNotesDueTwoThousandTwentySevenMemberus-gaap:SeniorNotesMember2017-06-300001561680tph:FivePointTwoFiveZeroPercentSeniorNotesDueTwoThousandTwentySevenMemberus-gaap:SeniorNotesMember2017-06-012017-06-300001561680tph:TheTermLoanFacilityMemberus-gaap:NotesPayableOtherPayablesMember2025-09-300001561680tph:TheTermLoanFacilityMemberus-gaap:NotesPayableOtherPayablesMember2024-12-310001561680tph:SellerFinancedLoanMember2025-09-300001561680tph:SellerFinancedLoanMember2024-12-310001561680us-gaap:RevolvingCreditFacilityMembertph:TheAmendedRevolvingCreditFacilityMember2025-04-290001561680us-gaap:RevolvingCreditFacilityMembertph:TheAmendedRevolvingCreditFacilityMember2025-04-300001561680us-gaap:RevolvingCreditFacilityMember2025-04-300001561680us-gaap:RevolvingCreditFacilityMember2025-04-302025-04-300001561680us-gaap:RevolvingCreditFacilityMemberus-gaap:NotesPayableOtherPayablesMember2025-04-300001561680us-gaap:RevolvingCreditFacilityMembertph:TheAmendedRevolvingCreditFacilityMembersrt:MinimumMember2025-04-302025-04-300001561680us-gaap:RevolvingCreditFacilityMembertph:TheAmendedRevolvingCreditFacilityMembersrt:MaximumMember2025-04-302025-04-300001561680tph:TheTermLoanFacilityMembersrt:MinimumMemberus-gaap:NotesPayableOtherPayablesMember2025-04-302025-04-300001561680tph:TheTermLoanFacilityMembersrt:MaximumMemberus-gaap:NotesPayableOtherPayablesMember2025-04-302025-04-300001561680tph:TermLoanFacilityMembertph:TheAmendedRevolvingCreditFacilityMember2025-09-170001561680tph:TermLoanFacilityMembertph:TheAmendedRevolvingCreditFacilityMember2025-09-180001561680tph:TermLoanFacilityMember2025-09-180001561680tph:TermLoanFacilityMember2025-09-182025-09-180001561680tph:TermLoanFacilityMembertph:TheAmendedRevolvingCreditFacilityMembertph:TrancheBTermLoanFacilityMember2025-09-300001561680us-gaap:RevolvingCreditFacilityMembertph:TheAmendedRevolvingCreditFacilityMember2025-09-300001561680us-gaap:RevolvingCreditFacilityMembertph:TheAmendedRevolvingCreditFacilityMember2024-12-310001561680us-gaap:LetterOfCreditMembertph:TheAmendedRevolvingCreditFacilityMember2025-09-300001561680us-gaap:LetterOfCreditMembertph:TheAmendedRevolvingCreditFacilityMember2024-12-310001561680tph:SellerFinancedLoansSellerOneMembertph:SellerFinancedLoanMember2025-09-300001561680tph:SellerFinancedLoansSellerOneMembertph:SellerFinancedLoanMember2024-12-310001561680tph:SellerFinancedLoansSellerTwoMembertph:SecondSellerFinancedLoanMember2025-09-300001561680tph:SellerFinancedLoansSellerTwoMembertph:SecondSellerFinancedLoanMember2024-12-310001561680tph:WarehouseAMemberus-gaap:WarehouseAgreementBorrowingsMember2025-09-300001561680tph:WarehouseBDueMay2025Memberus-gaap:WarehouseAgreementBorrowingsMember2025-09-300001561680tph:WarehouseBOnDemandMemberus-gaap:WarehouseAgreementBorrowingsMember2025-09-300001561680tph:WarehouseBDueMay2025Member2025-09-3000015616802024-01-012024-12-310001561680tph:TermLoanFacilityandRevolvingCreditFacilityMember2025-09-300001561680us-gaap:CarryingReportedAmountFairValueDisclosureMemberus-gaap:FairValueMeasurementsRecurringMemberus-gaap:FairValueInputsLevel2Memberus-gaap:SeniorNotesMember2025-09-300001561680us-gaap:EstimateOfFairValueFairValueDisclosureMemberus-gaap:FairValueMeasurementsRecurringMemberus-gaap:FairValueInputsLevel2Memberus-gaap:SeniorNotesMember2025-09-300001561680us-gaap:CarryingReportedAmountFairValueDisclosureMemberus-gaap:FairValueMeasurementsRecurringMemberus-gaap:FairValueInputsLevel2Memberus-gaap:SeniorNotesMember2024-12-310001561680us-gaap:EstimateOfFairValueFairValueDisclosureMemberus-gaap:FairValueMeasurementsRecurringMemberus-gaap:FairValueInputsLevel2Memberus-gaap:SeniorNotesMember2024-12-310001561680us-gaap:SecuredDebtMemberus-gaap:CarryingReportedAmountFairValueDisclosureMemberus-gaap:FairValueMeasurementsRecurringMemberus-gaap:FairValueInputsLevel2Member2025-09-300001561680us-gaap:SecuredDebtMemberus-gaap:EstimateOfFairValueFairValueDisclosureMemberus-gaap:FairValueMeasurementsRecurringMemberus-gaap:FairValueInputsLevel2Member2025-09-300001561680us-gaap:SecuredDebtMemberus-gaap:CarryingReportedAmountFairValueDisclosureMemberus-gaap:FairValueMeasurementsRecurringMemberus-gaap:FairValueInputsLevel2Member2024-12-310001561680us-gaap:SecuredDebtMemberus-gaap:EstimateOfFairValueFairValueDisclosureMemberus-gaap:FairValueMeasurementsRecurringMemberus-gaap:FairValueInputsLevel2Member2024-12-310001561680us-gaap:CarryingReportedAmountFairValueDisclosureMemberus-gaap:FairValueMeasurementsRecurringMemberus-gaap:FairValueInputsLevel2Membertph:SellerFinancedLoanMember2025-09-300001561680us-gaap:EstimateOfFairValueFairValueDisclosureMemberus-gaap:FairValueMeasurementsRecurringMemberus-gaap:FairValueInputsLevel2Membertph:SellerFinancedLoanMember2025-09-300001561680us-gaap:CarryingReportedAmountFairValueDisclosureMemberus-gaap:FairValueMeasurementsRecurringMemberus-gaap:FairValueInputsLevel2Membertph:SellerFinancedLoanMember2024-12-310001561680us-gaap:EstimateOfFairValueFairValueDisclosureMemberus-gaap:FairValueMeasurementsRecurringMemberus-gaap:FairValueInputsLevel2Membertph:SellerFinancedLoanMember2024-12-310001561680us-gaap:CarryingReportedAmountFairValueDisclosureMemberus-gaap:FairValueMeasurementsRecurringMemberus-gaap:FairValueInputsLevel2Member2025-09-300001561680us-gaap:EstimateOfFairValueFairValueDisclosureMemberus-gaap:FairValueMeasurementsRecurringMemberus-gaap:FairValueInputsLevel2Member2025-09-300001561680us-gaap:CarryingReportedAmountFairValueDisclosureMemberus-gaap:FairValueMeasurementsRecurringMemberus-gaap:FairValueInputsLevel2Member2024-12-310001561680us-gaap:EstimateOfFairValueFairValueDisclosureMemberus-gaap:FairValueMeasurementsRecurringMemberus-gaap:FairValueInputsLevel2Member2024-12-310001561680us-gaap:WarehouseAgreementBorrowingsMemberus-gaap:CarryingReportedAmountFairValueDisclosureMemberus-gaap:FairValueMeasurementsRecurringMemberus-gaap:FairValueInputsLevel2Member2025-09-300001561680us-gaap:WarehouseAgreementBorrowingsMemberus-gaap:EstimateOfFairValueFairValueDisclosureMemberus-gaap:FairValueMeasurementsRecurringMemberus-gaap:FairValueInputsLevel2Member2025-09-300001561680us-gaap:WarehouseAgreementBorrowingsMemberus-gaap:CarryingReportedAmountFairValueDisclosureMemberus-gaap:FairValueMeasurementsRecurringMemberus-gaap:FairValueInputsLevel2Member2024-12-310001561680us-gaap:WarehouseAgreementBorrowingsMemberus-gaap:EstimateOfFairValueFairValueDisclosureMemberus-gaap:FairValueMeasurementsRecurringMemberus-gaap:FairValueInputsLevel2Member2024-12-310001561680us-gaap:FairValueMeasurementsNonrecurringMemberus-gaap:FairValueInputsLevel3Member2025-01-012025-09-300001561680us-gaap:FairValueMeasurementsNonrecurringMemberus-gaap:FairValueInputsLevel3Member2025-09-300001561680us-gaap:FairValueMeasurementsNonrecurringMemberus-gaap:FairValueInputsLevel3Member2024-01-012024-12-310001561680us-gaap:FairValueMeasurementsNonrecurringMemberus-gaap:FairValueInputsLevel3Member2024-12-310001561680us-gaap:SuretyBondMember2025-09-300001561680us-gaap:SuretyBondMember2024-12-310001561680us-gaap:BuildingMember2025-09-300001561680srt:MinimumMemberus-gaap:EquipmentMember2025-09-300001561680srt:MaximumMemberus-gaap:EquipmentMember2025-09-300001561680us-gaap:LandMember1987-12-310001561680tph:GroundLeaseTenYearRenewalOptionMemberus-gaap:LandMember1987-01-011987-12-310001561680tph:GroundLeaseTenYearRenewalOptionMemberus-gaap:LandMember1987-12-310001561680tph:GroundLeaseFortyfiveYearRenewalOptionMemberus-gaap:LandMember1987-12-310001561680tph:GroundLeaseRenewalOptionExercisedExtensionThrough2071Memberus-gaap:LandMember1987-01-011987-12-310001561680tph:PropertyEquipmentandOtherMember2025-07-012025-09-300001561680tph:PropertyEquipmentandOtherMember2024-07-012024-09-300001561680tph:PropertyEquipmentandOtherMember2025-01-012025-09-300001561680tph:PropertyEquipmentandOtherMember2024-01-012024-09-300001561680us-gaap:LandMember2025-07-012025-09-300001561680us-gaap:LandMember2024-07-012024-09-300001561680us-gaap:LandMember2025-01-012025-09-300001561680us-gaap:LandMember2024-01-012024-09-300001561680tph:PropertyEquipmentandOtherMember2025-09-300001561680tph:PropertyEquipmentandOtherMember2024-12-310001561680us-gaap:LandMember2025-09-300001561680us-gaap:LandMember2024-12-310001561680tph:TwoThousandTwentyTwoIncentiveProgramMember2025-09-300001561680us-gaap:RestrictedStockUnitsRSUMember2024-12-310001561680us-gaap:RestrictedStockUnitsRSUMember2025-01-012025-09-300001561680us-gaap:RestrictedStockUnitsRSUMember2025-09-300001561680tph:EmployeesAndOfficersMembertph:TimeBasedRestrictedStockUnitsMember2025-02-192025-02-190001561680tph:EmployeesAndOfficersMemberus-gaap:RestrictedStockUnitsRSUMember2025-02-192025-02-1900015616802025-02-190001561680us-gaap:RestrictedStockUnitsRSUMembertph:HomebuildingRevenueMembersrt:OfficerMember2025-02-190001561680us-gaap:RestrictedStockUnitsRSUMembertph:PretaxEarningsMembersrt:OfficerMember2025-02-190001561680us-gaap:RestrictedStockUnitsRSUMembersrt:MinimumMembersrt:OfficerMember2025-02-192025-02-190001561680us-gaap:RestrictedStockUnitsRSUMembersrt:MaximumMembersrt:OfficerMember2025-02-192025-02-190001561680srt:OfficerMemberus-gaap:RestrictedStockUnitsRSUMember2025-02-192025-02-190001561680srt:DirectorMemberus-gaap:RestrictedStockUnitsRSUMember2025-05-052025-05-050001561680tph:EmployeesMemberus-gaap:RestrictedStockUnitsRSUMember2025-01-012025-09-300001561680tph:EmployeesAndOfficersMemberus-gaap:RestrictedStockUnitsRSUMember2024-02-212024-02-210001561680srt:OfficerMemberus-gaap:RestrictedStockUnitsRSUMember2024-02-212024-02-2100015616802024-02-210001561680srt:DirectorMemberus-gaap:RestrictedStockUnitsRSUMember2024-04-292024-04-290001561680srt:DirectorMemberus-gaap:RestrictedStockUnitsRSUMember2024-04-242024-04-240001561680tph:EmployeesMemberus-gaap:RestrictedStockUnitsRSUMember2024-01-012024-12-31
+UNITED STATESSECURITIES AND EXCHANGE COMMISSIONWashington, D.C. 20549_____________________________________________________________________________________________ FORM 10-Q _____________________________________________________________________________________________ (Mark One)
+ 
+ ☒ QUARTERLY REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934For the quarterly period ended September 30, 2025 or
+ 
+ ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934For the transition period from              to              Commission File Number 1-35796 _____________________________________________________________________________________________ 
+ Tri Pointe Homes, Inc. (Exact Name of Registrant as Specified in Its Charter) _____________________________________________________________________________________________ 
+ 
+ Delaware   61-1763235
+ (State or other Jurisdiction of
+Incorporation or Organization)   (I.R.S. Employer
+Identification No.)_____________________________________________________________________________________________ 940 Southwood Blvd, Suite 200 Incline Village, Nevada 89451 (Address of principal executive offices) (Zip Code)Registrant’s telephone number, including area code (775) 413-1030 Not Applicable(Former name, former address and former fiscal year, if changed since last report)____________________________________________________________________________________________________ Securities registered pursuant to Section 12(b) of the Act:
+ 
+ Title of each class Trading Symbol(s) Name of each exchange on which registered
+ Common Stock, par value $0.01 per share TPH New York Stock Exchange    Indicate by check mark whether the registrant: (1) has filed all reports required to be filed by Section 13 or 15(d) of the Securities Exchange Act of 1934 during the preceding 12 months (or for such shorter period that the registrant was required to file such reports), and (2) has been subject to such filing requirements for the past 90 days.    Yes  ☒    No  ☐Indicate by check mark whether the registrant has submitted electronically every Interactive Data File required to be submitted pursuant to Rule 405 of Regulation S-T (§ 232.405 of this chapter) during the preceding 12 months (or for such shorter period that the registrant was required to submit such files).    Yes  ☒    No  ☐Indicate by check mark whether the registrant is a large accelerated filer, an accelerated filer, a non-accelerated filer, a smaller reporting company, or an emerging growth company. See the definitions of “large accelerated filer,” “accelerated filer,” “smaller reporting company,” and “emerging growth company” in Rule 12b-2 of the Exchange Act.
+ 
+ Large accelerated filer ☒ Accelerated filer ☐
+ Non-accelerated filer ☐ Smaller reporting company ☐
+ Emerging growth company ☐If an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. ☐Indicate by check mark whether the registrant is a shell company (as defined in Rule 12b-2 of the Exchange Act).    Yes  ☐    No  ☒85,953,497 shares of the registrant’s common stock were issued and outstanding as of October 15, 2025.
+
+EXPLANATORY NOTEAs used in this quarterly report on Form 10-Q, references to “Tri Pointe”, “the Company”, “we”, “us”, or “our” (including in the consolidated financial statements and related notes thereto in this annual report on Form 10-Q) refer to Tri Pointe Homes, Inc., a Delaware corporation, and its consolidated subsidiaries.
+
+TRI POINTE HOMES, INC.QUARTERLY REPORT ON FORM 10-QINDEXSeptember 30, 2025  
+ 
+ Page
+Number
+ PART I.  FINANCIAL INFORMATION
+ 
+ Item 1. Financial Statements 3
+ 
+ Consolidated Balance Sheets as of September 30, 2025 (unaudited) and December 31, 2024 3
+ 
+ Consolidated Statements of Operations for the Three and Nine Months Ended September 30, 2025 and 2024 (unaudited) 4
+ 
+ Consolidated Statements of Equity for the Three and Nine Months Ended September 30, 2025 and 2024 (unaudited) 5
+ 
+ Consolidated Statements of Cash Flows for the Nine Months Ended September 30, 2025 and 2024 (unaudited) 7
+ 
+ Notes to Consolidated Financial Statements (unaudited) 8
+ 
+ Item 2. Management’s Discussion and Analysis of Financial Condition and Results of Operations 28
+ 
+ Item 3. Quantitative and Qualitative Disclosures About Market Risk 43
+ 
+ Item 4. Controls and Procedures 43
+ 
+ Part II.  OTHER INFORMATION
+ 
+ Item 1. Legal Proceedings 44
+ 
+ Item 1A. Risk Factors 44
+ 
+ Item 2. Unregistered Sales of Equity Securities, Use of Proceeds, and Issuer Purchases of Equity Securities 44
+ 
+ Item 5. Other Information 44
+ 
+ Item 6. Exhibits 45
+ 
+ SIGNATURES 46
+- 2 -
+PART I. FINANCIAL INFORMATION
+Item 1.    Financial Statements
+TRI POINTE HOMES, INC.CONSOLIDATED BALANCE SHEETS(in thousands, except share and per share amounts) 
+ 
+ September 30, 2025 December 31, 2024
+ (unaudited) 
+ Assets 
+ Cash and cash equivalents $ 791,961  $ 970,045  
+ Receivables 150,522  111,613  
+ Real estate inventories 3,371,593  3,153,459  
+ Investments in unconsolidated entities 190,898  173,924  
+ Mortgage loans held for sale 78,405  115,001  
+ Goodwill and other intangible assets, net 156,603  156,603  
+ Deferred tax assets, net 45,975  45,975  
+ Other assets 202,654  164,495  
+ Total assets $ 4,988,611  $ 4,891,115  
+ Liabilities    
+ Accounts payable $ 72,338  $ 68,228  
+ Accrued expenses and other liabilities 436,397  465,563  
+ Loans payable 459,437  270,970  
+ Senior notes, net 647,317  646,534  
+ Mortgage repurchase facilities 71,089  104,098  
+ Total liabilities 1,686,578  1,555,393  
+ 
+ Commitments and contingencies (Note 13) 
+ 
+ Equity 
+ Stockholders’ equity: 
+ Preferred stock, $0.01 par value, 50,000,000 shares authorized; no   shares issued and outstanding at September 30, 2025 and    December 31, 2024, respectively —  —  
+ Common stock, $0.01 par value, 500,000,000 shares authorized;   85,990,320 and 92,451,729 shares issued and outstanding at  September 30, 2025 and December 31, 2024, respectively 860  925  
+ Additional paid-in capital —  —  
+ Retained earnings 3,301,074  3,334,785  
+ Total stockholders’ equity 3,301,934  3,335,710  
+ Noncontrolling interests 99  12  
+ Total equity 3,302,033  3,335,722  
+ Total liabilities and equity $ 4,988,611  $ 4,891,115   See accompanying condensed notes to the unaudited consolidated financial statements.
+- 3 -
+TRI POINTE HOMES, INC.CONSOLIDATED STATEMENTS OF OPERATIONS(unaudited)(in thousands, except share and per share amounts) 
+ 
+ Three Months Ended September 30, Nine Months Ended September 30,
+ 2025 2024 2025 2024
+ Homebuilding: 
+ Home sales revenue $ 817,298  $ 1,113,681  $ 2,417,916  $ 3,165,042  
+ Land and lot sales revenue 18,768  12,552  23,953  23,780  
+ Other operations revenue 805  790  2,439  2,359  
+ Total revenues 836,871  1,127,023  2,444,308  3,191,181  
+ Cost of home sales 649,195  854,499  1,894,098  2,427,484  
+ Cost of land and lot sales 16,844  11,986  21,838  21,584  
+ Other operations expense 794  765  2,381  2,295  
+ Sales and marketing 48,490  53,744  141,603  160,772  
+ General and administrative 56,703  66,734  175,181  185,809  
+ 
+ Homebuilding income from operations 64,845  139,295  209,207  393,237  
+ Equity in income of unconsolidated entities 1,309  227  2,275  383  
+ Other income, net 6,581  6,658  22,884  31,818  
+ Homebuilding income before income taxes 72,735  146,180  234,366  425,438  
+ Financial Services: 
+ Revenues 17,858  17,650  53,762  47,818  
+ Expenses 13,730  12,283  40,405  31,900  
+ 
+ Financial services income before income taxes 4,128  5,367  13,357  15,918  
+ Income before income taxes 76,863  151,547  247,723  441,356  
+ Provision for income taxes (20,753) (39,788) (66,886) (112,599) 
+ Net income 56,110  111,759  180,837  328,757  
+ Net loss attributable to noncontrolling interests 34  —  91  59  
+ Net income available to common stockholders $ 56,144  $ 111,759  $ 180,928  $ 328,816  
+ Earnings per share     
+ Basic $ 0.65  $ 1.19  $ 2.03  $ 3.49  
+ Diluted $ 0.64  $ 1.18  $ 2.02  $ 3.46  
+ Weighted average shares outstanding 
+ Basic 86,923,796  93,600,678  89,141,782  94,294,800  
+ Diluted 87,557,896  94,640,211  89,606,037  95,081,173   See accompanying condensed notes to the unaudited consolidated financial statements.
+- 4 -
+TRI POINTE HOMES, INC.CONSOLIDATED STATEMENTS OF EQUITY(unaudited)(in thousands, except share amounts) 
+ 
+ Number of
+Shares of Common
+Stock (Note 1) Common
+Stock Additional
+Paid-in
+Capital Retained
+Earnings Total
+Stockholders’
+Equity Noncontrolling
+Interests Total
+Equity
+ Balance at June 30, 2025 87,506,511  $ 875  $ —  $ 3,289,086  $ 3,289,961  $ 133  $ 3,290,094  
+ Net income (loss) —  —  —  56,144  56,144  (34) 56,110  
+ Shares issued under share-based awards 575  —  —  —  —  —  —  
+ Tax withholding paid on behalf of employees for share-based awards     —  —  (7) —  (7) —  (7) 
+ Stock-based compensation expense —  —  7,308  —  7,308  —  7,308  
+ Share repurchases, including excise tax (1,516,766) (15) (51,457) —  (51,472) —  (51,472) 
+
+ Reclass the negative APIC to retained earnings —  —  44,156  (44,156) —  —  —  
+ Balance at September 30, 2025 85,990,320  $ 860  $ —  $ 3,301,074  $ 3,301,934  $ 99  $ 3,302,033  
+ 
+ Number of
+Shares of Common
+Stock (Note 1) Common
+Stock Additional
+Paid-in
+Capital Retained
+Earnings Total
+Stockholders'
+Equity Noncontrolling
+Interests Total
+Equity
+ Balance at December 31, 2024 92,451,729  $ 925  $ —  $ 3,334,785  $ 3,335,710  $ 12  $ 3,335,722  
+ Net income (loss) —  —  —  180,928  180,928  (91) 180,837  
+ Shares issued under share-based awards 514,051  5  (5) —  —  —  —  
+ Tax withholding paid on behalf of employees for share-based awards     —  —  (9,964) —  (9,964) —  (9,964) 
+ Stock-based compensation expense —  —  23,467  —  23,467  —  23,467  
+ Share repurchases, including excise tax (6,975,460) (70) (228,090) —  (228,160) —  (228,160) 
+ Noncontrolling interest in consolidated subsidiary —  —  —  —  —  178  178  
+ Acquisition of joint venture minority interest —  —  —  (47) (47) —  (47) 
+ Reclass the negative APIC to retained earnings —  —  214,592  (214,592) —  —  —  
+ Balance at September 30, 2025 85,990,320  $ 860  $ —  $ 3,301,074  $ 3,301,934  $ 99  $ 3,302,033  
+ 
+ Number of
+Shares of Common
+Stock (Note 1) Common
+Stock Additional
+Paid-in
+Capital Retained
+Earnings Total
+Stockholders'
+Equity Noncontrolling
+Interests Total
+Equity
+ Balance at June 30, 2024 93,862,218  $ 939  $ —  $ 3,138,545  $ 3,139,484  $ 12  $ 3,139,496  
+ Net income —  —  —  111,759  111,759  —  111,759  
+ Shares issued under share-based awards 619  —  —  —  —  —  —  
+ Tax withholding paid on behalf of employees for share-based awards     —  —  (8) —  (8) —  (8) 
+ Stock-based compensation expense —  —  8,708  —  8,708  —  8,708  
+ Share repurchases (272,777) (3) (9,988) —  (9,991) —  (9,991) 
+
+ Reclass the negative APIC to retained earnings —  —  1,288  (1,288) —  —  —  
+ Balance at September 30, 2024 93,590,060  $ 936  $ —  $ 3,249,016  $ 3,249,952  $ 12  $ 3,249,964  
+ 
+ Number of
+Shares of Common
+Stock (Note 1) Common
+Stock Additional
+Paid-in
+Capital Retained
+Earnings Total
+Stockholders'
+Equity Noncontrolling
+Interests Total
+Equity
+ Balance at December 31, 2023 95,530,512  $ 955  $ —  $ 3,010,003  $ 3,010,958  $ 2,680  $ 3,013,638  
+ Net income (loss) —  —  —  328,816  328,816  (59) 328,757  
+ Shares issued under share-based awards 821,172  8  1,033  —  1,041  —  1,041  
+ Tax withholding paid on behalf of employees for share-based awards     —  —  (16,612) —  (16,612) —  (16,612) 
+ Stock-based compensation expense —  —  24,327  —  24,327  —  24,327  - 5 -
+
+ Share repurchases (2,761,624) (27) (97,283) —  (97,310) —  (97,310) 
+ Distributions to noncontrolling interests, net —  —  —  —  —  (2,609) (2,609) 
+ Acquisition of joint venture minority interest —  —  (1,268) —  (1,268) —  (1,268) 
+ Reclass the negative APIC to retained earnings —  —  89,803  (89,803) —  —  —  
+ Balance at September 30, 2024 93,590,060  $ 936  $ —  $ 3,249,016  $ 3,249,952  $ 12  $ 3,249,964  See accompanying condensed notes to the unaudited consolidated financial statements.- 6 -
+TRI POINTE HOMES, INC.CONSOLIDATED STATEMENTS OF CASH FLOWS(unaudited)(in thousands) 
+ 
+   Nine Months Ended September 30,
+   2025 2024
+ Cash flows from operating activities:    
+ Net income $ 180,837  $ 328,757  
+ Adjustments to reconcile net income to net cash (used in) provided by operating activities:    
+ Depreciation and amortization 22,552  23,572  
+ Equity in income of unconsolidated entities, net (2,275) (383) 
+ 
+ Amortization of stock-based compensation 23,467  24,327  
+ Charges for impairments and lot option abandonments 23,413  2,444  
+ Fair value adjustment on mortgage loans held for sale 604  (758) 
+ Gain on increase in carrying amount of investment —  (3,495) 
+ Returns on investments in unconsolidated entities, net 2,275  —  
+ Changes in assets and liabilities:    
+ Real estate inventories (249,933) (74,485) 
+ Mortgage loans held for sale 35,992  (79,313) 
+ Receivables (38,909) 110,911  
+ Other assets (22,747) (9,527) 
+ Accounts payable 4,241  10,381  
+ Accrued expenses and other liabilities (39,078) 3,332  
+ 
+ Net cash (used in) provided by operating activities (59,561) 335,763  
+ Cash flows from investing activities: 
+ Purchases of property and equipment (25,067) (18,933) 
+ Proceeds from investment —  717  
+ 
+ Net investments in unconsolidated entities (36,206) (24,789) 
+ Distributions from unconsolidated entities 16,770  17,289  
+ Net cash used in investing activities (44,503) (25,716) 
+ Cash flows from financing activities: 
+ Borrowings from loans payable 201,600  420  
+ Repayment of loans payable and senior notes (13,132) (462,844) 
+ Debt issuance costs (5,246) —  
+ Borrowings on mortgage repurchase facilities 1,119,152  282,400  
+ Repayments on mortgage repurchase facilities (1,152,161) (206,935) 
+ Proceeds from land bank financing arrangement 12,820  —  
+ 
+ Distributions to noncontrolling interests —  (3,877) 
+ Proceeds from issuance of common stock under share-based awards —  1,041  
+ Tax withholding paid on behalf of employees for share-based awards (9,963) (16,612) 
+ Share repurchases, excluding excise tax (227,090) (96,636) 
+ Net cash used in financing activities (74,020) (503,043) 
+ Net decrease in cash and cash equivalents (178,084) (192,996) 
+ Cash and cash equivalents–beginning of period 970,045  868,953  
+ Cash and cash equivalents–end of period $ 791,961  $ 675,957   See accompanying condensed notes to the unaudited consolidated financial statements.
+- 7 -
+TRI POINTE HOMES, INC.CONDENSED NOTES TO CONSOLIDATED FINANCIAL STATEMENTS(unaudited) 1.    Organization, Basis of Presentation and Summary of Significant Accounting Policies
+OrganizationTri Pointe is engaged in the design, construction and sale of innovative single-family attached and detached homes across twelve states, including Arizona, California, Colorado, Florida, Maryland, Nevada, North Carolina, South Carolina, Texas, Virginia, Utah and Washington, and the District of Columbia. In April 2024, we announced our expansion into the Coastal Carolinas region, which includes parts of South Carolina and Georgia. While we have an established presence in South Carolina, we have not yet commenced operations in Georgia as of September 30, 2025.Basis of PresentationThe accompanying financial statements have been prepared in accordance with U.S. generally accepted accounting principles (“GAAP”), as contained within the Financial Accounting Standards Board (“FASB”) Accounting Standards Codification (“ASC”), for interim financial information and with the instructions to Form 10-Q and Article 10 of Regulation S-X. They should be read in conjunction with our consolidated financial statements and footnotes thereto included in our Annual Report on Form 10-K for the year ended December 31, 2024. In the opinion of management, all adjustments consisting of normal recurring adjustments, necessary for a fair presentation with respect to interim financial statements, have been included. The results for the nine months ended September 30, 2025 are not necessarily indicative of the results to be expected for the full year ending December 31, 2025 due to seasonal variations and other factors.The consolidated financial statements include the accounts of Tri Pointe Homes and its wholly owned subsidiaries, as well as other entities in which Tri Pointe Homes has a controlling interest and variable interest entities (“VIEs”) in which Tri Pointe Homes is the primary beneficiary. The noncontrolling interests as of September 30, 2025 and December 31, 2024 represent the outside owners’ interests in the Company’s consolidated entities. All significant intercompany accounts have been eliminated upon consolidation.Unless the context otherwise requires, the terms “Tri Pointe”, “the Company”, “we”, “us”, and “our” used herein refer to Tri Pointe Homes, Inc., a Delaware corporation, and its consolidated subsidiaries.ReclassificationsCertain amounts for prior years have been reclassified to conform to the current period presentation.Use of EstimatesThe preparation of these financial statements requires our management to make estimates and judgments that affect the reported amounts of assets and liabilities and the disclosures of contingent liabilities at the date of the financial statements and the reported amounts of revenues and expenses during the reporting periods. Actual results could differ from our estimates.Cash and Cash Equivalents and Concentration of Credit Risk
+We define cash and cash equivalents as cash on hand, demand deposits with financial institutions, and short-term liquid investments with a maturity date of less than three months from the date of acquisition, including U.S. Treasury bills and government money-mark funds with maturities of 90 days or less when purchased. The Company’s cash balances exceed federally insurable limits. The Company monitors the cash balances in its operating accounts and adjusts the cash balances as appropriate; however, these cash balances could be impacted if the underlying financial institutions fail or are subject to other adverse conditions in the financial markets. To date, the Company has experienced no loss or lack of access to cash in its operating accounts.- 8 -
+Revenue RecognitionWe recognize revenue in accordance with Accounting Standards Topic 606 (“ASC 606”), Revenue from Contracts with Customers. Under ASC 606, we apply the following steps to determine the timing and amount of revenue to recognize: (i) identify the contract(s) with a customer; (ii) identify the performance obligations in the contract; (iii) determine the transaction price; (iv) allocate the transaction price to the performance obligations in the contract; and (v) recognize revenue when (or as) the Company satisfies a performance obligation. Home sales revenue We generate the majority of our total revenues from home sales, which consists of our core business operation of building and delivering completed homes to homebuyers. Home sales revenue and related profit is generally recognized when title to and possession of the home are transferred to the homebuyer at the home closing date. Our performance obligation to deliver the agreed-upon home is generally satisfied in less than one year from the original contract date. Included in home sales revenue are forfeited deposits, which occur when homebuyers cancel home purchase contracts that include a nonrefundable deposit. Both revenue from forfeited deposits and deferred revenue resulting from uncompleted performance obligations existing at the time we deliver new homes to our homebuyers are immaterial.Financial services revenuesTri Pointe Solutions is a reportable segment and is comprised of our Tri Pointe Connect mortgage financing operations, Tri Pointe Assurance title and escrow services operations, and Tri Pointe Advantage property and casualty insurance agency operations.Mortgage financing operationsEffective February 1, 2024, we acquired the minority equity interest in the joint venture, upon which Tri Pointe Connect became a wholly owned subsidiary of the Company. In connection with this transaction, Tri Pointe Connect expanded operations to include mortgage lending services to our homebuyers in all of the markets in which we operate and provide mortgage financing by utilizing funds made available pursuant to repurchase agreements with third party lenders and by utilizing our own funds. Tri Pointe Connect will retain the ability to act as a mortgage loan broker for our homebuyers that originate loans with third party lenders. Revenues from mortgage financing operations primarily represent mortgage loan broker fees paid by third party lenders, fees earned on mortgage loan originations and the realized and unrealized gains and losses associated with the sales and changes in the fair value of mortgage loans held for sale. When we act as a mortgage loan broker and originate loans with third party lenders, mortgage loan broker fees and mortgage loan origination fees are recognized at the time the mortgage loans are funded. When we provide mortgage financing, we recognize fees on mortgage loan originations upon loan origination. Mortgage loans held for saleWe intend to sell all of the loans we originate in the secondary market within a short period of time after origination. As of September 30, 2025, mortgage loans held for sale had an aggregate estimated fair value of $78.4 million and an aggregate outstanding principal balance of $77.8 million. For the three months ended September 30, 2025, we recorded an unrealized loss of $390,000, and for the nine months ended September 30, 2025, we recorded an unrealized loss of $604,000. These amounts were included in Financial Services revenue and relate to the mortgage loans held for sale as of September 30, 2025. Title and escrow services operationsTri Pointe Assurance provides title examinations for our homebuyers in the Carolinas and Colorado and both title examinations and escrow services for our homebuyers in Arizona, the District of Columbia, Maryland, Nevada, Texas, Washington and Virginia. Tri Pointe Assurance is a wholly owned subsidiary of Tri Pointe and acts as a title agency for First American Title Insurance Company. Revenue from our title and escrow services operations is fully recognized at the time of the consummation of the home sales transaction, at which time no further performance obligations are left to be satisfied. Tri Pointe Assurance revenue is included in the Financial Services section of our consolidated statements of operations.Property and casualty insurance agency operationsTri Pointe Advantage is a wholly owned subsidiary of Tri Pointe and provides property and casualty insurance agency services that help facilitate the closing process in all of the markets in which we operate. The total consideration for these services, including renewal options, is estimated upon the issuance of the initial insurance policy, subject to constraint. Tri Pointe Advantage revenue is included in the Financial Services section of our consolidated statements of operations.- 9 -
+New Accounting Standards In November 2023, the FASB issued ASU 2023-07, Segment Reporting (Topic 280): Improvements to Reportable Segment Disclosures ("ASU 2023-07"), which requires expanded disclosure of significant segment expenses and other segment items on an annual and interim basis. ASU 2023-07 is effective for us for annual periods beginning after January 1, 2024 and interim periods beginning after January 1, 2025. We adopted ASU 2023-07 in the fourth quarter of 2024 and we applied the amendments retrospectively to all prior periods presented in our consolidated financial statements. See Note 2, Segment Information in the Notes to the Consolidated Financial Statements.In December 2023, the FASB issued ASU 2023-09, Income Taxes (Topic 740): Improvements to Income Tax Disclosures ("ASU 2023-09"), which requires expanded disclosure of our income tax rate reconciliation and income taxes paid. ASU 2023-09 will become effective for our fiscal year ending December 31, 2025. ASU 2023-09 is expected to impact our income tax disclosures beginning with the consolidated financial statements included in the Annual Report on Form 10-K for the fiscal year ending December 31, 2025, but will have no impact on our results of operations, cash flows, or financial condition.In November 2024, the FASB issued ASU No. 2024-03, Income Statement-Reporting Comprehensive Income-Expense Disaggregation Disclosures (Subtopic 220-40): Disaggregation of Income Statement Expenses ("ASU 2024-03"), which requires disclosure in the notes to the financial statements of specified information about certain costs and expenses. ASU 2024-03 is effective for our annual report covering the fiscal year beginning January 1, 2027, and for interim periods beginning January 1, 2028. We are currently evaluating the impact this new standard will have on our financial statement disclosures.
+
+2.    Segment InformationWe operate two principal businesses: homebuilding and financial services.Tri Pointe Homes is engaged in the business of acquiring and developing land and constructing and selling single-family detached and attached homes. In accordance with ASC Topic 280, Segment Reporting, we have aggregated our geographical homebuilding segments under the aggregation criteria outlined. In determining the most appropriate reportable segments, we considered similar economic and other characteristics, including product types, average selling prices, gross profits, production processes, suppliers, subcontractors, regulatory environments, land acquisition results, and underlying demand and supply. In addition, our determination of reporting segments considered how our chief operating decision maker evaluates operating performance and capital allocation. Based upon these factors and in consideration of the geographical layout of our homebuilding markets, we have identified three homebuilding reporting segments which are reported under the following hierarchy:West region: Arizona, California, Nevada and WashingtonCentral region: Colorado, Texas and UtahEast region: District of Columbia, Florida, Maryland, North Carolina, South Carolina and VirginiaIn April 2024, we announced our expansion into the Coastal Carolinas region, which includes parts of South Carolina and Georgia. While we have an established presence in South Carolina, we have not yet commenced operations in Georgia as of September 30, 2025.Our Tri Pointe Solutions financial services operation is a reportable segment and is comprised of our Tri Pointe Connect mortgage financing operations, our Tri Pointe Assurance title and escrow services operations, and our Tri Pointe Advantage property and casualty insurance agency operations. These financial services businesses have been aggregated in accordance with the criteria outlined in ASC 280, considering their similar economic and operational characteristics. For further details, see Note 1, Organization and Summary of Significant Accounting Policies.Corporate is a non-operating segment that develops and implements company-wide strategic initiatives and provides support to our homebuilding reporting segments by centralizing certain administrative functions, such as marketing, legal, accounting, treasury, insurance, internal audit and risk management, information technology and human resources, to benefit from economies of scale. Our Corporate non-operating segment also includes general and administrative expenses related to operating our corporate headquarters. The reportable segments follow the same accounting policies used for our consolidated financial statements, as described in Note 1, Organization and Summary of Significant Accounting Policies. Operational results of each reportable segment are - 10 -
+not necessarily indicative of the results that would have been achieved had the reportable segment been an independent, stand-alone entity during the periods presented.Our Chief Executive Officer (CEO) is our Chief Operating Decision Maker (CODM) and reviews segment performance to make resource allocation decisions. The CODM evaluates each segment based on revenue, operating profit, and other key homebuilding metrics to guide strategic decisions. Total revenues, significant expenses and income before income taxes for each of our reportable segments were as follows (in thousands):
+ 
+ Three Months Ended September 30, 2025
+ West Central East Homebuilding Operations Financial Services Corporate Consolidated
+ Home sales revenue $ 471,659  $ 211,275  $ 134,364  $ 817,298  $ —  $ —  $ 817,298  
+ Land and lot sales revenue 18,768  —  —  18,768  —  —  18,768  
+ Other operations revenue 806  (1) —  805  —  —  805  
+ Financial services revenue —  —  —  —  17,858  —  17,858  
+ Total revenues 491,233  211,274  134,364  836,871  17,858  —  854,729  
+ Cost of home sales (366,530) (171,335) (109,644) (647,509) —  (1,686) (649,195) 
+ Cost of land and lot sales (15,859) (1,013) —  (16,872) —  28  (16,844) 
+ Other operations expense (794) —  —  (794) —  —  (794) 
+ Sales and marketing (25,254) (15,150) (7,499) (47,903) —  (587) (48,490) 
+ General and administrative (17,834) (8,900) (7,141) (33,875) —  (22,828) (56,703) 
+ Financial services expense —  —  —  —  (13,730) —  (13,730) 
+ Income from operations 64,962  14,876  10,080  89,918  4,128  (25,073) 68,973  
+ Equity in income (loss) of unconsolidated entities (9) 1,321  (3) 1,309  —  —  1,309  
+ Other income, net 51  1,067  1  1,119  —  5,462  6,581  
+ Income (loss) before income taxes $ 65,004  $ 17,264  $ 10,078  $ 92,346  $ 4,128  $ (19,611) $ 76,863  
+ 
+ Three Months Ended September 30, 2024
+ West Central East Homebuilding Operations Financial Services Corporate Consolidated
+ Home sales revenue $ 683,243  $ 256,480  $ 173,958  $ 1,113,681  $ —  $ —  $ 1,113,681  
+ Land and lot sales revenue 6,552  6,000  —  12,552  —  —  12,552  
+ Other operations revenue 782  4  4  790  —  —  790  
+ Financial services revenue —  —  —  —  17,650  —  17,650  
+ Total revenues 690,577  262,484  173,962  1,127,023  17,650  —  1,144,673  
+ Cost of home sales (524,910) (195,205) (132,112) (852,227) —  (2,272) (854,499) 
+ Cost of land and lot sales (6,886) (5,100) —  (11,986) —  —  (11,986) 
+ Other operations expense (765) —  —  (765) —  —  (765) 
+ Sales and marketing (29,659) (15,660) (8,079) (53,398) —  (346) (53,744) 
+ General and administrative (21,973) (8,982) (8,696) (39,651) —  (27,083) (66,734) 
+ Financial services expense —  —  —  —  (12,283) —  (12,283) 
+ Income from operations 106,384  37,537  25,075  168,996  5,367  (29,701) 144,662  
+ Equity in income (loss) of unconsolidated entities (10) 238  (1) 227  —  —  227  
+ Other income, net 14  130  (26) 118  —  6,540  6,658  
+ Income (loss) before income taxes $ 106,388  $ 37,905  $ 25,048  $ 169,341  $ 5,367  $ (23,161) $ 151,547  
+- 11 -
+
+ Nine Months Ended September 30, 2025
+ West Central East Homebuilding Operations Financial Services Corporate Consolidated
+ Home sales revenue $ 1,342,486  $ 684,390  $ 391,040  $ 2,417,916  $ —  $ —  $ 2,417,916  
+ Land and lot sales revenue 22,553  1,400  —  23,953  —  —  23,953  
+ Other operations revenue 2,417  17  5  2,439  —  —  2,439  
+ Financial services revenue —  —  —  —  53,762  —  53,762  
+ Total revenues 1,367,456  685,807  391,045  2,444,308  53,762  —  2,498,070  
+ Cost of home sales (1,044,461) (540,349) (304,320) (1,889,130) —  (4,968) (1,894,098) 
+ Cost of land and lot sales (19,665) (2,201) —  (21,866) —  28  (21,838) 
+ Other operations expense (2,381) —  —  (2,381) —  —  (2,381) 
+ Sales and marketing (72,583) (45,714) (21,705) (140,002) —  (1,601) (141,603) 
+ General and administrative (54,807) (26,986) (23,029) (104,822) —  (70,359) (175,181) 
+ Financial services expense —  —  —  —  (40,405) —  (40,405) 
+ Income from operations 173,559  70,557  41,991  286,107  13,357  (76,900) 222,564  
+ Equity in income (loss) of unconsolidated entities 58  2,220  (3) 2,275  —  —  2,275  
+ Other income, net 289  1,517  5  1,811  —  21,073  22,884  
+ Income (loss) before income taxes $ 173,906  $ 74,294  $ 41,993  $ 290,193  $ 13,357  $ (55,827) $ 247,723  
+ 
+ Nine Months Ended September 30, 2024
+ West Central East Homebuilding Operations Financial Services Corporate Consolidated
+ Home sales revenue $ 1,905,056  $ 828,928  $ 431,058  $ 3,165,042  $ —  $ —  $ 3,165,042  
+ Land and lot sales revenue 14,421  9,359  —  23,780  —  —  23,780  
+ Other operations revenue 2,340  14  5  2,359  —  —  2,359  
+ Financial services revenue —  —  —  —  47,818  —  47,818  
+ Total revenues 1,921,817  838,301  431,063  3,191,181  47,818  —  3,238,999  
+ Cost of home sales (1,469,642) (621,573) (329,688) (2,420,903) —  (6,581) (2,427,484) 
+ Cost of land and lot sales (13,806) (7,778) —  (21,584) —  —  (21,584) 
+ Other operations expense (2,295) —  —  (2,295) —  —  (2,295) 
+ Sales and marketing (87,477) (50,043) (22,312) (159,832) —  (940) (160,772) 
+ General and administrative (61,000) (25,698) (21,622) (108,320) —  (77,489) (185,809) 
+ Financial services expense —  —  —  —  (31,900) —  (31,900) 
+ Income from operations 287,597  133,209  57,441  478,247  15,918  (85,010) 409,155  
+ Equity in income (loss) of unconsolidated entities (28) 407  4  383  —  —  383  
+ Other income, net 726  269  28  1,023  —  30,795  31,818  
+ Income (loss) before income taxes $ 288,295  $ 133,885  $ 57,473  $ 479,653  $ 15,918  $ (54,215) $ 441,356  
+
+ - 12 -
+Total real estate inventories and total assets for each of our reportable segments, as of the date indicated, were as follows (in thousands):
+ 
+ September 30, 2025 December 31, 2024
+ Real estate inventories 
+ West $ 2,056,861  $ 1,928,257  
+ Central 830,116  791,171  
+ East 484,616  434,031  
+ Total $ 3,371,593  $ 3,153,459  
+ 
+ Total assets(1) 
+ West $ 2,358,203  $ 2,186,696  
+ Central 1,083,682  1,014,811  
+ East 534,839  473,874  
+ Corporate 873,523  1,041,646  
+ Total homebuilding assets 4,850,247  4,717,027  
+ Financial services 138,364  174,088  
+ Total $ 4,988,611  $ 4,891,115  __________(1)    Total assets as of September 30, 2025 and December 31, 2024 includes $139.3 million of goodwill, with $125.4 million included in the West segment, $8.3 million included in the Central segment and $5.6 million included in the East segment. Total Corporate assets as of September 30, 2025 and December 31, 2024 includes our Tri Pointe Homes trade name. For further details on goodwill and our intangible assets, see Note 8, Goodwill and Other Intangible Assets. 
+
+3.    Earnings Per ShareThe following table sets forth the components used in the computation of basic and diluted earnings per share (in thousands, except share and per share amounts):
+ 
+   Three Months Ended September 30, Nine Months Ended September 30,
+   2025 2024 2025 2024
+ Numerator:        
+ Net income available to common stockholders $ 56,144  $ 111,759  $ 180,928  $ 328,816  
+ Denominator:        
+ Basic weighted-average shares outstanding 86,923,796  93,600,678  89,141,782  94,294,800  
+ Effect of dilutive shares:      
+ Stock options and unvested restricted stock units 634,100  1,039,533  464,255  786,373  
+ Diluted weighted-average shares outstanding 87,557,896  94,640,211  89,606,037  95,081,173  
+ Earnings per share        
+ Basic $ 0.65  $ 1.19  $ 2.03  $ 3.49  
+ Diluted $ 0.64  $ 1.18  $ 2.02  $ 3.46  
+ Antidilutive stock options and unvested restricted stock units not included in diluted earnings per share 1,810,726  1,119,501  1,983,850  1,426,229    
+4.    ReceivablesReceivables consisted of the following (in thousands):
+ 
+ September 30, 2025 December 31, 2024
+ Escrow proceeds and other accounts receivable, net $ 87,753  $ 43,074  
+ Warranty insurance receivable (Note 13) 62,769  68,539  
+ Total receivables $ 150,522  $ 111,613  - 13 -
+
+Receivables are evaluated for collectability and allowances for potential losses are established or maintained on applicable receivables based on an expected credit loss approach. Receivables were net of allowances for doubtful accounts of $436,000 as of both September 30, 2025 and December 31, 2024. 
+5.    Real Estate InventoriesReal estate inventories consisted of the following (in thousands):
+ 
+ September 30, 2025 December 31, 2024
+ Real estate inventories owned: 
+ Homes completed or under construction $ 1,397,503  $ 1,294,928  
+ Land under development 1,283,982  1,174,564  
+ Land held for future development 159,296  157,348  
+ Model homes 300,727  285,550  
+ Total real estate inventories owned 3,141,508  2,912,390  
+ Real estate inventories not owned: 
+ Land purchase and land option deposits 217,265  241,069  
+ Consolidated inventory not owned 12,820  —  
+ Total real estate inventories not owned 230,085  241,069  
+ Total real estate inventories $ 3,371,593  $ 3,153,459   Homes completed or under construction is comprised of costs associated with homes in various stages of construction and includes direct construction and related land acquisition and land development costs. Land under development primarily consists of land acquisition and land development costs, which include capitalized interest and real estate taxes, associated with land undergoing improvement activity. Land held for future development principally reflects land acquisition and land development costs related to land where development activity has not yet begun or has been suspended, but is expected to occur in the future.Real estate inventories not owned includes deposits related to land purchase and land and lot option agreements. For further details on deposits, see Note 7, Variable Interest Entities. In addition, real estate inventories not owned includes land sold under a land bank financing arrangement for which we retained a repurchase option.Interest incurred, capitalized and expensed were as follows (in thousands):
+ 
+   Three Months Ended September 30, Nine Months Ended September 30,
+   2025 2024 2025 2024
+ Interest incurred $ 19,953  $ 25,253  $ 61,646  $ 91,787  
+ Interest capitalized (19,953) (25,253) (61,646) (91,787) 
+ Interest expensed $ —  $ —  $ —  $ —  
+ Capitalized interest in beginning inventory $ 179,332  $ 218,171  $ 186,370  $ 221,647  
+ Interest capitalized as a cost of inventory 19,953  25,253  61,646  91,787  
+ Interest previously capitalized as a cost of inventory, included in cost of sales (24,839) (38,762) (73,570) (108,772) 
+ Capitalized interest in ending inventory $ 174,446  $ 204,662  $ 174,446  $ 204,662   Interest is capitalized to real estate inventory during development and other qualifying activities. During all periods presented, we capitalized all interest incurred to real estate inventory in accordance with ASC Topic 835, Interest, as our qualified assets exceeded our debt. Interest that is capitalized to real estate inventory is included in cost of home sales or cost of land and lot sales as related units or lots are delivered. Interest that is expensed as incurred is included in other (expense) income, net.- 14 -
+Real Estate Inventory Impairments and Land Option AbandonmentsReal estate inventory impairments and land and lot option abandonments and pre-acquisition charges consisted of the following (in thousands):
+ 
+   Three Months Ended September 30, Nine Months Ended September 30,
+   2025 2024 2025 2024
+ Real estate inventory impairments $ 8,306  $ —  $ 19,306  $ —  
+ Land and lot option abandonments and pre-acquisition charges 938  1,074  4,107  2,444  
+ Total $ 9,244  $ 1,074  $ 23,413  $ 2,444  Impairments of real estate inventory relate primarily to projects or communities that include homes completed or under construction. During the nine months ended September 30, 2025, we recorded real estate inventory impairment charges of $19.3 million, comprised of $11.0 million in the West reporting segment, $3.8 million in the Central reporting segment, and $4.5 million in the East reporting segment. The impairment charges in our Central and East reporting segments occurred in the third quarter reporting period. These impairment charges related to active communities where the carrying value of the communities exceeded their fair value based on a discounted cash flows analysis with the discount rates used to calculate fair value ranging from 10% to 12%. We considered both market risk and community-specific risk to arrive at a discount rate appropriate for the level of total risk associated with these communities.There were no real estate inventory impairment charges recorded during the three or nine months ended September 30, 2024.In addition to owning land and residential lots, we also have option agreements to purchase land and lots at a future date. We have option deposits and capitalized pre-acquisition costs associated with the optioned land and lots. When the economics of a project no longer support acquisition of the land or lots under option, we may elect not to move forward with the acquisition. Option deposits and capitalized pre-acquisition costs associated with the assets under option may be forfeited at that time. Real estate inventory impairments and land option abandonments are recorded in cost of home sales in the consolidated statements of operations.  
+6.    Investments in Unconsolidated EntitiesAs of September 30, 2025, we held equity investments in sixteen active homebuilding partnerships or limited liability companies. Our participation in these entities may be as a developer, a builder, or an investment partner. Our ownership percentage varies from 8% to 50%, depending on the investment, with no controlling interest held in any of these homebuilding investments. In addition, we have one consolidated financial services joint venture in which we own an 80% interest. This joint venture is included in our consolidated financial statements, and the noncontrolling interest is presented separately. Aggregated assets, liabilities and equity of the entities we account for as equity-method investments are as follows (in thousands):
+ 
+ September 30, 2025 December 31, 2024
+ Assets 
+ Cash $ 39,398  $ 35,130  
+ Receivables 936  1,777  
+ Real estate inventories 667,569  628,729  
+ Other assets 6,661  7,198  
+ Total assets $ 714,564  $ 672,834  
+ Liabilities and equity 
+ Debt obligations and other liabilities $ 199,636  $ 198,543  
+ Company’s equity 190,898  173,924  
+ Outside interests’ equity 324,030  300,367  
+ Total liabilities and equity $ 714,564  $ 672,834   - 15 -
+GuaranteesThe unconsolidated entities in which we hold an equity investment generally finance their activities with a combination of equity and secured project debt financing. We have, and in some cases our joint venture partner has, guaranteed portions of the loan obligations for some of the homebuilding partnerships or limited liability companies, which may include any or all of the following: (i) project completion; (ii) remargin obligations; and (iii) environmental indemnities. In circumstances in which we have entered into joint and several guarantees with our joint venture partner, we generally seek to implement a reimbursement agreement with our partner that provides that neither party is responsible for more than its proportionate share or agreed-upon share of the guaranteed obligations. In the event our joint venture partner does not have adequate financial resources to meet its obligations under such a reimbursement agreement, or otherwise fails to satisfy its obligations thereunder, we may be responsible for more than our proportionate share of any obligations under such guarantees. As of September 30, 2025 and December 31, 2024, we have not recorded any liabilities for these obligations and guarantees, as the fair value of the related joint venture real estate assets exceeded the threshold where a remargin payment would be required and no other obligations under the guarantees existed as of such time. At September 30, 2025 and December 31, 2024, aggregate outstanding debt for unconsolidated entities, included in the “Debt obligations and other liabilities” line of the aggregated assets, liabilities and equity shown in the table above, was $168.8 million and $185.8 million, respectively. 
+Aggregated results of operations from unconsolidated entities (in thousands):
+ 
+   Three Months Ended September 30, Nine Months Ended September 30,
+   2025 2024 2025 2024
+ Net sales $ 60,258  $ 42,183  $ 130,797  $ 106,097  
+ Other operating expense (53,269) (42,306) (121,200) (103,657) 
+ Other income (expense), net (5) 24  (5) 849  
+ Net income $ 6,984  $ (99) $ 9,592  $ 3,289  
+ Company’s equity in income of unconsolidated entities $ 1,309  $ 227  $ 2,275  $ 383  The aggregate results of operations from unconsolidated entities include related party transactions with the Company. When we purchase land from a joint venture in which we are a partner, such transactions are reflected as net sales in the joint ventures’ operating results, with any profit eliminated in the consolidated financial statements. Additionally, when we act as the general partner or managing member, we earn an immaterial, market-based administrative fee for services provided, which is reflected as other operating expense in the joint ventures’ operating results, and as other income (expense) on our consolidated statements of operations.   
+7.    Variable Interest Entities Land and Lot Option AgreementsIn the ordinary course of business, we enter into land and lot option agreements in order to procure land and residential lots for future development and the construction of homes. The use of such land and lot option agreements generally allows us to reduce the risks associated with direct land ownership and development, and reduces our capital and financial commitments. Pursuant to these land and lot option agreements, we generally provide a deposit to the seller as consideration for the right to purchase land at different times in the future, usually at predetermined prices. These deposits are recorded as land purchase and land option deposits under real estate inventories not owned on the accompanying consolidated balance sheets.We analyze each of our land and lot option agreements and other similar contracts under the provisions of Accounting Standards Topic 810 (“ASC 810”), Consolidation to determine whether the land seller is a VIE and, if so, whether we are the primary beneficiary. Although we do not have legal title to the underlying land, if we are determined to be the primary beneficiary of the VIE, we will consolidate the VIE in our financial statements and reflect its assets as real estate inventory not owned included in our real estate inventories, its liabilities as debt (nonrecourse) held by VIEs in accrued expenses and other liabilities and the net equity of the VIE owners as noncontrolling interests on our consolidated balance sheets. In determining whether we are the primary beneficiary, we consider, among other things, whether we have the power to direct the activities of the VIE that most significantly impact the VIE’s economic performance. Such activities would include, among other things, determining or limiting the scope or purpose of the VIE, selling or transferring property owned or controlled by the VIE, or arranging financing for the VIE.- 16 -
+Creditors of the entities with which we have land and lot option agreements have no recourse against us. The maximum exposure to loss under our land and lot option agreements is generally limited to non-refundable option deposits and any capitalized pre-acquisition costs. In some cases, we have also contracted to complete development work at a fixed cost on behalf of the landowner and budget shortfalls and savings will be borne by us. Additionally, we have entered into land banking arrangements which require us to complete development work even if we terminate the option to procure land or lots.The following provides a summary of our interests in land and lot option agreements (in thousands):
+ 
+   September 30, 2025 December 31, 2024
+ Deposits Remaining
+Purchase
+Price Consolidated
+Inventory
+Held by VIEs Deposits Remaining
+Purchase
+Price Consolidated
+Inventory
+Held by VIEs
+ 
+ Unconsolidated VIEs $ 206,898  $ 1,977,328  N/A $ 224,319  $ 1,976,828  N/A
+ Other land option agreements 10,367  126,874  N/A 16,750  231,059  N/A
+ Total $ 217,265  $ 2,104,202  $ —  $ 241,069  $ 2,207,887  $ —   Unconsolidated VIEs represent land option agreements that were not consolidated because we were not the primary beneficiary. Other land option agreements were not with VIEs.In addition to the deposits presented in the table above, our exposure to loss related to our land and lot option contracts consisted of capitalized pre-acquisition costs of $13.1 million and $9.3 million as of September 30, 2025 and December 31, 2024, respectively. These pre-acquisition costs are included in real estate inventories as land under development on our consolidated balance sheets.   
+8.    Goodwill and Other Intangible AssetsAs of September 30, 2025 and December 31, 2024, $139.3 million of goodwill is included in goodwill and other intangible assets, net on each of the consolidated balance sheets, which was recorded in connection with our merger with Weyerhaeuser Real Estate Company (“WRECO”) in 2014. In addition, as of September 30, 2025 and December 31, 2024, we have one intangible asset with a carrying amount of $17.3 million comprised of a Tri Pointe Homes trade name, which has an indefinite useful life and is non-amortizing, resulting from the acquisition of WRECO in 2014.Goodwill and other intangible assets are evaluated for impairment on an annual basis, or more frequently if indicators of impairment exist. 
+
+9.    Other Assets Other assets consisted of the following (in thousands):
+ 
+ September 30, 2025 December 31, 2024
+ Prepaid expenses $ 16,369  $ 11,600  
+ Refundable fees and other deposits 23,350  19,772  
+ Development rights, held for future use or sale 845  845  
+ Deferred loan costs—loans payable 7,694  3,637  
+ Operating properties and equipment, net 60,850  58,219  
+ Lease right-of-use assets 75,113  66,273  
+ Income tax receivable 13,460  —  
+ Other 4,973  4,149  
+ Total $ 202,654  $ 164,495  
+
+- 17 -
+10.    Accrued Expenses and Other LiabilitiesAccrued expenses and other liabilities consisted of the following (in thousands):
+ 
+ September 30, 2025 December 31, 2024
+ Accrued payroll and related costs $ 46,562  $ 77,609  
+ Warranty reserves (Note 13) 107,752  116,150  
+ Estimated cost for completion of real estate inventories 106,567  117,927  
+ Customer deposits 35,515  41,439  
+ Liabilities related to inventory not owned 12,820  —  
+ Accrued income taxes payable 5,713  8,791  
+ 
+ Accrued interest 14,076  4,891  
+ 
+ Other tax liability 3,417  2,521  
+ Lease liabilities 88,022  78,067  
+ Other 15,953  18,168  
+ Total $ 436,397  $ 465,563  
+ 11.    Senior Notes, Loans Payable and Mortgage Repurchase FacilitiesSenior NotesThe Company’s outstanding senior notes (together, the “Senior Notes”) consisted of the following (in thousands):
+ 
+ September 30, 2025 December 31, 2024 
+ 5.250% Senior Notes due June 1, 2027 $ 300,000  $ 300,000  
+ 5.700% Senior Notes due June 15, 2028 350,000  350,000  
+ Deferred loan costs (2,683) (3,466) 
+ Total $ 647,317  $ 646,534   In June 2020, Tri Pointe issued $350 million aggregate principal amount of 5.700% Senior Notes due 2028 (the “2028 Notes”) at 100.00% of their aggregate principal amount. Net proceeds of this issuance were $345.2 million, after debt issuance costs and discounts. The 2028 Notes mature on June 15, 2028 and interest is paid semiannually in arrears on June 15 and December 15 of each year until maturity.In June 2017, Tri Pointe issued $300 million aggregate principal amount of 5.250% Senior Notes due 2027 (the “2027 Notes”) at 100.00% of their aggregate principal amount. Net proceeds of this issuance were $296.3 million, after debt issuance costs and discounts. The 2027 Notes mature on June 1, 2027 and interest is paid semiannually in arrears on June 1 and December 1 of each year until maturity.As of September 30, 2025 and December 31, 2024, there were $2.7 million and $3.5 million of capitalized debt financing costs, included in senior notes, net on our consolidated balance sheet, related to the Senior Notes that will amortize over the lives of the Senior Notes. Accrued interest related to the Senior Notes was $11.1 million and $2.1 million as of September 30, 2025 and December 31, 2024, respectively.- 18 -
+Loans PayableThe Company’s outstanding loans payable consisted of the following (in thousands):
+ 
+ September 30, 2025 December 31, 2024
+ Term loan facility $ 450,000  $ 250,000  
+ Seller financed loans 9,437  20,970  
+ Total $ 459,437  $ 270,970  On April 30, 2025, we entered into a Fifth Modification Agreement (the “Fifth Modification”) to our Second Amended and Restated Credit Agreement dated as of March 29, 2019 (the “Credit Agreement”). The Fifth Modification, among other things, amends the Credit Agreement to (i) increase the maximum amount of the revolving credit facility (the “Revolving Facility”) under the Credit Agreement from $750.0 million to $850.0 million, with the ability to increase the aggregate amount of the Revolving Facility up to $1.2 billion under certain circumstances, (ii) extend the maturity date of the Revolving Facility to April 30, 2030, (iii) permit three one-year extension requests for the maturity date of the Revolving Facility under certain circumstances, and (iv) modify certain financial covenants. Following the Fifth Modification, The Credit Facility (as defined below), consisted of an $850 million revolving credit facility (the “Revolving Facility”) and a $250 million term loan facility (the “Term Facility” and together with the Revolving Facility, the “Credit Facility”). The Term Facility was scheduled to mature on June 29, 2027 while the Revolving Facility matures on April 30, 2030. We may borrow under the Revolving Facility in the ordinary course of business to repay senior notes and fund our operations, including our land acquisition, land development and homebuilding activities. Borrowings under the Revolving Facility will be governed by, among other things, a borrowing base. Interest rates under the Revolving Facility will be based on the Secured Overnight Financing Rate (“SOFR”), plus a spread ranging from 1.25% to 1.90%, depending on the Company’s leverage ratio. Interest rates under the Term Facility will be based on SOFR, plus a spread ranging from 1.10% to 1.85%, depending on the Company’s leverage ratio.On September 18, 2025, we entered into a Sixth Modification Agreement (the “Sixth Modification”) to the Credit Agreement. The Sixth Modification increased the Term Facility from $250.0 million to $450.0 million and divided it into two tranches: (i) Term Facility Tranche A, which matures on September 29, 2027 and includes extension options for up to two additional one-year periods under certain conditions, and (ii) Term Facility Tranche B, which comprised $10.0 million as of September 30, 2025 and continues to mature on June 29, 2027.As of September 30, 2025, we had no outstanding debt under the Revolving Facility and there was $791.0 million of availability after considering the borrowing base provisions and outstanding letters of credit. As of September 30, 2025, we had $450 million of outstanding debt under the Term Facility with an interest rate of 5.32%. As of September 30, 2025, there were $7.7 million of capitalized debt financing costs, included in other assets on our consolidated balance sheet, related to the Credit Facility that will amortize over the remaining term of the Credit Facility. Accrued interest, including loan commitment fees, related to the Credit Facility was $2.0 million and $1.5 million as of September 30, 2025 and December 31, 2024, respectively.At September 30, 2025 and December 31, 2024, we had outstanding letters of credit of $59.0 million and $55.6 million, respectively. These letters of credit were issued to secure various financial obligations. We believe it is not probable that any outstanding letters of credit will be drawn upon.As of September 30, 2025 and December 31, 2024, we had $9.4 million and $21.0 million, respectively, outstanding related to two seller-financed loans. All seller-financed loans are to acquire lots for the construction of homes. Principal on these loans are expected to be fully paid by the end of fiscal year 2025, provided certain achievements are met. One of the seller-financed loans, representing $7.8 million of the total balance as of September 30, 2025 and $20.8 million of the balance as of December 31, 2024, accrues interest at an imputed interest rate of 4.50% per annum. The remaining seller-financed loans represented $1.6 million of the total balance as of September 30, 2025 and $150,000 as of December 31, 2024, respectively.Interest IncurredDuring the three months ended September 30, 2025 and 2024, we incurred interest of $20.0 million and $25.3 million, respectively, related to all debt and land banking arrangements. Included in interest incurred are amortization of deferred financing costs of $705,000 and $610,000 for the three months ended September 30, 2025 and 2024, respectively. During the nine months ended September 30, 2025 and 2024, the Company incurred interest of $61.6 million and $91.8 million, respectively, related to all debt and land banking arrangements and amortization of deferred financing costs of $2.0 million and $3.1 million, respectively. Accrued interest related to all outstanding debt at September 30, 2025 and December 31, 2024 was $14.1 million and $4.9 million, respectively. - 19 -
+Mortgage Repurchase FacilitiesAs of September 30, 2025, Tri Pointe Connect had two active Master Repurchase Agreements totaling $200 million (“Repurchase Agreements”). The Repurchase Agreements contain various affirmative and negative covenants applicable to Tri Pointe Connect, including thresholds related to net worth, net income, liquidity, and profitability. As of September 30, 2025, Tri Pointe Connect had $71.1 million of outstanding debt related to the Repurchase Agreements at a weighted-average interest rate of 6.1%, and $128.9 million of remaining capacity under the Repurchase Agreements. Tri Pointe Connect was in compliance with all covenants and requirements as of September 30, 2025.The following table provides a summary of Tri Pointe Connect’s Repurchase Agreements as of September 30, 2025 ($ in thousands):
+ 
+ Facility Outstanding Balance Facility Amount Interest Rate Expiration Date Collateral (1)
+ Warehouse A $ 45,921  $ 100,000  Term SOFR + 1.75% 4/22/2026 Mortgage Loans
+ Warehouse B (2) 25,168  50,000  Term SOFR + 1.75% 7/28/2026 Mortgage Loans
+ Warehouse B (2) —  50,000  Term SOFR + 1.75% On Demand Mortgage Loans
+ Total $ 71,089  $ 200,000  __________(1) Mortgage loans held for sale consist of single-family residential loans collateralized by the underlying property. Generally, all of the loans originated by us are sold in the secondary mortgage market within 30 days after origination. As of September 30, 2025, mortgage loans held for sale had an aggregate fair value of $78.4 million. (2) Warehouse B is a $100 million facility, of which $50 million is committed and $50 million is uncommitted.
+At December 31, 2024, outstanding borrowings under the Company’s repurchase facilities totaled $104.1 million, with an aggregate facility amount of $180.0 million.Covenant RequirementsThe Senior Notes contain covenants that restrict our ability to, among other things, create liens or other encumbrances, enter into sale and leaseback transactions, or merge or sell all or substantially all of our assets. These limitations are subject to a number of qualifications and exceptions.Under the Credit Facility, the Company is required to comply with certain financial covenants, including those relating to consolidated tangible net worth, leverage, liquidity or interest coverage, and a spec unit inventory test. The Credit Facility also requires that at least 95.0% of consolidated tangible net worth must be attributable to the Company and its guarantor subsidiaries, subject to certain grace periods. The Company was in compliance with all applicable financial covenants as of September 30, 2025 and December 31, 2024.
+12.    Fair Value DisclosuresFair Value MeasurementsASC Topic 820, Fair Value Measurements and Disclosures, defines “fair value” as the price that would be received for selling an asset or paid to transfer a liability in an orderly transaction between market participants at measurement date and requires assets and liabilities carried at fair value to be classified and disclosed in the following three categories:•Level 1—Quoted prices for identical instruments in active markets•Level 2—Quoted prices for similar instruments in active markets; quoted prices for identical or similar instruments in markets that are inactive; and model-derived valuations in which all significant inputs and significant value drivers are observable in active markets at measurement date•Level 3—Valuations derived from techniques where one or more significant inputs or significant value drivers are unobservable in active markets at measurement date- 20 -
+Fair Value of Financial InstrumentsA summary of assets and liabilities at September 30, 2025 and December 31, 2024, related to our financial instruments, is set forth below (in thousands):
+ 
+ September 30, 2025 December 31, 2024
+ Hierarchy Book Value Fair Value Book Value Fair Value
+ Senior Notes(1) Level 2 $ 650,000  $ 652,390  $ 650,000  $ 642,690  
+ 
+ Term loan(2) Level 2 $ 450,000  $ 450,000  $ 250,000  $ 250,000  
+ Seller financed loans(3) Level 2 $ 9,437  $ 9,437  $ 20,970  $ 20,970  
+ Mortgage loans held for sale(4) Level 2 $ 78,405  $ 78,405  $ 115,001  $ 115,001  
+ Mortgage repurchase facilities(5) Level 2 $ 71,089  $ 71,089  $ 104,098  $ 104,098  
+ 
+  __________(1)The book value of the Senior Notes excludes deferred loan costs of $2.7 million and $3.5 million as of September 30, 2025 and December 31, 2024, respectively. The estimated fair value of the Senior Notes at September 30, 2025 and December 31, 2024 is based on quoted market prices.(2)The estimated fair value of the Term Loan Facility as of September 30, 2025 and December 31, 2024 approximated book value due to the variable interest rate terms of this loan.(3)The estimated fair value of our seller financed loans as of September 30, 2025 and December 31, 2024 approximated book value due to the short term nature of these loans.(4)The estimated fair value for mortgage loans held for sale are determined based on quoted market prices, and are measured at fair value on a recurring basis, with changes in fair value recognized in our consolidated statements of operations. (5)The estimated fair value of our mortgage repurchase facilities approximated book value due to the short term nature of these maturities.
+At September 30, 2025 and December 31, 2024, the carrying value of cash and cash equivalents and receivables approximated fair value due to their short-term nature.Fair Value of Nonfinancial AssetsNonfinancial assets include items such as real estate inventories and long-lived assets that are measured at fair value on a nonrecurring basis when events and circumstances indicating the carrying value is not recoverable. The following table presents impairment charges and the remaining net fair value for nonfinancial assets that were measured during the periods presented (in thousands):
+ 
+ Nine Months Ended September 30, 2025 Year Ended December 31, 2024
+ Hierarchy Impairment
+Charge Fair Value
+Net of
+Impairment Impairment
+Charge Fair Value
+Net of
+Impairment
+ Real estate inventories (1) Level 3 $ 19,306  $ 74,162  $ —  $ —  __________ (1) Fair value of real estate inventories, net of impairment charges represents only those assets whose carrying values were adjusted to fair value in the respective periods presented. Fair Value Net of Impairment represents the fair value of the real estate inventories, net of the impairment charge, as of the date that the fair value measurements were made. The carrying value for these real estate inventories subsequently changed from the fair value reflected due to activity that occurred since the measurement date.The impairment charges recorded during the nine months ended September 30, 2025 related to active communities where the carrying value exceeded the fair value based on a discounted cash flow analysis. For further details, see Note 5, Real Estate Inventories.
+13.    Commitments and ContingenciesLegal MattersLawsuits, claims and proceedings have been and may be instituted or asserted against us in the normal course of business, including actions brought on behalf of various classes of claimants. We are also subject to local, state and federal laws and regulations related to land development activities, house construction standards, sales practices, employment practices, - 21 -
+environmental protection and financial services. As a result, we are subject to periodic examinations or inquiry by agencies administering these laws and regulations.We record a reserve for potential legal claims and regulatory matters when they are probable of occurring and a potential loss is reasonably estimable. We accrue for these matters based on facts and circumstances specific to each matter and revise these estimates when necessary. In view of the inherent difficulty of predicting outcomes of legal claims and related contingencies, we generally cannot predict their ultimate resolution, related timing or eventual loss. Accordingly, it is possible that the ultimate outcome of any matter, if in excess of a related accrual or if no accrual was made, could be material to our financial statements. For matters as to which the Company believes a loss is probable and reasonably estimable, we had zero legal reserves as of September 30, 2025 and December 31, 2024, respectively.WarrantyWarranty reserves are accrued as home deliveries occur. Our warranty reserves on homes delivered will vary based on product type and geographic area and also depending on state and local laws. The warranty reserve is included in accrued expenses and other liabilities on our consolidated balance sheets and represents expected future costs based on our historical experience over previous years. Estimated warranty costs are charged to cost of home sales in the period in which the related home sales revenue is recognized.We maintain general liability insurance designed to protect us against a portion of our risk of loss from warranty and construction defect-related claims. We also generally require our subcontractors and design professionals to indemnify us for liabilities arising from their work, subject to various limitations. However, such indemnity is significantly limited with respect to certain subcontractors that are added to our general liability insurance policy. Our warranty reserve and related estimated insurance recoveries are based on actuarial analysis that uses our historical claim and expense data, as well as industry data to estimate these overall costs and related recoveries. Key assumptions used in developing these estimates include claim frequencies, severities and resolution patterns, which can occur over an extended period of time. Our warranty reserve may also include an estimate of future fit and finish warranty claims to the extent not contemplated in the actuarial analysis. These estimates are subject to variability due to the length of time between the delivery of a home to a homebuyer and when a warranty or construction defect claim is made, and the ultimate resolution of such claim; uncertainties regarding such claims relative to our markets and the types of product we build; and legal or regulatory actions and/or interpretations, among other factors. Due to the degree of judgment involved and the potential for variability in these underlying assumptions, our actual future costs could differ from those estimated. There can be no assurance that the terms and limitations of the limited warranty will be effective against claims made by homebuyers, that we will be able to renew our insurance coverage or renew it at reasonable rates, that we will not be liable for damages, cost of repairs, and/or the expense of litigation surrounding possible construction defects, soil subsidence or building related claims or that claims will not arise out of uninsurable events or circumstances not covered by insurance and not subject to effective indemnification agreements with certain subcontractors.We also record expected recoveries from insurance carriers based on actual insurance claims made and actuarially determined amounts that depend on various factors, including the above-described reserve estimates, our insurance policy coverage limits for the applicable policy years and historical recovery rates. Because of the inherent uncertainty and variability in these assumptions, our actual insurance recoveries could differ significantly from amounts currently estimated. Outstanding warranty insurance receivables was $62.8 million and $68.5 million as of September 30, 2025 and December 31, 2024, respectively. Warranty insurance receivables are recorded in receivables on the accompanying consolidated balance sheets.- 22 -
+Warranty reserve activity consisted of the following (in thousands): 
+ 
+   Three Months Ended September 30, Nine Months Ended September 30,
+   2025 2024 2025 2024
+ Warranty reserves, beginning of period $ 108,405  $ 107,196  $ 116,150  $ 106,993  
+ Warranty reserves accrued 8,289  9,491  24,821  27,225  
+ 
+ Warranty expenditures (8,942) (9,380) (33,219) (26,911) 
+ Warranty reserves, end of period $ 107,752  $ 107,307  $ 107,752  $ 107,307   Performance BondsWe obtain surety bonds in the normal course of business to ensure completion of certain infrastructure improvements of our projects. The beneficiaries of the bonds are various municipalities. As of September 30, 2025 and December 31, 2024, the Company had outstanding surety bonds totaling $628.8 million and $654.1 million, respectively. As of September 30, 2025 and December 31, 2024, our estimated cost to complete obligations related to these surety bonds was $587.0 million and $443.9 million, respectively. Lease ObligationsUnder ASC 842 we recognize a right-of-use lease asset and a lease liability for contracts deemed to contain a lease at the inception of the contract. Our lease population is fully comprised of operating leases, which are now recorded at the net present value of future lease obligations existing at each balance sheet date. At the inception of a lease, or if a lease is subsequently modified, we determine whether the lease is an operating or financing lease. Key estimates involved with ASC 842 include the discount rate used to measure our future lease obligations and the lease term, where considerations include renewal options and intent to renew. Lease right-of-use assets are included in other assets and lease liabilities are included in accrued expenses and other liabilities on our consolidated balance sheet.Operating LeasesWe lease certain property and equipment under non-cancelable operating leases. Office leases are for terms of up to ten years and generally provide renewal options. In most cases, we expect that, in the normal course of business, leases that expire will be renewed or replaced by other leases. Equipment leases are typically for terms of three to four years.Ground LeasesIn 1987, we obtained two 55-year ground leases of commercial property that provided for three renewal options of ten years each and one 45-year renewal option. We exercised the three 10-year extensions on one of these ground leases to extend the lease through 2071. The commercial buildings on these properties have been sold and the ground leases have been sublet to the buyers.For one of these leases, we are responsible for making lease payments to the landowner, and we collect sublease payments from the buyers of the buildings. This ground lease has been subleased through 2041 to the buyers of the commercial buildings. For the second lease, the buyers of the buildings are responsible for making lease payments directly to the landowner, however, we have guaranteed the performance of the buyers/lessees. See below for additional information on leases (dollars in thousands):- 23 -
+
+ Three Months Ended September 30, 2025 Three Months Ended September 30, 2024 Nine Months Ended September 30, 2025 Nine Months Ended September 30, 2024
+ Lease Cost 
+ Operating lease cost (included in SG&A expense) $ 3,596  $ 3,124  $ 10,229  $ 9,028  
+ Ground lease cost (included in other operations expense) 794  765  2,381  2,295  
+ Sublease income, operating leases —  —  —  —  
+ Sublease income, ground leases (included in other operations revenue) (806) (776) (2,416) (2,329) 
+ Net lease cost $ 3,584  $ 3,113  $ 10,194  $ 8,994  
+ 
+ Other information 
+ Cash paid for amounts included in the measurement of lease liabilities: 
+ Operating lease cash flows (included in operating cash flows) $ 3,390  $ 2,842  $ 10,063  $ 8,754  
+ Ground lease cash flows (included in operating cash flows) $ 663  $ 664  $ 1,990  $ 1,990  
+ Right-of-use assets obtained in exchange for new operating lease liabilities $ 53  $ 726  $ 17,978  $ 5,990  
+ 
+ September 30, 2025 December 31, 2024
+ Weighted-average discount rate: 
+ Operating leases 5.3  % 5.0  %
+ Ground leases 10.2  % 10.2  %
+ Weighted-average remaining lease term (in years): 
+ Operating leases 5.7 5.6
+ Ground leases 42.7 43.4The future minimum lease payments under our operating leases are as follows (in thousands):
+ 
+ Property, Equipment and Other Leases Ground Leases (1)
+ Remaining in 2025 $ 2,687  $ 809  
+ 2026 13,483  3,237  
+ 2027 13,078  3,237  
+ 2028 12,732  3,237  
+ 2029 11,228  3,237  
+ Thereafter 17,794  72,166  
+ Total lease payments $ 71,002  $ 85,923  
+ Less: Interest 10,328  58,574  
+ Present value of operating lease liabilities $ 60,674  $ 27,349   __________(1)    Ground leases are fully subleased through 2041, representing $52.1 million of the $85.9 million future ground lease obligations.14.    Stock-Based Compensation2022 Long-Term Incentive PlanOn April 20, 2022, our stockholders approved the Tri Pointe Homes, Inc. 2022 Long-Term Incentive Plan (the “2022 Plan”), which had been previously approved by our board of directors. The 2022 Plan replaced the Company’s prior stock compensation plan, the TRI Pointe Group, Inc. Amended and Restated 2013 Long-Term Incentive Plan (the “2013 Plan”). The 2022 Plan provides for the grant of equity-based awards, including options to purchase shares of common stock, stock - 24 -
+appreciation rights, restricted stock, restricted stock units, bonus stock and performance awards. The 2022 Plan will automatically expire on the tenth anniversary of its effective date. Our board of directors may terminate or amend the 2022 Plan at any time, subject to any requirement of stockholder approval required by applicable law, rule or regulation.The number of shares of our common stock that may be issued under the 2022 Plan is 7,500,000 shares. No new awards have been or will be granted under the 2013 Plan from and after February 23, 2022. Any awards outstanding under the 2013 Plan will remain subject to and be paid under the 2013 Plan, and any shares subject to outstanding awards under the 2013 Plan that subsequently expire, terminate, or are surrendered or forfeited for any reason without issuance of shares will automatically become available for issuance under the 2022 Plan.
+To the extent that shares of our common stock subject to an outstanding option, stock appreciation right, stock award or performance award granted under the 2022 Plan are not issued or delivered by reason of the expiration, termination, cancellation or forfeiture of such award or the settlement of such award in cash, then such shares of our common stock generally will again be available under the 2022 Plan. However, the 2022 Plan prohibits us from re-using shares that are tendered or surrendered to pay the exercise cost or tax obligation for stock options and stock appreciation rights. As of September 30, 2025, there were 4,782,175 shares available for future grant under the 2022 Plan.The following table presents compensation expense recognized related to all stock-based awards (in thousands): 
+ 
+   Three Months Ended September 30, Nine Months Ended September 30,
+   2025 2024 2025 2024
+ Total stock-based compensation $ 7,308  $ 8,708  $ 23,467  $ 24,327   Stock-based compensation is charged to general and administrative expense on the accompanying consolidated statements of operations. As of September 30, 2025, total unrecognized stock-based compensation expense related to all stock-based awards was $39.6 million and the weighted average term over which the expense was expected to be recognized was 1.4 years.
+Summary of Restricted Stock Unit ActivityThe following table presents a summary of time-based and performance-based RSUs for the nine months ended September 30, 2025:
+ 
+ Restricted
+Stock
+Units Weighted
+Average
+Grant Date
+Fair Value
+Per Share
+ Nonvested RSUs at December 31, 2024 3,431,275  $ 27.45  
+ Granted 1,298,709  $ 30.90  
+ Vested (817,258) $ 24.82  
+ Forfeited (618,545) $ 22.74  
+ Nonvested RSUs at June 30, 2025 3,294,181  $ 30.61  
+On February 19, 2025, the Company granted an aggregate of 509,446 time-based RSUs to certain employees and officers. The RSUs granted vest in equal installments annually on the anniversary of the grant date over a three-year period. The fair value of each RSU granted on February 19, 2025 was measured using a price of $30.89 per share, which was the closing stock price on the date of grant. Each award will be expensed on a straight-line basis over the vesting period.
+On February 19, 2025, the Company granted an aggregate of 760,119 performance-based RSUs to the Company’s Chief Executive Officer, Chief Operating Officer and President, Chief Financial Officer, General Counsel, Executive Vice President and Chief Marketing Officer, Chief Human Resources Officer, and division presidents. These performance-based RSUs are allocated to two separate performance metrics, as follows: (i) 50% to homebuilding revenue of the applicable Company division, and (ii) 50% to pre-tax earnings of the applicable Company division. The vesting, if at all, of these performance-based RSUs may range from 0% to 100% and will be based on the applicable Company division’s percentage attainment of specified threshold, target and maximum performance goals. The performance period for these performance-based RSUs is January 1, 2025 to December 31, 2027. The fair value of these performance-based RSUs was measured using a price of $30.89 per share, which was the closing stock price on the date of grant. Each award will be expensed over the requisite service period. - 25 -
+
+On May 5, 2025, the Company granted an aggregate of 27,820 time-based RSUs to the non-employee members of its board of directors. The RSUs granted to the non-employee directors vest in their entirety on the day immediately prior to the Company’s 2026 annual meeting of stockholders. The fair value of each RSU granted on May 5, 2025 was measured using a price of $31.45 per share, which was the closing stock price on the date of grant. Each award will be expensed on a straight-line basis over the vesting period. 
+For the nine months ended September 30, 2025, the Company granted an aggregate of 1,324 time-based RSUs to certain employees not described above. The RSUs granted vest in equal installments annually beginning on anniversary of the grant date over a three-year period. The fair value of the RSUs granted were measured using the closing stock prices on the applicable date of each grant. Each award will be expensed on a straight-line basis over the vesting period
+On February 21, 2024, the Company granted an aggregate of 430,887 time-based RSUs to certain employees and officers. The RSUs granted vest in equal installments annually on the anniversary of the grant date over a three-year period. The fair value of each RSU granted on February 21, 2024 was measured using a price of $35.51 per share, which was the closing stock price on the date of grant. Each award will be expensed on a straight-line basis over the vesting period.
+On February 21, 2024, the Company granted an aggregate of 656,844 performance-based RSUs to the Company’s Chief Executive Officer, Chief Operating Officer and President, Chief Financial Officer, General Counsel, Chief Marketing Officer, Chief Human Resources Officer and division presidents. These performance-based RSUs are allocated to two separate performance metrics, as follows: (i) 50% to homebuilding revenue of the applicable Company division, and (ii) 50% to pre-tax earnings of the applicable Company division. The vesting, if at all, of these performance-based RSUs may range from 0% to 100% and will be based on the applicable Company division’s percentage attainment of specified threshold, target and maximum performance goals. The performance period for these performance-based RSUs is January 1, 2024 to December 31, 2026. The fair value of these performance-based RSUs was measured using a price of $35.51 per share, which was the closing stock price on the date of grant. Each award will be expensed over the requisite service period. 
+On April 29, 2024, the Company granted an aggregate of 21,835 time-based RSUs to the non-employee members of its board of directors. The RSUs granted to the non-employee directors vest in their entirety on the day immediately prior to the Company’s 2025 annual meeting of stockholders. The fair value of each RSU granted on April 24, 2024 was measured using a price of $37.78 per share, which was the closing stock price on the date of grant. Each award will be expensed on a straight-line basis over the vesting period. 
+For the year ended December 31, 2024, the Company granted an aggregate of 17,082 time-based RSUs to certain employees not described above. The RSUs granted vest in equal installments annually beginning on anniversary of the grant date over a three-year period. The fair value of the RSUs granted were measured using the closing stock prices on the applicable date of each grant. Each award will be expensed on a straight-line basis over the vesting period.As RSUs vest for employees, a portion of the shares awarded is generally withheld to cover employee tax withholdings. As a result, the number of RSUs vested and the number of shares of Tri Pointe common stock issued will differ.
+15.    Income TaxesWe account for income taxes in accordance with ASC Topic 740, Income Taxes (“ASC 740”), which requires an asset and liability approach for measuring deferred taxes based on temporary differences between the financial statements and tax bases of assets and liabilities using enacted tax rates for the years in which taxes are expected to be paid or recovered. Each quarter we assess our deferred tax asset to determine whether all or any portion of the asset is more likely than not unrealizable under ASC 740. We are required to establish a valuation allowance for any portion of the asset we conclude is more likely than not to be unrealizable. Our assessment considers, among other things, the nature, frequency and severity of our current and cumulative losses, forecasts of our future taxable income, the duration of statutory carryforward periods and tax planning alternatives.- 26 -
+We had net deferred tax assets of $46.0 million as of both September 30, 2025 and December 31, 2024. We had a valuation allowance related to those net deferred tax assets of $3.4 million as of both September 30, 2025 and December 31, 2024. The Company will continue to evaluate both positive and negative evidence in determining the need for a valuation allowance against its deferred tax assets. Changes in positive and negative evidence, including differences between the Company’s future operating results and the estimates utilized in the determination of the valuation allowance, could result in changes in the Company’s estimate of the valuation allowance against its deferred tax assets. The accounting for deferred taxes is based upon estimates of future results. Differences between the anticipated and actual outcomes of these future results could have a material impact on the Company’s consolidated results of operations or financial position. Also, changes in existing federal and state tax laws and tax rates could affect future tax results and the valuation allowance against the Company’s deferred tax assets.Our provision for income taxes totaled $20.8 million and $39.8 million for the three months ended September 30, 2025 and 2024, respectively and $66.9 million and $112.6 million for the nine months ended September 30, 2025 and 2024, respectively. The Company classifies any interest and penalties related to income taxes assessed by jurisdiction as part of income tax expense. The Company did not have any uncertain tax positions recorded as of September 30, 2025 and December 31, 2024. The Company has not been assessed interest or penalties by any major tax jurisdictions related to prior years. The Company files income tax returns in the U.S., including federal and multiple state and local jurisdictions. 
+16.    Supplemental Disclosure to Consolidated Statements of Cash FlowsThe following are supplemental disclosures to the consolidated statements of cash flows (in thousands):
+ 
+ Nine Months Ended September 30,
+ 2025 2024
+ Supplemental disclosure of cash flow information: 
+ Interest paid (capitalized), net $ (11,157) $ (9,500) 
+ Income taxes paid, net $ 82,152  $ 38,572  
+ Supplemental disclosures of noncash activities: 
+ Increase in share repurchase excise tax accrual $ 1,070  $ 672  
+ Amortization of senior note discount capitalized to real estate inventory $ —  $ 511  
+ Amortization of deferred loan costs capitalized to real estate inventory $ 1,972  $ 2,599  
+ Increase in noncontrolling interests $ 131  $ —    - 27 -
+ Item 2.    Management’s Discussion and Analysis of Financial Condition and Results of OperationsCAUTIONARY NOTE CONCERNING FORWARD-LOOKING STATEMENTSThis Quarterly Report on Form 10-Q contains “forward-looking” statements within the meaning of Section 27A of the Securities Act of 1933, as amended, and Section 21E of the Securities Exchange Act of 1934, as amended (the “Exchange Act”). These forward-looking statements are based on our current intentions, beliefs, expectations and predictions for the future, and you should not place undue reliance on these statements. These statements use forward-looking terminology, are based on various assumptions made by us, and may not be accurate because of risks and uncertainties surrounding the assumptions that are made.Factors listed in this section—as well as other factors not included—may cause actual results to differ significantly from the forward-looking statements included in this Quarterly Report on Form 10-Q. There is no guarantee that any of the events anticipated by the forward-looking statements in this Quarterly Report on Form 10-Q will occur, or if any of the events occurs, there is no guarantee what effect it will have on our operations, financial condition, or share price.We undertake no, and hereby disclaim any, obligation to update or revise any forward-looking statements, unless required by law. However, we reserve the right to make such updates or revisions from time to time by press release, periodic report, or other method of public disclosure without the need for specific reference to this Quarterly Report on Form 10-Q. No such update or revision shall be deemed to indicate that other statements not addressed by such update or revision remain correct or create an obligation to provide any other updates or revisions.Forward-Looking StatementsForward-looking statements that are included in this Quarterly Report on Form 10-Q are generally accompanied by words such as “anticipate,” “believe,” “could,” “estimate,” “expect,” “future,” “goal,” “intend,” “likely,” “may,” “might,” “plan,” “potential,” “predict,” “project,” “should,” “target,” “will,” “would,” or other words that convey the uncertainty of future events or outcomes. These forward-looking statements may include, but are not limited to, statements regarding our strategy, projections and estimates concerning the timing and success of specific projects and our future production, land and lot sales, the outcome of legal proceedings, the anticipated impact of natural disasters or contagious diseases on our operations, operational and financial results, including our estimates for growth, financial condition, sales prices, prospects and capital spending.Risks, Uncertainties and AssumptionsThe major risks and uncertainties—and assumptions that are made—that affect our business and may cause actual results to differ from these forward-looking statements include, but are not limited to:•the effects of general economic conditions, including employment rates, housing starts, interest rate levels, home affordability, inflation, consumer sentiment, availability of financing for home mortgages and strength of the U.S. dollar;•market demand for our products, which is related to the strength of the various U.S. business segments and U.S. and international economic conditions;•the availability of desirable and reasonably priced land and our ability to control, purchase, hold and develop such parcels;•access to adequate capital on acceptable terms;•geographic concentration of our operations;•levels of competition;•the successful execution of our internal performance plans, including restructuring and cost reduction initiatives;•the prices and availability of supply chain inputs, including raw materials, labor and home components;•oil and other energy prices;•the effects of U.S. trade policies, including the imposition of tariffs and duties on homebuilding products and retaliatory measures taken by other countries;•the effects of weather, including the occurrence of drought conditions in parts of the western United States;•the risk of loss from earthquakes, volcanoes, fires, floods, droughts, windstorms, hurricanes, pest infestations and other natural disasters, and the risk of delays, reduced consumer demand, and shortages and price increases in labor or materials associated with such natural disasters;•the risk of loss from acts of war, terrorism, civil unrest or public health emergencies, including outbreaks of contagious disease, such as COVID-19;- 28 -
+•transportation costs;•federal and state tax policies;•the effects of land use, environment and other governmental laws and regulations;•legal proceedings or disputes and the adequacy of reserves;•risks relating to any unforeseen changes to or effects on liabilities, future capital expenditures, revenues, expenses, earnings, synergies, indebtedness, financial condition, losses and future prospects;•changes in accounting principles;•risks related to unauthorized access to our computer systems, theft of our homebuyers’ confidential information or other forms of cyber-attack; and•other factors described in “Risk Factors” included in our Annual Report on Form 10-K for the year ended December 31, 2024 and in other filings we make with the Securities and Exchange Commission (“SEC”).The following discussion and analysis should be read in conjunction with our consolidated financial statements and related condensed notes thereto contained elsewhere in this Quarterly Report on Form 10-Q. The information contained in this Quarterly Report on Form 10-Q is not a complete description of our business or the risks associated with an investment in our securities. We urge investors to review and consider carefully the various disclosures made by us in this report and in our other reports filed with the SEC, including our Annual Report on Form 10-K for the year ended December 31, 2024 and subsequent reports on Form 8-K, which discuss our business in greater detail. The section entitled “Risk Factors” set forth in Item 1A of our Annual Report on Form 10-K, and similar disclosures in our other SEC filings, discuss some of the important risk factors that may affect our business, results of operations and financial condition. Investors should carefully consider those risks, in addition to the information in this report and in our other filings with the SEC, before deciding to invest in, or maintain an investment in, our common stock.Overview and OutlookThroughout 2025, the U.S. housing market has experienced a broad and sustained moderation in activity, driven largely by softer consumer sentiment and elevated inventory levels across many markets. While mortgage rates and affordability pressures have remained persistent headwinds, buyers have generally exhibited greater caution and longer decision-making timelines amid shifting expectations and broader economic uncertainty. Inventory accumulation over the course of the year, in both the new and resale markets, has provided buyers with more options and contributed to a slower overall sales pace. Despite these conditions, we believe long-term demand fundamentals remain favorable, supported by positive demographic trends and the structural undersupply of housing that continues to underpin a constructive multi-year outlook for the industry.During the quarter, our new home deliveries were 1,217 and our average sales price was $672,000, leading to a 27% decrease in home sales revenue to $817.3 million. Our homebuilding gross margin of 20.6% was impacted by $8.3 million of impairment charges, as well as an increased use of sales incentives in response to a more challenging housing environment. The decline in home sales revenue contributed to reduced operating leverage, resulting in sales and marketing and general and administrative (“SG&A”) expense as a percentage of home sales revenue increasing to 12.9%. Ultimately, net income available to common stockholders declined 50% to $56.1 million, and diluted earnings per share declined 46% to $0.64. These results reflect the impact of softer demand trends experienced in the second half of 2024 and throughout 2025, as well as the effect of the impairment charge on both net income and diluted earnings per share.Net new home orders for the quarter were 995, on a monthly absorption rate of 2.2 orders per average selling community. Our backlog units and dollar value ended the quarter at 1,298 and $1.0 billion, respectively. With a homebuilding debt-to-capital ratio of 25.1% and a net homebuilding debt-to-net capital ratio of 8.7%, our strong balance sheet continues to provide the financial flexibility needed to support our growth initiatives, as we continue to invest to scale our existing markets and grow organically within our three new markets.- 29 -
+Consolidated Financial Data (in thousands, except per share amounts): 
+ 
+   Three Months Ended September 30, Nine Months Ended September 30,
+   2025 2024 2025 2024
+ Homebuilding:     
+ Home sales revenue $ 817,298  $ 1,113,681  $ 2,417,916  $ 3,165,042  
+ Land and lot sales revenue 18,768  12,552  23,953  23,780  
+ Other operations revenue 805  790  2,439  2,359  
+ Total revenues 836,871  1,127,023  2,444,308  3,191,181  
+ Cost of home sales 649,195  854,499  1,894,098  2,427,484  
+ Cost of land and lot sales 16,844  11,986  21,838  21,584  
+ Other operations expense 794  765  2,381  2,295  
+ Sales and marketing 48,490  53,744  141,603  160,772  
+ General and administrative 56,703  66,734  175,181  185,809  
+ 
+ Homebuilding income from operations 64,845  139,295  209,207  393,237  
+ Equity in income of unconsolidated entities 1,309  227  2,275  383  
+ Other income, net 6,581  6,658  22,884  31,818  
+ Homebuilding income before income taxes 72,735  146,180  234,366  425,438  
+ Financial Services: 
+ Revenues 17,858  17,650  53,762  47,818  
+ Expenses 13,730  12,283  40,405  31,900  
+ 
+ Financial services income before income taxes 4,128  5,367  13,357  15,918  
+ Income before income taxes 76,863  151,547  247,723  441,356  
+ Provision for income taxes (20,753) (39,788) (66,886) (112,599) 
+ Net income 56,110  111,759  180,837  328,757  
+ Net income attributable to noncontrolling interests 34  —  91  59  
+ Net income available to common stockholders $ 56,144  $ 111,759  $ 180,928  $ 328,816  
+ Earnings per share    
+ Basic $ 0.65  $ 1.19  $ 2.03  $ 3.49  
+ Diluted $ 0.64  $ 1.18  $ 2.02  $ 3.46  Three Months Ended September 30, 2025 Compared to Three Months Ended September 30, 2024 Net New Home Orders, Average Selling Communities and Monthly Absorption Rates by Segment 
+ 
+   Three Months Ended September 30, 2025 Three Months Ended September 30, 2024 Percentage Change
+ Net New
+Home
+Orders Average
+Selling
+Communities Monthly
+Absorption
+Rates Net New
+Home
+Orders Average
+Selling
+Communities Monthly
+Absorption
+Rates Net New
+Home
+Orders Average
+Selling
+Communities Monthly
+Absorption
+Rates
+ West 488  70.8  2.3  667  71.8  3.1  (27) % (1) % (26) %
+ Central 322  59.2  1.8  404  60.7  2.2  (20) % (2) % (18) %
+ East 185  22.0  2.8  181  17.5  3.4  2  % 26  % (19) %
+ Total 995  152.0  2.2  1,252  150.0  2.8  (21) % 1  % (22) %
+Net new home orders for the three months ended September 30, 2025 decreased by 257, or 21%, to 995, compared to 1,252 during the prior-year period. The decrease in net new home orders was due to a 22% decrease in monthly absorption rates, partially offset by a 1% increase in average selling communities. Softer consumer sentiment, together with elevated inventory levels across many markets, added competitive pressure and contributed to a slower sales pace. During the quarter, we opened 12 new communities and closed out of eight existing communities. We believe our ability to execute planned - 30 -
+community openings despite softer market conditions reflects a measured approach to managing community count and positions us well to capture demand as conditions improve.Our West segment reported a 27% decrease in net new home orders due to a 26% decrease in monthly absorption rates and a 1% decrease in average selling communities. Market conditions in the West remain challenging. Our Central segment reported a 20% decrease in net new home orders due to an 18% decrease in monthly absorption rates and a 2% decrease in average selling communities. All Central markets experienced lower year-over-year absorption rates. While Texas remains a key component of our operations, elevated inventory levels in both the resale and new home markets have moderated demand as the market works through a period of stabilization. Colorado continues to be our most challenging Central market, reflecting ongoing competitive pressures. During the quarter, we opened our first community in Utah and generated our initial sales, representing an important step in expanding our footprint within the region. Our East segment reported a 2% increase in net new home orders due to a 26% increase in average selling communities, offset by a 19% decrease in monthly absorption rate. Despite the slowdown in absorption, we continue to actively engage buyers through targeted pricing strategies, mortgage financing solutions, and ongoing price discovery efforts. These tools have helped sustain traffic and maintain buyer interest, even amid a more cautious demand environment. Notably, our DC Metro division performed particularly well during the quarter, achieving the highest quarterly absorption rate in the company and demonstrating effective execution and buyer engagement in that market.Backlog Units, Dollar Value and Average Sales Price by Segment (dollars in thousands)
+ 
+   As of September 30, 2025 As of September 30, 2024 Percentage Change
+ Backlog
+Units Backlog
+Dollar
+Value Average
+Sales
+Price Backlog
+Units Backlog
+Dollar
+Value Average
+Sales
+Price Backlog
+Units Backlog
+Dollar
+Value Average
+Sales
+Price
+ West 680  $ 568,881  $ 837  1,289  $ 1,017,622  $ 789  (47) % (44) % 6  %
+ Central 378  231,076  611  689  409,907  595  (45) % (44) % 3  %
+ East 240  213,587  890  347  304,061  876  (31) % (30) % 2  %
+ Total 1,298  $ 1,013,544  $ 781  2,325  $ 1,731,590  $ 745  (44) % (41) % 5  % Backlog units reflect the number of homes, net of actual cancellations experienced during the period, for which we have entered into a sales contract with a homebuyer but for which we have not yet delivered the home. Homes in backlog are generally delivered within seven to ten months from the time the sales contract is entered into, although we may experience cancellations of sales contracts prior to delivery. Our cancellation rate of homebuyers who contracted to buy a home but cancelled prior to delivery of the home (as a percentage of overall orders) was 12% and 10% during the three-month periods ended September 30, 2025 and 2024, respectively. The dollar value of backlog was $1.0 billion as of September 30, 2025 compared to $1.7 billion as of September 30, 2024. Backlog units were down 44% to 1,298, due primarily to the 35% lower backlog leading into the current year and the sustained softer demand environment experienced throughout 2025. During the year, we strategically prioritized price over pace, favoring margin preservation and brand positioning over higher sales volumes. While this disciplined approach helped drive an increase in average sales price in backlog, it also contributed to lower order activity and a corresponding decrease in backlog units. The average sales price in backlog increased 5% to $781,000 as of September 30, 2025, compared to $745,000 at September 30, 2024. Backlog dollar value in our West segment decreased 44% due to a 47% decrease in backlog units, offset by a 6% increase in average sales price. The decrease in backlog units was largely due to a 38% decrease in net new home orders for the current year-to-date period, as demand during 2025 has been challenging as compared to a more robust prior-year period. In our Central segment, backlog dollar value decreased by 44%, driven by a 45% decline in backlog units, offset slightly by a 3% increase in average sales price. This reduction in backlog units was largely due to the 37% decrease in backlog units to start the current year. In our East segment, backlog dollar value decreased by 30%, driven by a 31% decline in backlog units, offset by a 2% increase in average sales price. The reduction in units was driven by a 17% decline in net new home orders for the current year-to-date period, coupled with a 39% decrease in backlog units to start the current year.- 31 -
+New Homes Delivered, Homes Sales Revenue and Average Sales Price by Segment (dollars in thousands)
+ 
+   Three Months Ended September 30, 2025 Three Months Ended September 30, 2024 Percentage Change
+ New
+Homes
+Delivered Home
+Sales
+Revenue Average
+Sales
+Price New
+Homes
+Delivered Home
+Sales
+Revenue Average
+Sales
+Price New
+Homes
+Delivered Home
+Sales
+Revenue Average
+Sales
+Price
+ West 621  $ 471,658  $ 760  918  $ 683,243  $ 744  (32) % (31) % 2  %
+ Central 394  211,275  536  455  256,480  564  (13) % (18) % (5) %
+ East 202  134,365  665  246  173,958  707  (18) % (23) % (6) %
+ Total 1,217  $ 817,298  $ 672  1,619  $ 1,113,681  $ 688  (25) % (27) % (2) % Home sales revenue decreased $296.4 million to $817.3 million for the three months ended September 30, 2025 compared to the prior-year period. The decrease was comprised of $276.6 million related to a 402-unit decrease in new homes delivered in the three months ended September 30, 2025, and a $19.5 million decrease related to a $16,000 decrease in average sales price for the three months ended September 30, 2025. Our lower backlog entering the current-year period resulted in fewer new home deliveries, which was the primary driver of the revenue decline. However, our strong brand positioning and disciplined approach to pricing have supported average sales price performance, even amid a sustained period of challenging market conditions.Home sales revenue in our West segment decreased 31% due to a 32% decrease in new homes delivered, while average sales price increased by 2%. The decrease in deliveries reflects a lower backlog at the start of the current year compared to the prior year. Home sales revenue in our Central segment decreased 18% due to a 13% decrease in new homes delivered, while average sales price decreased by 5%. The decrease in new homes delivered was due to a decrease in backlog units to start the current year compared to the prior year. Home sales revenue in our East segment decreased by 23% due to an 18% decrease in new homes delivered, offset by a 6% increase in average sales price. The decrease in deliveries reflects a lower backlog at the start of the current-year period compared to the prior year. The increase in average sales price was primarily due to a shift in the mix of homes delivered, with a higher concentration of deliveries in our DC Metro market, where the average sales price was just below $1.0 million. Homebuilding Gross Margins (dollars in thousands)
+ 
+   Three Months Ended September 30,
+   2025 % 2024 %
+ Home sales revenue $ 817,298  100.0  % $ 1,113,681  100.0  %
+ Cost of home sales 649,195  79.4  % 854,499  76.7  %
+ Homebuilding gross margin 168,103  20.6  % 259,182  23.3  %
+ Add:  interest in cost of home sales 24,499  3.0  % 37,687  3.4  %
+ Add:  impairments and lot option abandonments 9,244  1.1  % 1,074  0.1  %
+ Adjusted homebuilding gross margin(1) $ 201,846  24.7  % $ 297,943  26.8  %
+ Homebuilding gross margin percentage 20.6  %   23.3  %  
+ Adjusted homebuilding gross margin percentage(1) 24.7  %   26.8  %  __________(1)Non-GAAP financial measure (as discussed below).
+Our homebuilding gross margin percentage decreased to 20.6% for the three months ended September 30, 2025 compared to 23.3% for the prior-year period. The year-over-year decline was primarily driven by $8.3 million of inventory impairment charges, which impacted gross margin by approximately 100 basis points. In addition, the current year margin reflects higher incentives, as we continue to adjust price and pace at the local market level to align with evolving demand dynamics. As affordability pressures persist, we continue to calibrate our pricing strategies, sales pace, and the use of incentives to support absorption while protecting returns. Excluding interest, impairments and lot option abandonments in cost of home sales, adjusted homebuilding gross margin percentage was 24.7% for the three months ended September 30, 2025 compared to 26.8% for the prior-year period.Adjusted homebuilding gross margin is a non-GAAP financial measure. We believe this information is meaningful as it isolates the impact that leverage and noncash charges have on homebuilding gross margin and permits investors to make better comparisons with our competitors, who adjust gross margins in a similar fashion. Because adjusted homebuilding gross margin - 32 -
+is not calculated in accordance with GAAP, it may not be comparable to other similarly titled measures of other companies and should not be considered in isolation or as a substitute for, or superior to, financial measures prepared in accordance with GAAP. See the table above reconciling this non-GAAP financial measure to homebuilding gross margin, the most directly comparable GAAP measure.Sales and Marketing, General and Administrative Expense (dollars in thousands)
+ 
+ Three Months Ended September 30, As a Percentage of
+Home Sales Revenue
+   2025 2024 2025 2024
+ Sales and marketing $ 48,490  $ 53,744  5.9  % 4.8  %
+ General and administrative (G&A) 56,703  66,734  6.9  % 6.0  %
+ Total sales and marketing and G&A $ 105,193  $ 120,478  12.9  % 10.8  %Total SG&A expense as a percentage of home sales revenue increased to 12.9% for the three months ended September 30, 2025, compared to 10.8% in the prior-year period. Total SG&A expense decreased $15.3 million to $105.2 million for the three months ended September 30, 2025 from $120.5 million in the prior-year period. Sales and marketing expense as a percentage of home sales revenue increased to 5.9% for the three months ended September 30, 2025, compared to 4.8% for the prior-year period. This increase was largely due to lower home sales revenue, which negatively impacted our fixed cost leverage. Sales and marketing expense decreased to $48.5 million for the three months ended September 30, 2025 compared to $53.7 million for the prior-year period, largely driven by a decrease in broker commissions, along with internal commissions. Given that many components of sales and marketing expense bear a variable relationship to home sales revenue, which decreased by 27% compared to the prior-year period, such a decrease in absolute dollars is expected.General and administrative (“G&A”) expense as a percentage of home sales revenue increased to 6.9% of home sales revenue for the three months ended September 30, 2025 compared to 6.0% for the prior-year period. This increase was due primarily to reduced leverage on our fixed components of G&A expenses, which is directly associated with the lower home sales revenue in the current-year period. G&A expense decreased to $56.7 million for the three months ended September 30, 2025 compared to $66.7 million for the prior-year period, largely driven by a decrease in incentive compensation-related costs.InterestInterest, which we incurred principally to finance land acquisitions, land development, and home construction, totaled $20.0 million and $25.3 million for the three months ended September 30, 2025 and 2024, respectively. All interest incurred in both periods was capitalized.Other Income, NetOther income, net for the three months ended September 30, 2025 and 2024 was income of $6.6 million and $6.7 million, respectively. Results were generally consistent year over year, with interest income the primary driver of activity in both periods.Income TaxFor the three months ended September 30, 2025, we recorded a tax provision of $20.8 million based on an effective tax rate of 27.0%. For the three months ended September 30, 2024, we recorded a tax provision of $39.8 million based on an effective tax rate of 26.3%. The difference between our effective tax rate for the three months ended September 30, 2025 and 2024 and the federal statutory rate was primarily due to state income tax expense and non-deductible executive compensation. - 33 -
+Financial Services SegmentIncome before income taxes from our financial services operations decreased to $4.1 million for the three months ended September 30, 2025 compared to $5.4 million for the prior-year period. The decrease was primarily driven by lower revenue, which is a variable component of our financial services operations. The following table presents selected financial information for Tri Pointe Connect, our mortgage financing operations, excluding brokered loan originations (dollars in thousands):
+ 
+ Three Months Ended September 30, 2025 Three Months Ended September 30, 2024
+ Total Originations: 
+ Loans 703  430  
+ Principal $ 371,586  $ 209,182  
+ 
+ Mortgage Loan Origination Product Mix: 
+ Government (FHA, VA, USDA) 16  % 10  %
+ Other agency 84  % 90  %
+ Total agency 100  % 100  %
+ 
+ Loan Type: 
+ Fixed rate 98  % 100  %
+ ARM 2  % —  %
+ 
+ Credit Quality: 
+ Average FICO score 757 759
+ 
+ Other Data: 
+ Average combined LTV ratio 79  % 77  %
+ Full documentation loans 100  % 100  %
+ 
+ Loans Sold to Third Parties: 
+ Loans 759  345  
+ Principal $ 399,394  $ 162,897  Nine Months Ended September 30, 2025 Compared to Nine Months Ended September 30, 2024 Net New Home Orders, Average Selling Communities and Monthly Absorption Rates by Segment 
+ 
+   Nine Months Ended September 30, 2025 Nine Months Ended September 30, 2024 Percentage Change
+ Net New
+Home
+Orders Average
+Selling
+Communities Monthly
+Absorption
+Rates Net New
+Home
+Orders Average
+Selling
+Communities Monthly
+Absorption
+Rates Net New
+Home
+Orders Average
+Selling
+Communities Monthly
+Absorption
+Rates
+ West 1,655  68.8  2.7  2,650  72.3  4.1  (38) % (5) % (34) %
+ Central 1,158  60.2  2.1  1,400  62.2  2.5  (17) % (3) % (16) %
+ East 551  20.1  3.0  667  17.1  4.3  (17) % 18  % (30) %
+ Total 3,364  149.1  2.5  4,717  151.6  3.5  (29) % (2) % (29) %
+Net new home orders for the nine months ended September 30, 2025 decreased by 1,353, or 29%, to 3,364, compared to 4,717 during the prior-year period. The decrease in net new home orders was due to a 29% decrease in monthly absorption rates and a 2% decrease in average selling communities. Softer consumer sentiment, together with elevated inventory levels across many markets, added competitive pressure and contributed to a slower sales pace. For the nine months ended June 30, 2025, we opened 47 new communities and closed out of 37 existing communities.- 34 -
+Our West segment reported a 38% decrease in net new home orders due to a 34% decrease in monthly absorption rates and a 5% decrease in average selling communities. The decline in monthly absorption rates was experienced across all markets within the West segment, reflecting softer demand conditions and elongated sales cycles. The decrease in average selling communities was primarily attributable to moderated growth expectations in the West, which comprises many of our more mature markets that are now operating closer to optimal scale. Our Central segment reported a 17% decrease in net new home orders due to a 16% decrease in monthly absorption rates and a 3% decrease in average selling communities. While Texas continues to represent a key portion of our Central operations, elevated inventory levels in both the resale and new home markets have contributed to softer buyer demand, as the region continues to experience a period of market stabilization. Our East segment reported a 17% decrease in net new home orders due to a 30% decrease in monthly absorption rate, partially offset by an 18% increase in average selling communities.
+ 
+   Nine Months Ended September 30, 2025 Nine Months Ended September 30, 2024 Percentage Change
+ New
+Homes
+Delivered Home
+Sales
+Revenue Average
+Sales
+Price New
+Homes
+Delivered Home
+Sales
+Revenue Average
+Sales
+Price New
+Homes
+Delivered Home
+Sales
+Revenue Average
+Sales
+Price
+ West 1,782  $ 1,342,486  $ 753  2,539  $ 1,905,056  $ 750  (30) % (30) % —  %
+ Central 1,252  684,390  547  1,465  828,928  566  (15) % (17) % (3) %
+ East 549  391,040  712  708  431,058  609  (22) % (9) % 17  %
+ Total 3,583  $ 2,417,916  $ 675  4,712  $ 3,165,042  $ 672  (24) % (24) % —  % Home sales revenue decreased $747.1 million to $2.4 billion for the three months ended September 30, 2025 compared to the prior-year period. The decrease was comprised of $762.1 million related to a 1,129-unit decrease in new homes delivered in the nine months ended September 30, 2025, offset by a $14.1 million increase related to a $3,000 increase in average sales price for the nine months ended September 30, 2025. The decline in deliveries and home sales revenue reflects the impact of softer order activity during the second half of 2024, which led to a 35% decrease in backlog units and a 28% decrease in backlog dollar value entering the current-year period compared to the prior year. The lower beginning backlog, along with continued weaker demand in the current year, has consequently driven reduced home deliveries and home sales revenue for the current-year period.Home sales revenue in our West segment decreased 30% due to a 30% decrease in new homes delivered, while average sales price remained flat. The decrease in deliveries reflects the 31% lower backlog at the start of the current-year period compared to the prior year. Home sales revenue in our Central segment decreased 17% due to a 15% decrease in new homes delivered, along with a 3% decrease in average sales price. The decrease in new homes delivered was due to a 37% decrease in backlog units to start the current-year period compared to the prior-year period, offset partially by higher backlog conversion rates in the current year, partly due to increased spec deliveries. Home sales revenue in our East segment was down 9%, comprised of a 22% decrease in new homes delivered, offset by a 17% increase in average sales price. The decrease in deliveries was driven by a lower beginning backlog entering the current-year period and softer market conditions that resulted in fewer new orders. The increase in average sales price was primarily due to a shift in the mix of homes delivered, with a higher concentration of deliveries in our DC Metro market, where the average sales price was $1.0 million. This favorable market mix shift and higher average selling price partially offset the impact of lower deliveries on home sales revenue.Homebuilding Gross Margins (dollars in thousands)
+ 
+   Nine Months Ended September 30,
+   2025 % 2024 %
+ Home sales revenue $ 2,417,916  100.0  % $ 3,165,042  100.0  %
+ Cost of home sales 1,894,098  78.3  % 2,427,484  76.7  %
+ Homebuilding gross margin 523,818  21.7  % 737,558  23.3  %
+ Add:  interest in cost of home sales 73,112  3.0  % 107,330  3.4  %
+ Add:  impairments and lot option abandonments 23,413  1.0  % 2,444  0.1  %
+ Adjusted homebuilding gross margin(1) $ 620,343  25.7  % $ 847,332  26.8  %
+ Homebuilding gross margin percentage 21.7  % 23.3  % 
+ Adjusted homebuilding gross margin percentage(1) 25.7  % 26.8  % __________(1)Non-GAAP financial measure (as discussed below).- 35 -
+
+Our homebuilding gross margin percentage decreased to 21.7% for the nine months ended September 30, 2025 compared to 23.3% for the prior-year period. While our strategy has leaned toward preserving price to support long-term brand positioning and margin stability, market conditions necessitated the increased use of incentives to maintain sales absorption. These dynamics have resulted in some margin compression, despite our price discipline. Additionally, our current year gross margin was impacted by $19.3 million of land impairment charges, which impacted gross margin by approximately 80 basis points. Excluding interest, impairments and lot option abandonments in cost of home sales, adjusted homebuilding gross margin percentage was 25.7% for the nine months ended September 30, 2025 compared to 26.8% for the prior-year period.Adjusted homebuilding gross margin is a non-GAAP financial measure. We believe this information is meaningful as it isolates the impact that leverage and noncash charges have on homebuilding gross margin and permits investors to make better comparisons with our competitors, who adjust gross margins in a similar fashion. Because adjusted homebuilding gross margin is not calculated in accordance with GAAP, it may not be comparable to other similarly titled measures of other companies and should not be considered in isolation or as a substitute for, or superior to, financial measures prepared in accordance with GAAP. See the table above reconciling this non-GAAP financial measure to homebuilding gross margin, the most directly comparable GAAP measure.Sales and Marketing, General and Administrative Expense (dollars in thousands)
+ 
+ Nine Months Ended September 30, As a Percentage of
+Home Sales Revenue
+   2025 2024 2025 2024
+ Sales and marketing $ 141,603  $ 160,772  5.9  % 5.1  %
+ General and administrative (G&A) 175,181  185,809  7.2  % 5.9  %
+ Total sales and marketing and G&A $ 316,784  $ 346,581  13.1  % 11.0  %Total SG&A expense as a percentage of home sales revenue increased to 13.1% for the nine months ended September 30, 2025, compared to 11.0% in the prior-year period. Total SG&A expense decreased $15.3 million to $316.8 million for the nine months ended September 30, 2025 from $346.6 million in the prior-year period.Sales and marketing expense as a percentage of home sales revenue increased to 5.9% for the nine months ended September 30, 2025, compared to 5.1% for the prior-year period. This increase was largely due to the decrease in home sales revenue, which negatively impacted our fixed cost leverage. Sales and marketing expense decreased to $141.6 million for the nine months ended September 30, 2025 compared to $160.8 million for the prior-year period, largely driven by a decrease in broker commissions, along with internal commissions. Given that many components of sales and marketing expense bear a variable relationship to home sales revenue, which decreased by 27% compared to the prior-year period, such a decrease in absolute dollars is expected.General and administrative (“G&A”) expense as a percentage of home sales revenue increased to 7.2% of home sales revenue for the nine months ended September 30, 2025 compared to 5.9% for the prior-year period. This increase was due primarily to reduced leverage on our fixed components of G&A expenses, which is directly associated with the lower home sales revenue in the current-year period. G&A expense decreased to $175.2 million for the nine months ended September 30, 2025 compared to $185.8 million for the prior-year period.InterestInterest, which we incurred principally to finance land acquisitions, land development and home construction, totaled $61.6 million and $91.8 million for the nine months ended September 30, 2025 and 2024, respectively. All interest incurred in both periods was capitalized.Other Income, NetOther income, net for the nine months ended September 30, 2025 and 2024 was income of $22.9 million and $31.8 million, respectively. The decrease was primarily due to lower interest income stemming from fluctuations in our existing cash balances. Additionally, the prior-year period included a one-time investment revaluation gain, which did not recur in the current-year period.- 36 -
+Income TaxFor the nine months ended September 30, 2025, we recorded a tax provision of $66.9 million based on an effective tax rate of 27.0%. For the nine months ended September 30, 2024, we recorded a tax provision of $112.6 million based on an effective tax rate of 25.5%. Financial Services SegmentIncome before income taxes from our financial services operations decreased to $13.4 million for the nine months ended September 30, 2025 compared to $15.9 million for the prior-year period.  The following table presents selected financial information for Tri Pointe Connect, our mortgage financing operations, excluding brokered loan originations (dollars in thousands):
+ 
+ Nine Months Ended September 30, 2025 Nine Months Ended September 30, 2024
+ Total Originations: 
+ Loans 1,995  578  
+ Principal $ 1,054,074  $ 278,966  
+ 
+ Mortgage Loan Origination Product Mix: 
+ Government (FHA, VA, USDA) 17  % 8  %
+ Other agency 83  % 92  %
+ Total agency 100  % 100  %
+ 
+ Loan Type: 
+ Fixed rate 99  % 100  %
+ ARM 1  % —  %
+ 
+ Credit Quality: 
+ Average FICO score 756 760
+ 
+ Other Data: 
+ Average combined LTV ratio 79  % 77  %
+ Full documentation loans 100  % 100  %
+ 
+ Loans Sold to Third Parties: 
+ Loans 2,069  427  
+ Principal $ 1,090,234  $ 200,989  Lots Owned or Controlled by SegmentLots owned or controlled include our share of lots controlled by our unconsolidated land development joint ventures. Investments in joint ventures are described in Note 6, Investments in Unconsolidated Entities, of the notes to our unaudited consolidated financial statements included in this Quarterly Report on Form 10-Q. The table below summarizes our lots owned or controlled by segment as of the dates presented:- 37 -
+
+   September 30, Increase 
+(Decrease)
+   2025 2024 Amount %
+ Lots Owned        
+ West 9,080  10,044  (964) (10) %
+ Central 5,264  5,531  (267) (5) %
+ East 1,700  1,578  122  8  %
+ Total 16,044  17,153  (1,109) (6) %
+ Lots Controlled(1)        
+ West 3,935  4,734  (799) (17) %
+ Central 8,106  6,818  1,288  19  %
+ East 4,653  4,783  (130) (3) %
+ Total 16,694  16,335  359  2  %
+ Total Lots Owned or Controlled(1) 32,738  33,488  (750) (2) %__________(1)As of September 30, 2025 and 2024, lots controlled represented lots that were under land or lot option contracts or purchase contracts. As of September 30, 2025 and 2024, lots controlled for Central include 5,483 and 3,358 lots, respectively, and East include zero and 29 lots, respectively, which represent our expected share of lots owned by our unconsolidated land development joint ventures.
+Liquidity and Capital ResourcesOverviewOur principal uses of capital for the nine months ended September 30, 2025 were operating expenses, land purchases, land development, home construction and repurchases of our common stock. We used funds generated by our operations to meet our short-term working capital requirements. We monitor financing requirements to evaluate potential financing sources, including bank credit facilities and note offerings. We also continue to monitor the credit markets as we remain focused on generating positive margins in our homebuilding operations and acquiring desirable land positions in order to maintain a strong balance sheet and keep us poised for growth. As of September 30, 2025, we had total liquidity of $1.6 billion, including cash and cash equivalents of $792.0 million and $791.0 million of availability under our Credit Facility, as described below, after considering the borrowing base provisions and outstanding letters of credit.Our board of directors will consider a number of factors when evaluating our level of indebtedness and when making decisions regarding the incurrence of new indebtedness, including the purchase price of assets to be acquired with debt financing, the estimated market value of our assets and the availability of particular assets, and our Company as a whole, to generate cash flow to cover the expected debt service. Senior NotesIn June 2020, Tri Pointe issued $350 million aggregate principal amount of 5.700% Senior Notes due 2028 (the “2028 Notes”) at 100.00% of their aggregate principal amount. Net proceeds of this issuance were $345.2 million, after debt issuance costs and discounts. The 2028 Notes mature on June 15, 2028 and interest is paid semiannually in arrears on June 15 and December 15 of each year until maturity.In June 2017, Tri Pointe issued $300 million aggregate principal amount of 5.250% Senior Notes due 2027 (the “2027 Notes”) at 100.00% of their aggregate principal amount. Net proceeds of this issuance were $296.3 million, after debt issuance costs and discounts. The 2027 Notes mature on June 1, 2027 and interest is paid semiannually in arrears on June 1 and December 1 of each year until maturity.As of September 30, 2025 and December 31, 2024, there were $2.7 million and $3.5 million of capitalized debt financing costs, included in senior notes, net on our consolidated balance sheet, related to the Senior Notes that will amortize over the lives of the Senior Notes. Accrued interest related to the Senior Notes was $11.1 million and $2.1 million as of September 30, 2025 and December 31, 2024, respectively.Our outstanding senior notes (the “Senior Notes”) contain covenants that restrict our ability to, among other things, create liens or other encumbrances, enter into sale and leaseback transactions, or merge or sell all or substantially all of our - 38 -
+assets. These limitations are subject to a number of qualifications and exceptions. As of September 30, 2025, we were in compliance with the covenants required by our Senior Notes.Loans PayableOn April 30, 2025, we entered into a Fifth Modification Agreement (the “Fifth Modification”) to our Second Amended and Restated Credit Agreement dated as of March 29, 2019 (the “Credit Agreement”). The Fifth Modification, among other things, amends the Credit Agreement to (i) increase the maximum amount of the revolving credit facility (the “Revolving Facility”) under the Credit Agreement from $750.0 million to $850.0 million, with the ability to increase the aggregate amount of the Revolving Facility up to $1.2 billion under certain circumstances, (ii) extend the maturity date of the Revolving Facility to April 30, 2030, (iii) permit three one-year extension requests for the maturity date of the Revolving Facility under certain circumstances, and (iv) modify certain financial covenants. Following the Fifth Modification, The Credit Facility (as defined below), consisted of an $850 million revolving credit facility (the “Revolving Facility”) and a $250 million term loan facility (the “Term Facility” and together with the Revolving Facility, the “Credit Facility”). The Term Facility was scheduled to mature on June 29, 2027 while the Revolving Facility matures on April 30, 2030. We may borrow under the Revolving Facility in the ordinary course of business to repay senior notes and fund our operations, including our land acquisition, land development and homebuilding activities. Borrowings under the Revolving Facility will be governed by, among other things, a borrowing base. Interest rates under the Revolving Facility will be based on the Secured Overnight Financing Rate (“SOFR”), plus a spread ranging from 1.25% to 1.90%, depending on the Company’s leverage ratio. Interest rates under the Term Facility will be based on SOFR, plus a spread ranging from 1.10% to 1.85%, depending on the Company’s leverage ratio.On September 18, 2025, we entered into a Sixth Modification Agreement (the “Sixth Modification”) to the Credit Agreement. The Sixth Modification increased the Term Facility from $250.0 million to $450.0 million and divided it into two tranches: (i) Term Facility Tranche A, which matures on September 29, 2027 and includes extension options for up to two additional one-year periods under certain conditions, and (ii) Term Facility Tranche B, which comprised $10.0 million as of September 30, 2025 and continues to mature on June 29, 2027.As of September 30, 2025, we had no outstanding debt under the Revolving Facility and there was $791.0 million of availability after considering the borrowing base provisions and outstanding letters of credit. As of September 30, 2025, we had $450 million of outstanding debt under the Term Facility with an interest rate of 5.32%. As of September 30, 2025, there were $7.7 million of capitalized debt financing costs, included in other assets on our consolidated balance sheet, related to the Credit Facility that will amortize over the remaining term of the Credit Facility. Accrued interest, including loan commitment fees, related to the Credit Facility was $2.0 million and $1.5 million as of September 30, 2025 and December 31, 2024, respectively.At September 30, 2025 and December 31, 2024, we had outstanding letters of credit of $59.0 million and $55.6 million, respectively. These letters of credit were issued to secure various financial obligations. We believe it is not probable that any outstanding letters of credit will be drawn upon.As of September 30, 2025 and December 31, 2024, we had $9.4 million and $21.0 million, respectively, outstanding related to two seller-financed loans. All seller-financed loans are to acquire lots for the construction of homes. Principal on these loans are expected to be fully paid by the end of fiscal year 2025, provided certain achievements are met. One of the seller-financed loans, representing $7.8 million of the total balance as of September 30, 2025 and $20.8 million of the balance as of December 31, 2024, accrues interest at an imputed interest rate of 4.50% per annum. The remaining seller-financed loans represented $1.6 million of the total balance as of September 30, 2025 and $150,000 as of December 31, 2024, respectively.- 39 -
+Under the Credit Facility, we are required to comply with certain financial covenants, including, but not limited to, those set forth in the table below (dollars in thousands):
+ 
+ Actual at
+September 30, Covenant
+Requirement at
+September 30,
+ Financial Covenants 2025 2025
+ Consolidated Tangible Net Worth $ 3,131,700  $ 2,313,287  
+ (Not less than $2.22 billion plus 50% of net income and   50% of the net proceeds from equity offerings after   December 31, 2024)    
+ Leverage Test 10.9  % ≤60%
+ (Not to exceed 60%)    
+ Interest Coverage Test 7.2  ≥1.5
+ (Not less than 1.5:1.0)     The Credit Facility further requires that at least 95.0% of consolidated tangible net worth must be attributable to the Company and its guarantor subsidiaries, subject to certain grace periods.As of September 30, 2025, we were in compliance with all of these financial covenants.Stock Repurchase ProgramOn December 18, 2024, we announced the approval of a share repurchase program (the “Repurchase Program”), which replaced the stock repurchase program that the Board of Directors authorized in December 2023. The Repurchase Program authorized the repurchase of up to $250 million of common stock through December 31, 2025. On July 23, 2025, our board of directors authorized the repurchase of up to an additional $50 million of common stock pursuant to the Repurchase Program, increasing the aggregate value of shares of common stock authorized to be repurchased under the Repurchase Program from $250 million to $300 million. Purchases of common stock pursuant to the Repurchase Program may be made in open market transactions effected through a broker-dealer at prevailing market prices, in block trades, or by other means in accordance with federal securities laws, including pursuant to any trading plan that may be adopted in accordance with Rule 10b5-1 under the Exchange Act. We are not obligated under the Repurchase Program to repurchase any specific number or amount of shares of common stock, and we may modify, suspend or discontinue the program at any time. Company management will determine the timing and amount of any repurchases in its discretion based on a variety of factors, such as the market price of our common stock, corporate requirements, general market economic conditions, legal requirements and applicable tax effects. During the three months ended September 30, 2025, we repurchased and retired an aggregate of 1,516,766 shares of our common stock under the Repurchase Program for $50.9 million, excluding commissions. For the nine months ended September 30, 2025, we repurchased and retired an aggregate of 6,975,460 shares of our common stock under the Repurchase Program for $225.9 million, excluding commissions.Leverage RatiosWe believe that our leverage ratios provide useful information to the users of our financial statements regarding our financial position and cash and debt management. The ratio of homebuilding debt-to-capital and the ratio of net homebuilding debt-to-net capital are calculated as follows (dollars in thousands):- 40 -
+
+ September 30, 2025 December 31, 2024
+ Loans payable $ 459,437  $ 270,970  
+ Senior notes 647,317  646,534  
+ Mortgage repurchase facilities 71,089  104,098  
+ Total debt 1,177,843  1,021,602  
+ Less: mortgage repurchase facilities (71,089) (104,098) 
+ Total homebuilding debt 1,106,754  917,504  
+ Stockholders’ equity 3,301,934  3,335,710  
+ Total capital $ 4,408,688  $ 4,253,214  
+ Ratio of homebuilding debt-to-capital(1) 25.1  % 21.6  %
+ 
+ Total homebuilding debt $ 1,106,754  $ 917,504  
+ Less: Cash and cash equivalents (791,961) (970,045) 
+ Net homebuilding debt 314,793  (52,541) 
+ Stockholders’ equity 3,301,934  3,335,710  
+ Net capital $ 3,616,727  $ 3,283,169  
+ Ratio of net homebuilding debt-to-net capital(2) 8.7  % (1.6) %__________(1)The ratio of homebuilding debt-to-capital is computed as the quotient obtained by dividing total homebuilding debt by the sum of total homebuilding debt plus stockholders’ equity.(2)The ratio of net homebuilding debt-to-net capital is a non-GAAP financial measure and is computed as the quotient obtained by dividing net homebuilding debt (which is total homebuilding debt less cash and cash equivalents) by the sum of net homebuilding debt plus stockholders’ equity. The most directly comparable GAAP financial measure is the ratio of homebuilding debt-to-capital. We believe the ratio of net homebuilding debt-to-net capital is a relevant financial measure for investors to understand the leverage employed in our operations and as an indicator of our ability to obtain financing. See the table above reconciling this non-GAAP financial measure to the ratio of homebuilding debt-to-capital. Because the ratio of net homebuilding debt-to-net capital is not calculated in accordance with GAAP, it may not be comparable to other similarly titled measures of other companies and should not be considered in isolation or as a substitute for, or superior to, financial measures prepared in accordance with GAAP.Cash Flows—Nine Months Ended September 30, 2025 Compared to Nine Months Ended September 30, 2024 For the nine months ended September 30, 2025 as compared to the nine months ended September 30, 2024:•Net cash provided by operating activities decreased by $395.3 million to cash used of $59.6 million for the nine months ended September 30, 2025 compared to $335.8 million of cash provided for the prior-year period. The decrease was driven by a $149.8 million decrease in cash provided by receivables, a $147.9 million decrease in net income, and a $175.4 million increase in cash used related to real estate inventories. Additional fluctuations were due to changes in accounts payable, accrued expenses and other liabilities, other assets, and mortgage loans held for sale.•Net cash used in investing activities was $44.5 million for the nine months ended September 30, 2025, compared to cash used of $25.7 million for the prior-year period. The year-over-year change was primarily attributable to a higher level of investments in unconsolidated entities in the current-year period.•Net cash used in financing activities was $74.0 million for the nine months ended September 30, 2025, compared to net cash used in financing activities of $503.0 million for the prior-year period. Net cash used in financing activities in the current-year period was primarily comprised of the $227.1 million of cash used for share repurchases, compared to $96.6 million during the prior-year period. The higher use of cash in the prior-year period was largely attributable to the repayment of $450.0 million of senior notes, whereas in the current year we enhanced liquidity by borrowing an additional $200.0 million under our term loan facility. Off-Balance Sheet Arrangements and Contractual ObligationsIn the ordinary course of business, we enter into purchase contracts in order to procure lots for the construction of our homes. We are subject to customary obligations associated with entering into contracts for the purchase of land and improved lots. These purchase contracts typically require a cash deposit and the purchase of properties under these contracts is generally - 41 -
+contingent upon satisfaction of certain requirements by the sellers, including obtaining applicable property and development entitlements. We also utilize option contracts with land sellers and land banking arrangements as a method of acquiring land in staged takedowns, to help us manage the financial and market risk associated with land holdings, and to reduce the use of funds from our corporate financing sources. These option contracts and land banking arrangements generally require a non-refundable deposit for the right to acquire land and lots over a specified period of time at pre-determined prices. We generally have the right, at our discretion, to terminate our obligations under both purchase contracts and option contracts by forfeiting our cash deposit with no further financial responsibility to the land seller. In some cases, however, we may be contractually obligated to complete development work even if we terminate the option to procure land or lots. As of September 30, 2025, we had $217.3 million of cash deposits, the majority of which are non-refundable, pertaining to land and lot option contracts and purchase contracts with an aggregate remaining purchase price of $2.1 billion (net of deposits). See Note 7, Variable Interest Entities, to the accompanying condensed notes to unaudited consolidated financial statements included in this Quarterly Report on Form 10-Q.Our utilization of land and lot option contracts and land banking arrangements is dependent on, among other things, the availability of land sellers or land banking firms willing to enter into such arrangements, the availability of capital to finance the development of optioned land and lots, general housing market conditions, and local market dynamics. Options may be more difficult to procure from land sellers in strong housing markets and are more prevalent in certain geographic regions.As of September 30, 2025, we held equity investments in sixteen active homebuilding partnerships or limited liability companies. Our participation in these entities may be as a developer, a builder, or an investment partner. See Note 6, Investments in Unconsolidated Entities, to the accompanying condensed notes to unaudited consolidated financial statements included in this Quarterly Report on Form 10-Q.Supplemental Guarantor Financial Information2027 Notes and 2028 NotesOn June 5, 2017, Tri Pointe issued the 2027 Notes and on June 10, 2020, Tri Pointe issued the 2028 Notes. All of Tri Pointe’s 100% owned subsidiaries that are guarantors (each a “Guarantor” and, collectively, the “Guarantors”) of the Credit Facility, including Tri Pointe Homes Holdings, are party to supplemental indentures pursuant to which they jointly and severally guarantee Tri Pointe’s obligations with respect to these Notes. Each Guarantor of the 2027 Notes and the 2028 Notes is 100% owned by Tri Pointe, and all guarantees are full and unconditional, subject to customary exceptions pursuant to the indentures governing the 2027 Notes and the 2028 Notes, as described in the following paragraph. All of our non-Guarantor subsidiaries have nominal assets and operations and are considered minor, as defined in Rule 3-10(h) of Regulation S-X. In addition, Tri Pointe has no independent assets or operations, as defined in Rule 3-10(h) of Regulation S-X. There are no significant restrictions upon the ability of Tri Pointe or any Guarantor to obtain funds from any of their respective wholly owned subsidiaries by dividend or loan. None of the assets of our subsidiaries represent restricted net assets pursuant to Rule 4-08(e)(3) of Regulation S-X.A Guarantor of the 2027 Notes and the 2028 Notes shall be released from all of its obligations under its guarantee if (i) all of the assets of the Guarantor have been sold; (ii) all of the equity interests of the Guarantor held by Tri Pointe or a subsidiary thereof have been sold; (iii) the Guarantor merges with and into Tri Pointe or another Guarantor, with Tri Pointe or such other Guarantor surviving the merger; (iv) the Guarantor is designated “unrestricted” for covenant purposes; (v) the Guarantor ceases to guarantee any indebtedness of Tri Pointe or any other Guarantor which gave rise to such Guarantor guaranteeing the 2027 Notes or the 2028 Notes; (vi) Tri Pointe exercises its legal defeasance or covenant defeasance options; or (vii) all obligations under the applicable supplemental indenture are discharged.InflationInflation in the United States has persisted at a moderate level through the first half of 2025, although it has significantly improved from its peak in 2022. While the Federal Reserve’s interest rate hikes have helped curb inflation, prevailing inflation rates remain elevated as compared to their desired target, and the future path of Federal Reserve policy is uncertain. Additionally, emerging trade policy developments—including potential new or increased tariffs—may drive input costs higher and contribute to renewed inflation, potentially affecting construction costs, consumer behavior, and demand for new homes. Our operations can be adversely impacted by inflation, primarily from higher land, financing, labor, material and construction costs. In addition, inflation can lead to higher and more volatile mortgage rates, which can significantly affect the affordability of mortgage financing to homebuyers, as well as the confidence of our consumer base. While we attempt to pass on cost increases to customers through increased prices, when weak housing market conditions exist, we are often unable to offset cost increases with higher selling prices. - 42 -
+SeasonalityWe have experienced seasonal variations in our quarterly operating results and capital requirements. We typically take orders for more homes in the first half of the fiscal year than in the second half, which creates additional working capital requirements in the second and third quarters to build our inventories to satisfy the deliveries in the second half of the year. We expect this seasonal pattern to continue over the long-term, although it may be affected by volatility in the homebuilding industry. In addition to the overall volume of orders and deliveries, our operating results in a given quarter are significantly affected by the number and characteristics of our active selling communities; timing of new community openings; the timing of land and lot sales; and the mix of product types, geographic locations and average sales prices of the homes delivered during the quarter. Therefore, our operating results in any given quarter will fluctuate compared to prior periods based on these factors.Critical Accounting EstimatesThe preparation of our consolidated financial statements requires the use of judgment in the application of accounting policies and estimates of uncertain matters. There have been no significant changes to our critical accounting policies and estimates during the nine months ended September 30, 2025 from those disclosed in the “Management’s Discussion and Analysis of Financial Condition and Results of Operations” section of our Annual Report on Form 10-K for the year ended December 31, 2024.Recently Issued Accounting StandardsSee Note 1, Organization, Basis of Presentation and Summary of Significant Accounting Policies, to the accompanying condensed notes to unaudited consolidated financial statements included in this Quarterly Report on Form 10-Q.
+Item 3.    Quantitative and Qualitative Disclosures about Market RiskWe are exposed to market risks related to fluctuations in interest rates on our outstanding debt. We did not utilize swaps, forward or option contracts on interest rates or commodities, or other types of derivative financial instruments as of or during the nine months ended September 30, 2025. We did not enter into during the nine months ended September 30, 2025, and currently do not hold, derivatives for trading or speculative purposes. 
+Item 4.    Controls and ProceduresWe have established disclosure controls and procedures to ensure that information we are required to disclose in the reports we file or submit under the Exchange Act, is recorded, processed, summarized and reported within the time periods specified in the SEC’s rules and forms, and accumulated and communicated to management, including the Chief Executive Officer (the “Principal Executive Officer”) and Chief Financial Officer (the “Principal Financial Officer”), as appropriate, to allow timely decisions regarding required disclosure. Under the supervision and with the participation of senior management, including our Principal Executive Officer and Principal Financial Officer, we evaluated our disclosure controls and procedures, as such term is defined under Rule 13a-15(e) promulgated under the Exchange Act. Based on this evaluation, our Principal Executive Officer and Principal Financial Officer concluded that our disclosure controls and procedures were effective as of September 30, 2025.Our management, including our Principal Executive Officer and Principal Financial Officer, has evaluated our internal control over financial reporting to determine whether any change occurred during the three months ended September 30, 2025 that has materially affected, or is reasonably likely to materially affect, our internal control over financial reporting. Based on that evaluation, there has been no such change during the three months ended September 30, 2025.- 43 -
+PART II. OTHER INFORMATION
+Item 1.    Legal ProceedingsThe information required with respect to this item can be found under Note 13, Commitments and Contingencies—Legal Matters, to the accompanying condensed notes to unaudited consolidated financial statements included in this Quarterly Report on Form 10-Q and is incorporated by reference into this Item 1.
+Item 1A.    Risk Factors    There have been no material changes to the risk factors in Part I, Item 1A “Risk Factors” in our Annual Report on Form 10-K for the year ended December 31, 2024, as supplemented and updated by our Quarterly Report on Form 10-Q for the quarterly period ended March 31, 2025. If any of the risks discussed in our Annual Report on Form 10-K, as supplemented and updated, occur, our business, prospects, liquidity, financial condition and results of operations could be materially and adversely affected, in which case the trading price of our common stock could decline significantly and you could lose all or a part of your investment. Some statements in this Quarterly Report on Form 10-Q constitute forward-looking statements. Please refer to Part I, Item 2 of this Quarterly Report on Form 10-Q entitled “Cautionary Note Concerning Forward-Looking Statements.”
+Item 2.    Unregistered Sales of Equity Securities, Use of Proceeds, and Issuer Purchases of Equity SecuritiesOn December 18, 2024, we announced the approval of a share repurchase program (the “Repurchase Program”), which replaced the stock repurchase program that the Board of Directors authorized in December 2023. The Repurchase Program authorized the repurchase of up to $250 million of common stock through December 31, 2025. On July 23, 2025, our board of directors authorized the repurchase of up to an additional $50 million of common stock pursuant to the Repurchase Program, increasing the aggregate value of shares of common stock authorized to be repurchased under the Repurchase Program from $250 million to $300 million. Purchases of common stock pursuant to the Repurchase Program may be made in open market transactions effected through a broker-dealer at prevailing market prices, in block trades, or by other means in accordance with federal securities laws, including pursuant to any trading plan that may be adopted in accordance with Rule 10b5-1 under the Exchange Act. We are not obligated under the Repurchase Program to repurchase any specific number or amount of shares of common stock, and we may modify, suspend or discontinue the program at any time. Company management will determine the timing and amount of any repurchases in its discretion based on a variety of factors, such as the market price of our common stock, corporate requirements, general market economic conditions, legal requirements and applicable tax effects. During the three months ended September 30, 2025, we repurchased and retired an aggregate of 1,516,766 shares of our common stock under the Repurchase Program for $50.9 million, excluding commissions. For the nine months ended September 30, 2025, we repurchased and retired an aggregate of 6,975,460 shares of our common stock under the Repurchase Program for $225.9 million, excluding commissions.During the three months ended September 30, 2025, we repurchased and retired the following shares pursuant to our repurchase programs:
+ 
+ Total number of shares purchased Average price paid per share Total number of shares purchased as part of publicly announced program Approximate dollar value of shares that may yet be purchased under the program
+ July 1, 2025 to July 31, 2025 174,067  $ 31.54  174,067  $ 119,510,218  
+ August 1, 2025 to August 31, 2025 770,181  $ 33.51  770,181  $ 93,699,046  
+ September 1, 2025 to September 30, 2025 572,518  $ 34.29  572,518  $ 74,067,610  
+ Total 1,516,766  $ 33.58  1,516,766  
+Item 5.    Other Information(c)     During the quarter ended September 30, 2025, no director or officer subject to Section 16 of the Exchange Act adopted or terminated any Rule 10b5-1 trading arrangements or non-Rule 10b5-1 trading arrangements (in each case, as defined in Item 408(a) of Regulation S-K).- 44 -
+
+Item 6.    Exhibits 
+ 
+ Exhibit
+Number Exhibit Description
+ 
+ 3.1 Amended and Restated Certificate of Incorporation of Tri Pointe Homes, Inc. (incorporated by reference to Exhibit 3.1 to the Company’s Current Report on Form 8-K (filed July 7, 2015))
+ 
+ 3.2 Certificate of Amendment to Amended and Restated Certificate of Incorporation of Tri Pointe Homes, Inc. (incorporated by reference to Exhibit 3.1 to the Company’s Current Report on Form 8‑K (filed January 21, 2021))
+ 
+ 3.3 Amended and Restated Bylaws of Tri Pointe Homes, Inc. (incorporated by reference to Exhibit 3.1 to the Company’s Current Report on Form 8-K (filed October 19, 2023))
+ 
+ 10.1 Sixth Modification Agreement, dated as of September 18, 2025, among Tri Pointe Homes, Inc., U.S. Bank National Association, and the lenders party thereto (incorporated by reference to Exhibit 10.1 to the Company’s Current Report on Form 8-K (filed September 19, 2025))
+ 
+ 22.1 List of guarantor subsidiaries of Tri Pointe Homes, Inc. (incorporated by reference to Exhibit 22.1 to the Company’s Annual Report on Form 10-K (filed February 21, 2025))
+ 
+ 31.1 Chief Executive Officer Section 302 Certification of the Sarbanes-Oxley Act of 2002
+ 
+ 31.2 Chief Financial Officer Section 302 Certification of the Sarbanes-Oxley Act of 2002
+ 
+ 32.1 Chief Executive Officer Section 906 Certification of the Sarbanes-Oxley Act of 2002
+ 
+ 32.2 Chief Financial Officer Section 906 Certification of the Sarbanes-Oxley Act of 2002
+ 
+ 101 The following materials from Tri Pointe Homes, Inc.’s Quarterly Report on Form 10-Q for the quarter ended September 30, 2025, formatted in Inline eXtensible Business Reporting Language (iXBRL): (i) Consolidated Balance Sheets, (ii) Consolidated Statements of Operations, (iii) Consolidated Statement of Cash Flows, and (iv) Condensed Notes to Consolidated Financial Statement.
+ 
+ 104 Cover page from Tri Pointe Homes, Inc.’s Quarterly Report on Form 10-Q for the quarter ended September 30, 2025, formatted in Inline XBRL (and contained in Exhibit 101).
+- 45 -
+SIGNATURESPursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned, thereunto duly authorized. 
+ 
+ Tri Pointe Homes, Inc.
+ 
+ Date: October 23, 2025 By: /s/ Douglas F. Bauer
+ Douglas F. Bauer
+ Chief Executive Officer
+ (Principal Executive Officer)
+ Date: October 23, 2025 By: /s/ Glenn J. Keeler
+ Glenn J. Keeler
+ Chief Financial Officer
+ (Principal Financial Officer)- 46 -

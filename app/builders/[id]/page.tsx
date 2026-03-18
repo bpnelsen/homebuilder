@@ -3,7 +3,8 @@
 import { useEffect, useState } from 'react';
 import { createClient } from '@supabase/supabase-js';
 import Link from 'next/link';
-import { ExternalLink, TrendingUp, TrendingDown, Bell, Copy, Check } from 'lucide-react';
+import { ExternalLink, TrendingUp, TrendingDown, Bell, Copy, Check, Newspaper } from 'lucide-react';
+import NewsSection from '@/components/NewsSection';
 
 // Use environment variables with fallback values
 const SUPABASE_URL = process.env.NEXT_PUBLIC_SUPABASE_URL || 'https://rrpkokhjomvlumreknuq.supabase.co';
@@ -41,7 +42,7 @@ export default function BuilderDetail({ params }: { params: { id: string } }) {
   const [earnings, setEarnings] = useState<any[]>([]);
   const [presentations, setPresentations] = useState<any[]>([]);
   const [loading, setLoading] = useState(true);
-  const [activeTab, setActiveTab] = useState<'10k' | '10q' | 'earnings' | 'presentations'>('10k');
+  const [activeTab, setActiveTab] = useState<'10k' | '10q' | 'earnings' | 'presentations' | 'news'>('10k');
   const [subscribing, setSubscribing] = useState(false);
   const [subscriptionEmail, setSubscriptionEmail] = useState('');
   const [subscriptionStatus, setSubscriptionStatus] = useState<'idle' | 'success' | 'error'>('idle');
@@ -334,8 +335,29 @@ export default function BuilderDetail({ params }: { params: { id: string } }) {
             >
               📊 Investor Presentations ({presentations.length})
             </button>
+            <button
+              onClick={() => setActiveTab('news')}
+              className={`py-4 px-2 border-b-2 font-semibold transition ${
+                activeTab === 'news'
+                  ? 'border-teal-700 text-teal-700'
+                  : 'border-transparent text-gray-600 hover:text-gray-900'
+              }`}
+            >
+              📰 News
+            </button>
           </div>
         </div>
+
+        {/* NEWS TAB */}
+        {activeTab === 'news' && (
+          <div className="mt-6">
+            <NewsSection 
+              ticker={builder?.ticker} 
+              title={`${builder?.name} (${builder?.ticker}) News`}
+              limit={10}
+            />
+          </div>
+        )}
 
         {/* 10-K FILINGS TAB */}
         {activeTab === '10k' && (
