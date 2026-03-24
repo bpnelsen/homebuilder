@@ -24,7 +24,8 @@ interface StockPrice {
   change_percent: number;
 }
 
-function formatMarketCap(cap: number): string {
+function formatMarketCap(cap: number | null): string {
+  if (cap === null || cap === undefined || isNaN(cap)) return '—';
   if (cap >= 1e12) return `$${(cap / 1e12).toFixed(1)}T`;
   if (cap >= 1e9) return `$${(cap / 1e9).toFixed(1)}B`;
   if (cap >= 1e6) return `$${(cap / 1e6).toFixed(0)}M`;
