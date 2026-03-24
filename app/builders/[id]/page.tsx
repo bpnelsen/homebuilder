@@ -480,15 +480,15 @@ export default function BuilderDetail({ params }: { params: { id: string } }) {
                     )}
 
                     {filing.key_metrics && Object.keys(filing.key_metrics).length > 0 && (
-                      <div>
+                      <div className="mt-6">
                         <h4 className="font-semibold text-gray-900 mb-4">Key Metrics</h4>
                         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                           {Object.entries(filing.key_metrics as Record<string, any>)
                             .slice(0, 4)
                             .map(([key, value]) => (
-                              <div key={key} className="bg-gradient-to-br from-navy-50 to-teal-50 p-4 rounded-lg">
-                                <p className="text-xs text-gray-600 uppercase font-semibold">{key}</p>
-                                <p className="text-lg font-bold text-navy-700 mt-1">{String(value).substring(0, 20)}</p>
+                              <div key={key} className="bg-gradient-to-br from-slate-50 to-slate-100 p-4 rounded-lg border border-slate-200">
+                                <p className="text-xs text-gray-500 uppercase font-semibold tracking-wider">{key.replace(/([A-Z])/g, ' $1').trim()}</p>
+                                <p className="text-lg font-bold text-slate-800 mt-2">{String(value).substring(0, 25)}</p>
                               </div>
                             ))}
                         </div>
