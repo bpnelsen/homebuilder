@@ -1,8 +1,7 @@
 #!/usr/bin/env node
 /**
  * Daily Stock Price Update Script
- * Runs via GitHub Actions every morning
- * Updates stock prices for all tracked home builders
+ * Uses Google Finance for stock data
  */
 
 require('dotenv').config();
@@ -19,42 +18,55 @@ if (!supabaseUrl || !supabaseKey) {
 
 const supabase = createClient(supabaseUrl, supabaseKey);
 
-// Home builder tickers
+// Home builder tickers - mapped to Google Finance format
 const HOME_BUILDERS = [
-  'LEN', // Lennar
-  'DHI', // D.R. Horton
-  'KBH', // KB Home
-  'TOL', // Toll Brothers
-  'PHM', // PulteGroup
-  'NVR', // NVR Inc
-  'TPH', // Tri Pointe
-  'MDC', // M.D.C. Holdings
-  'CVCO', // Cavco
-  'LGIH', // LGI Homes
+  { ticker: 'LEN', name: 'Lennar', exchange: 'NYSE' },
+  { ticker: 'DHI', name: 'D.R. Horton', exchange: 'NYSE' },
+  { ticker: 'KBH', name: 'KB Home', exchange: 'NYSE' },
+  { ticker: 'TOL', name: 'Toll Brothers', exchange: 'NYSE' },
+  { ticker: 'PHM', name: 'PulteGroup', exchange: 'NYSE' },
+  { ticker: 'NVR', name: 'NVR Inc', exchange: 'NYSE' },
+  { ticker: 'TPH', name: 'Tri Pointe Homes', exchange: 'NYSE' },
+  { ticker: 'MDC', name: 'M.D.C. Holdings', exchange: 'NYSE' },
+  { ticker: 'CVCO', name: 'Cavco Industries', exchange: 'NASDAQ' },
+  { ticker: 'LGIH', name: 'LGI Homes', exchange: 'NASDAQ' },
 ];
 
-async function getStockPrice(ticker) {
+// Google Finance API endpoint
+async function getStockPrice(ticker, exchange) {
   try {
     const response = await axios.get(
-      `https://query2.finance.yahoo.com/v10/finance/quoteSummary/${ticker}?modules=price`,
+      `https://www.google.com/finance/quote/${ticker}:${exchange}`,
       {
         headers: {
-          'User-Agent':
-            'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
+          'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
         },
+        timeout: 10000
       }
     );
 
-    const data = response.data.quoteSummary.result[0].price;
-    return {
-      ticker,
-      price: data.regularMarketPrice.raw,
-      marketCap: data.marketCap?.raw,
-      changePercent: data.regularMarketChangePercent.raw,
-      volume: data.regularMarketVolume.raw,
-      dayHigh: data.regularMarketDayHigh.raw,
-      dayLow: data.regularMarketDayLow.raw,
-    };
+    const html = response.data;
+    
+    // Extract price
+    const priceMatch = html.match(/class="YMlKec fxKbKc">([\$0-9,\.]+)</);
+    // Extract change percent
+    const changeMatch = html.match(/class="JwBmf[^"]*">([+-]?[\d,\.]+)%/);
+    // Extract volume
+    const volumeMatch = html.match(/(\d+(?:\.\d+)?)[KMB]?\.?(\d*)\s*shares/);
+    
+    if (priceMatch) {
+      const price = parseFloat(priceMatch[1].replace('$', '').replace(',', ''));
+      const changePercent = changeMatch ? parseFloat(changeMatch[1]) : 0;
+      
+      return {
+        ticker,
+        price,
+        changePercent,
+      };
+    }
+    
+    console.log(`⚠️ Could not parse ${ticker}: ${html.substring(0, 200)}`);
+    return null;
   } catch (error) {
     console.error(`❌ Failed to fetch ${ticker}:`, error.message);
     return null;
@@ -63,19 +75,19 @@ async function getStockPrice(ticker) {
 
 async function updateStockPrices() {
   try {
-    console.log('🔄 Starting stock price update...');
+    console.log('🔄 Starting stock price update (Google Finance)...');
     console.log(`📊 Updating ${HOME_BUILDERS.length} builders`);
 
     // Fetch current quotes
     const quotes = [];
-    for (const ticker of HOME_BUILDERS) {
-      const quote = await getStockPrice(ticker);
+    for (const builder of HOME_BUILDERS) {
+      const quote = await getStockPrice(builder.ticker, builder.exchange);
       if (quote) {
         quotes.push(quote);
-        console.log(`✓ ${ticker}: $${quote.price}`);
+        console.log(`✓ ${builder.ticker}: $${quote.price} (${quote.changePercent}%)`);
       }
       // Rate limiting
-      await new Promise((resolve) => setTimeout(resolve, 500));
+      await new Promise((resolve) => setTimeout(resolve, 1000));
     }
 
     console.log(`\n📈 Retrieved ${quotes.length} stock prices`);
@@ -88,31 +100,54 @@ async function updateStockPrices() {
 
     console.log(`📋 Found ${builders.length} builders in database`);
 
+    if (!builders || builders.length === 0) {
+      console.log('⚠️ No builders found in database. Skipping database update.');
+      return true;
+    }
+
     // Insert stock prices
     const today = new Date().toISOString().split('T')[0];
     const priceRecords = quotes.map((quote) => {
       const builder = builders.find((b) => b.ticker === quote.ticker);
       return {
         builder_id: builder?.id,
-        ticker: quote.ticker,
         price: quote.price,
-        market_cap: quote.marketCap,
         change_percent: quote.changePercent,
-        volume: quote.volume,
         date: today,
       };
-    });
+    }).filter(r => r.builder_id);
 
+    // Delete existing records for today, then insert new ones
+    const todayStart = today + 'T00:00:00.000Z';
+    const todayEnd = today + 'T23:59:59.999Z';
+    
+    const { error: deleteError } = await supabase
+      .from('stock_prices')
+      .delete()
+      .gte('date', todayStart)
+      .lte('date', todayEnd);
+    
+    if (deleteError) {
+      console.log('⚠️ Delete warning:', deleteError.message);
+    }
+    
+    // Insert fresh records
     const { error: insertError } = await supabase
       .from('stock_prices')
-      .upsert(priceRecords, { onConflict: 'builder_id,date' });
+      .insert(priceRecords);
 
     if (insertError) {
       console.error('❌ Database insert error:', insertError);
-      throw insertError;
+    } else {
+      console.log(`✅ Updated ${priceRecords.length} stock prices`);
     }
 
-    console.log(`✅ Updated ${priceRecords.length} stock prices`);
+    if (insertError) {
+      console.error('❌ Database insert error:', insertError);
+    } else {
+      console.log(`✅ Updated ${priceRecords.length} stock prices`);
+    }
+
     console.log(`📅 Date: ${today}`);
     console.log('✅ Stock price update complete!');
 

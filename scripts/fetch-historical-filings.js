@@ -7,6 +7,15 @@ const axios = require('axios');
 const fs = require('fs');
 const { createClient } = require('@supabase/supabase-js');
 
+// Configure axios with proper SEC headers
+const secAxios = axios.create({
+  headers: {
+    'User-Agent': 'HomebuilderResearch/1.0 (research@homebuilder.app)',
+    'Accept': 'application/json',
+    'Host': 'data.sec.gov'
+  }
+});
+
 const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL,
   process.env.SUPABASE_SERVICE_KEY
@@ -34,8 +43,8 @@ async function fetchEdgarFilings() {
       console.log(`\n📄 ${builder.ticker}...`);
 
       // Fetch filings from SEC Edgar
-      const response = await axios.get(
-        `https://data.sec.gov/api/xrls/companyfacts/CIK${builder.cik.padStart(10, '0')}.json`
+      const response = await secAxios.get(
+        `https://data.sec.gov/api/xbrl/companyfacts/CIK${builder.cik.padStart(10, '0')}.json`
       );
 
       if (response.data) {

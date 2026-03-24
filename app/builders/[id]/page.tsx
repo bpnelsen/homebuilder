@@ -175,31 +175,65 @@ export default function BuilderDetail({ params }: { params: { id: string } }) {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100">
       {/* Header */}
-      <div className="bg-gradient-to-r from-navy-700 via-navy-600 to-teal-600 text-white py-8">
+      <div className="bg-gradient-to-r from-navy-700 via-navy-600 to-teal-600 text-white py-6 sm:py-8">
         <div className="max-w-7xl mx-auto px-4">
-          <div className="flex flex-wrap items-start justify-between gap-6">
+          <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4 sm:gap-6">
             {/* Builder Name & Ticker */}
             <div>
-              <h1 className="text-4xl font-bold mb-2">{builder.name}</h1>
+              <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-1 sm:mb-2">{builder.name}</h1>
               <div className="flex items-center gap-3">
-                <span className="text-2xl font-bold">{builder.ticker}</span>
+                <span className="text-xl sm:text-2xl font-bold">{builder.ticker}</span>
                 {builder.website && (
                   <a
                     href={builder.website}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center gap-2 hover:opacity-80 transition text-sm"
+                    className="flex items-center gap-1 hover:opacity-80 transition text-xs sm:text-sm"
                   >
-                    Visit Website <ExternalLink className="w-4 h-4" />
+                    Website <ExternalLink className="w-3 h-3 sm:w-4 sm:h-4" />
                   </a>
                 )}
               </div>
             </div>
 
-            {/* Stock Info Table */}
+            {/* Stock Info Table — stacked on mobile */}
             {stock && stats && (
-              <div className="bg-white/15 backdrop-blur rounded-lg p-4 border border-white/20">
-                <table className="text-sm">
+              <div className="bg-white/15 backdrop-blur rounded-lg p-3 sm:p-4 border border-white/20 w-full md:w-auto">
+                {/* Mobile: 2-col grid */}
+                <div className="grid grid-cols-2 gap-x-4 gap-y-2 text-sm md:hidden">
+                  <div>
+                    <span className="text-white/60 text-xs">Price</span>
+                    <div className="font-bold">${stock.price?.toFixed(2) || 'N/A'}
+                      {stock.change_percent !== null && (
+                        <span className={`ml-1 text-xs ${stock.change_percent > 0 ? 'text-green-300' : 'text-red-300'}`}>
+                          {stock.change_percent > 0 ? '▲' : '▼'}{Math.abs(stock.change_percent).toFixed(1)}%
+                        </span>
+                      )}
+                    </div>
+                  </div>
+                  <div>
+                    <span className="text-white/60 text-xs">Mkt Cap</span>
+                    <div className="font-semibold">{formatMarketCap(stock.market_cap)}</div>
+                  </div>
+                  <div>
+                    <span className="text-white/60 text-xs">52W High</span>
+                    <div className="font-semibold text-green-300">${stats.high.toFixed(0)}</div>
+                  </div>
+                  <div>
+                    <span className="text-white/60 text-xs">52W Low</span>
+                    <div className="font-semibold text-red-300">${stats.low.toFixed(0)}</div>
+                  </div>
+                  <div>
+                    <span className="text-white/60 text-xs">Volume</span>
+                    <div className="font-semibold">{stats.volume}</div>
+                  </div>
+                  <div>
+                    <span className="text-white/60 text-xs">Dividend</span>
+                    <div className="font-semibold">{stats.dividend} ({stats.yield})</div>
+                  </div>
+                </div>
+                {/* Desktop: table */}
+                <table className="text-sm hidden md:table">
                   <tbody>
                     <tr>
                       <td className="opacity-70 pr-6 py-1">Price</td>
@@ -292,52 +326,52 @@ export default function BuilderDetail({ params }: { params: { id: string } }) {
           </div>
         </div>
 
-        {/* Tabs */}
-        <div className="mb-8 border-b border-gray-200">
-          <div className="flex gap-8">
+        {/* Tabs - scrollable on mobile */}
+        <div className="mb-6 sm:mb-8 border-b border-gray-200 overflow-x-auto">
+          <div className="flex gap-4 sm:gap-8 min-w-max px-1">
             <button
               onClick={() => setActiveTab('10k')}
-              className={`py-4 px-2 border-b-2 font-semibold transition ${
+              className={`py-3 sm:py-4 px-1 border-b-2 font-semibold transition text-sm whitespace-nowrap ${
                 activeTab === '10k'
                   ? 'border-navy-700 text-navy-700'
                   : 'border-transparent text-gray-600 hover:text-gray-900'
               }`}
             >
-              📄 10-K Filings ({tenK.length})
+              📄 10-K ({tenK.length})
             </button>
             <button
               onClick={() => setActiveTab('10q')}
-              className={`py-4 px-2 border-b-2 font-semibold transition ${
+              className={`py-3 sm:py-4 px-1 border-b-2 font-semibold transition text-sm whitespace-nowrap ${
                 activeTab === '10q'
                   ? 'border-teal-700 text-teal-700'
                   : 'border-transparent text-gray-600 hover:text-gray-900'
               }`}
             >
-              📋 10-Q Filings ({tenQ.length})
+              📋 10-Q ({tenQ.length})
             </button>
             <button
               onClick={() => setActiveTab('earnings')}
-              className={`py-4 px-2 border-b-2 font-semibold transition ${
+              className={`py-3 sm:py-4 px-1 border-b-2 font-semibold transition text-sm whitespace-nowrap ${
                 activeTab === 'earnings'
                   ? 'border-green-700 text-green-700'
                   : 'border-transparent text-gray-600 hover:text-gray-900'
               }`}
             >
-              📞 Earnings Calls ({earnings.length})
+              📞 Earnings ({earnings.length})
             </button>
             <button
               onClick={() => setActiveTab('presentations')}
-              className={`py-4 px-2 border-b-2 font-semibold transition ${
+              className={`py-3 sm:py-4 px-1 border-b-2 font-semibold transition text-sm whitespace-nowrap ${
                 activeTab === 'presentations'
                   ? 'border-purple-700 text-purple-700'
                   : 'border-transparent text-gray-600 hover:text-gray-900'
               }`}
             >
-              📊 Investor Presentations ({presentations.length})
+              📊 Presentations ({presentations.length})
             </button>
             <button
               onClick={() => setActiveTab('news')}
-              className={`py-4 px-2 border-b-2 font-semibold transition ${
+              className={`py-3 sm:py-4 px-1 border-b-2 font-semibold transition text-sm whitespace-nowrap ${
                 activeTab === 'news'
                   ? 'border-teal-700 text-teal-700'
                   : 'border-transparent text-gray-600 hover:text-gray-900'
@@ -373,13 +407,13 @@ export default function BuilderDetail({ params }: { params: { id: string } }) {
                   key={filing.id}
                   className="bg-white rounded-lg shadow hover:shadow-xl transition border-l-4 border-navy-500 overflow-hidden"
                 >
-                  <div className="p-6">
-                    <div className="flex justify-between items-start mb-4">
-                      <div className="flex-1">
-                        <h3 className="text-2xl font-bold text-gray-900">
+                  <div className="p-4 sm:p-6">
+                    <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-3 mb-4">
+                      <div>
+                        <h3 className="text-xl sm:text-2xl font-bold text-gray-900">
                           Fiscal Year {filing.fiscal_year}
                         </h3>
-                        <p className="text-sm text-gray-500 mt-1">
+                        <p className="text-xs sm:text-sm text-gray-500 mt-1">
                           Filed {filing.filing_date ? new Date(filing.filing_date).toLocaleDateString() : 'Date TBD'}
                         </p>
                       </div>
@@ -388,23 +422,60 @@ export default function BuilderDetail({ params }: { params: { id: string } }) {
                           href={filing.link}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="ml-4 px-4 py-2 bg-navy-600 hover:bg-navy-700 text-white rounded-lg font-semibold flex items-center gap-2 transition"
+                          className="px-3 py-1.5 sm:px-4 sm:py-2 bg-navy-600 hover:bg-navy-700 text-white rounded-lg font-semibold flex items-center gap-2 transition text-xs sm:text-sm whitespace-nowrap self-start"
                         >
-                          <ExternalLink className="w-4 h-4" />
+                          <ExternalLink className="w-3 h-3 sm:w-4 sm:h-4" />
                           View SEC Filing
                         </a>
                       )}
                     </div>
 
                     {filing.summary && (
-                      <div className="mb-6 pb-6 border-b border-gray-200">
-                        <h4 className="font-semibold text-gray-900 mb-2">AI Summary</h4>
-                        <p className="text-gray-700 leading-relaxed line-clamp-4">{filing.summary}</p>
-                        {filing.summary.length > 300 && (
-                          <button className="text-navy-600 hover:text-navy-700 text-sm font-semibold mt-2">
-                            Read full summary →
-                          </button>
-                        )}
+                      <div className="mb-6">
+                        <h4 className="font-semibold text-gray-900 mb-3">Detailed 10-K Summary</h4>
+                        <div className="bg-slate-50 rounded-lg p-5 border border-slate-200 space-y-3">
+                          {filing.summary.split('\n\n').map((section: string, i: number) => {
+                            const trimmed = section.trim();
+                            if (!trimmed) return null;
+                            
+                            // Check if this is a category header (starts with **)
+                            if (trimmed.startsWith('**') && trimmed.includes(':**')) {
+                              const [header, ...rest] = trimmed.split('\n');
+                              const categoryLabel = header.replace(/\*\*/g, '').replace(':', '');
+                              const content = rest.join('\n').replace(/^- /gm, '').trim();
+                              
+                              const categoryIcons: Record<string, string> = {
+                                'General / Business Opportunities': '🏢',
+                                'Sales and Marketing': '📢',
+                                'Homebuilding Operations': '🏗️',
+                                'Real Estate Inventory (Locations)': '📍',
+                                'Land Acquisition and Development': '🌍',
+                                'Industry and Economic Risks': '⚠️',
+                                'Joint Ventures': '🤝',
+                                'Margins: Home Sales Gross Margin': '📊',
+                                'Impairments': '📉',
+                                'Home Sales Gross Margin': '📊',
+                              };
+                              
+                              const icon = categoryIcons[categoryLabel] || '•';
+                              
+                              return (
+                                <div key={i} className="grid grid-cols-[28px_1fr] gap-3">
+                                  <span className="text-lg text-center mt-0.5">{icon}</span>
+                                  <div>
+                                    <span className="font-semibold text-gray-800 text-sm">{categoryLabel}</span>
+                                    <p className="text-sm text-gray-600 mt-1 leading-relaxed">{content}</p>
+                                  </div>
+                                </div>
+                              );
+                            }
+                            
+                            // Regular text
+                            return (
+                              <p key={i} className="text-sm text-gray-600 leading-relaxed pl-9">{trimmed}</p>
+                            );
+                          })}
+                        </div>
                       </div>
                     )}
 
